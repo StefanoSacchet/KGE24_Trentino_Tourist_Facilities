@@ -1,2 +1,4 @@
 pandas
-googletrans
+googletrans==3.1.0a0
+geopy
+certifi

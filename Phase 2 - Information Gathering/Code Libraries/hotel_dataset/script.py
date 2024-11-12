@@ -1,11 +1,12 @@
+import certifi
+import geopy.geocoders
 import pandas as pd
+from geopy.geocoders import Nominatim
 from googletrans import Translator
 
-# Load the dataset
 file_path = "Provincia-Autonoma-di-Trento---Elenco-strutture-alberghiere.csv"
 data = pd.read_csv(file_path, sep=";")
 
-# Select only the first 27 columns
 data = data.iloc[:, :27]
 
 # Drop unnecessary columns
@@ -13,6 +14,11 @@ data.drop("Denominazione ente annuario", axis=1, inplace=True)
 data.drop("Codice esercizio ricettivo", axis=1, inplace=True)
 data.drop("Codice localita", axis=1, inplace=True)
 data.drop("Codice", axis=1, inplace=True)
+data.drop("Frazione", axis=1, inplace=True)
+data.drop("FAX", axis=1, inplace=True)
+data.drop("Partita IVA", axis=1, inplace=True)
+data.drop("Numero unita", axis=1, inplace=True)
+data.drop("Posti letto", axis=1, inplace=True)
 
 # Translate rows to english
 data["Categoria"] = data["Categoria"].replace(
@@ -54,12 +60,11 @@ data["Tipologia unita"] = data["Tipologia unita"].replace(
     }
 )
 
-# Initialize the translator
 translator = Translator()
 
 
 def translate_text(text):
-    if isinstance(text, str):  # Only translate if the cell contains text
+    if isinstance(text, str):
         try:
             translated = translator.translate(text, src="it", dest="en")
             if translated and hasattr(translated, "text"):
@@ -83,7 +88,7 @@ for column in columns_to_translate:
 column_translation = {
     "Comune": "Municipality",
     "Provincia": "Province",
-    "Categoria": "Category",
+    "Categoria": "Star Rating",
     "Denominazione struttura": "Facility Name",
     "Indirizzo": "Address",
     "Frazione": "District",
@@ -113,6 +118,5 @@ column_translation = {
 # Rename columns
 data.rename(columns=column_translation, inplace=True)
 
-# Save the filtered data
 output_path = "hotels.csv"
 data.to_csv(output_path, index=False, sep=";")
