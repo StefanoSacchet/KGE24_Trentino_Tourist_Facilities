@@ -2,19 +2,33 @@ import csv
 import json
 import sys
 
+
 def extract_resturant_data(input_file, output_csv):
-    with open(input_file, 'r') as file:
+    with open(input_file, "r") as file:
         data = json.load(file)
 
-    with open(output_csv, mode='w', newline='') as file:
+    with open(output_csv, mode="w", newline="") as file:
         writer = csv.writer(file)
-        writer.writerow(["id", "osmId", "name", "addrCity", "addrPostcode", "addrStreet", "addrHousenumber", "phone", "coordinates"])
+        writer.writerow(
+            [
+                "id",
+                "osmId",
+                "name",
+                "addrCity",
+                "addrPostcode",
+                "addrStreet",
+                "addrHousenumber",
+                "phone",
+                "latitude",
+                "longitude",
+            ]
+        )
 
         idPrefix = "resturant"
         lineCounter = 0
         for feature in data:
 
-            osmId = feature.get("id", "");
+            osmId = feature.get("id", "")
             properties = feature.get("properties", {})
             geometry = feature.get("geometry", {})
 
@@ -26,11 +40,26 @@ def extract_resturant_data(input_file, output_csv):
             phone = properties.get("contact:phone", "")
 
             coordinates = geometry.get("coordinates", [])
+            lat = coordinates[1] if len(coordinates) > 1 else ""
+            lon = coordinates[0] if len(coordinates) > 0 else ""
 
-            values = [idPrefix + str(lineCounter), osmId, name, addrCity, addrPostcode, addrStreet, addrHousenumber, phone, coordinates]
+            values = [
+                idPrefix + str(lineCounter),
+                osmId,
+                name,
+                addrCity,
+                addrPostcode,
+                addrStreet,
+                addrHousenumber,
+                phone,
+                lat,
+                lon,
+            ]
 
             # count blanks
-            empty_fields_count = sum(1 for value in values if value == "" or value == [])
+            empty_fields_count = sum(
+                1 for value in values if value == "" or value == []
+            )
 
             # keep lines with at most 1 blank
             if empty_fields_count <= 1:
