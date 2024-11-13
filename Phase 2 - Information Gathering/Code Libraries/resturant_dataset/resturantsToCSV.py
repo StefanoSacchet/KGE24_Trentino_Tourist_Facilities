@@ -19,8 +19,7 @@ def extract_resturant_data(input_file, output_csv):
                 "addrStreet",
                 "addrHousenumber",
                 "phone",
-                "latitude",
-                "longitude",
+                "coordinates",
             ]
         )
 
@@ -40,8 +39,6 @@ def extract_resturant_data(input_file, output_csv):
             phone = properties.get("contact:phone", "")
 
             coordinates = geometry.get("coordinates", [])
-            lat = coordinates[1] if len(coordinates) > 1 else ""
-            lon = coordinates[0] if len(coordinates) > 0 else ""
 
             values = [
                 idPrefix + str(lineCounter),
@@ -52,8 +49,7 @@ def extract_resturant_data(input_file, output_csv):
                 addrStreet,
                 addrHousenumber,
                 phone,
-                lat,
-                lon,
+                coordinates,
             ]
 
             # count blanks

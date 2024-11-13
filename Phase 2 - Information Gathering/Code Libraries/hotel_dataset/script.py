@@ -123,7 +123,7 @@ for i, municipality in enumerate(data["Municipality"].unique()):
     try:
         location = geolocator.geocode(f"{municipality.lower()}, Trento", timeout=3)
         if location:
-            structure_positions[municipality] = (location.latitude, location.longitude)
+            structure_positions[municipality] = [location.latitude, location.longitude]
         else:
             print(f"Coordinates not found for {municipality}")
     except Exception as e:
@@ -139,8 +139,9 @@ coord_df = pd.DataFrame.from_dict(
 coord_df.reset_index(inplace=True)
 coord_df.rename(columns={"index": "Municipality"}, inplace=True)
 
-# output_path = "only_coordinates.csv"
-# coord_df.to_csv(output_path, index=False, sep=";")
+coord_df["coordinates"] = coord_df[["latitude", "longitude"]].apply(list, axis=1)
+
+coord_df.drop(columns=["latitude", "longitude"], inplace=True)
 
 data = data.merge(coord_df, on=["Municipality"], how="left")
 
