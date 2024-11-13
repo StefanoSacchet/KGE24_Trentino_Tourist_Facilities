@@ -1,0 +1,297 @@
+[
+    {
+        "skiResort": "Alba-Ciampac",
+        "coordinates": {
+            "latitude": 46.452225563775286,
+            "longitude": 11.780479349106248
+        }
+    },
+    {
+        "skiResort": "Altopiano di Pine'",
+        "coordinates": {
+            "latitude": 46.16008477044887,
+            "longitude": 11.283022235082976
+        }
+    },
+    {
+        "skiResort": "Andalo",
+        "coordinates": {
+            "latitude": 46.1661363,
+            "longitude": 11.003402
+        }
+    },
+    {
+        "skiResort": "Bellamonte",
+        "coordinates": {
+            "latitude": 46.3135809,
+            "longitude": 11.6623676
+        }
+    },
+    {
+        "skiResort": "Bolbeno",
+        "coordinates": {
+            "latitude": 46.0327428,
+            "longitude": 10.7374969
+        }
+    },
+    {
+        "skiResort": "Calamento",
+        "coordinates": {
+            "latitude": 46.131123,
+            "longitude": 11.4784937
+        }
+    },
+    {
+        "skiResort": "Campitello-Col Rodella",
+        "coordinates": {
+            "latitude": 46.48515437246003,
+            "longitude": 11.748665804511834
+        }
+    },
+    {
+        "skiResort": "Canazei-Belvedere",
+        "coordinates": {
+            "latitude": 46.480286033965136,
+            "longitude": 11.804209122054012
+        }
+    },
+    {
+        "skiResort": "Cavalese-Cermis",
+        "coordinates": {
+            "latitude": 46.2510795,
+            "longitude": 11.5034071
+        }
+    },
+    {
+        "skiResort": "Cermis",
+        "coordinates": {
+            "latitude": 46.2510795,
+            "longitude": 11.5034071
+        }
+    },
+    {
+        "skiResort": "Fai",
+        "coordinates": {
+            "latitude": 46.1793313,
+            "longitude": 11.0689304
+        }
+    },
+    {
+        "skiResort": "Folgaria",
+        "coordinates": {
+            "latitude": 45.9149727,
+            "longitude": 11.173015
+        }
+    },
+    {
+        "skiResort": "Folgarida",
+        "coordinates": {
+            "latitude": 46.3030712,
+            "longitude": 10.8656079
+        }
+    },
+    {
+        "skiResort": "Lavarone",
+        "coordinates": {
+            "latitude": 45.9445551,
+            "longitude": 11.2880019
+        }
+    },
+    {
+        "skiResort": "Madonna di Campiglio",
+        "coordinates": {
+            "latitude": 46.2269942,
+            "longitude": 10.8270157
+        }
+    },
+    {
+        "skiResort": "Marilleva",
+        "coordinates": {
+            "latitude": 46.30428,
+            "longitude": 10.8105041
+        }
+    },
+    {
+        "skiResort": "Marmolada",
+        "coordinates": {
+            "latitude": 46.42436375,
+            "longitude": 11.846715936561363
+        }
+    },
+    {
+        "skiResort": "Mendola - Roen",
+        "coordinates": {
+            "latitude": 46.4161297727143,
+            "longitude": 11.18858953292481
+        }
+    },
+    {
+        "skiResort": "Mendola-Roen",
+        "coordinates": {
+            "latitude": 46.4161297727143,
+            "longitude": 11.18858953292481
+        }
+    },
+    {
+        "skiResort": "Moena-Lusia",
+        "coordinates": {
+            "latitude": 46.3686091,
+            "longitude": 11.6853403
+        }
+    },
+    {
+        "skiResort": "Molveno",
+        "coordinates": {
+            "latitude": 46.1421057,
+            "longitude": 10.9637773
+        }
+    },
+    {
+        "skiResort": "Monte Bondone",
+        "coordinates": {
+            "latitude": 45.9880488,
+            "longitude": 11.0317717
+        }
+    },
+    {
+        "skiResort": "Pampeago",
+        "coordinates": {
+            "latitude": 46.3423281,
+            "longitude": 11.5410686
+        }
+    },
+    {
+        "skiResort": "Panarotta",
+        "coordinates": {
+            "latitude": 46.0499949,
+            "longitude": 11.3343963
+        }
+    },
+    {
+        "skiResort": "Passo Cereda",
+        "coordinates": {
+            "latitude": 46.1930477,
+            "longitude": 11.9054202
+        }
+    },
+    {
+        "skiResort": "Passo del Tonale-Presena",
+        "coordinates": {
+            "latitude": 46.2595849,
+            "longitude": 10.584709442007036
+        }
+    },
+    {
+        "skiResort": "Passo di Costalunga",
+        "coordinates": {
+            "latitude": 46.4042798,
+            "longitude": 11.6089903
+        }
+    },
+    {
+        "skiResort": "Passo Lavazè",
+        "coordinates": {
+            "latitude": 46.3558474,
+            "longitude": 11.485694984374756
+        }
+    },
+    {
+        "skiResort": "Passo Rolle",
+        "coordinates": {
+            "latitude": 46.2964034,
+            "longitude": 11.7850596
+        }
+    },
+    {
+        "skiResort": "Passo San Pellegrino",
+        "coordinates": {
+            "latitude": 46.3783576,
+            "longitude": 11.7917199
+        }
+    },
+    {
+        "skiResort": "Peio",
+        "coordinates": {
+            "latitude": 46.3628864,
+            "longitude": 10.6732435
+        }
+    },
+    {
+        "skiResort": "Pian delle Fugazze",
+        "coordinates": {
+            "latitude": 45.7601964,
+            "longitude": 11.1733246
+        }
+    },
+    {
+        "skiResort": "Polsa",
+        "coordinates": {
+            "latitude": 52.215933,
+            "longitude": 19.134422
+        }
+    },
+    {
+        "skiResort": "Pozza-Buffaure",
+        "coordinates": {
+            "latitude": 46.4292916481936,
+            "longitude": 11.710483238044505
+        }
+    },
+    {
+        "skiResort": "Prà Alpesina",
+        "coordinates": {
+            "latitude": 45.7660886,
+            "longitude": 10.866788287834947
+        }
+    },
+    {
+        "skiResort": "Predaia",
+        "coordinates": {
+            "latitude": 46.335273,
+            "longitude": 11.0897004
+        }
+    },
+    {
+        "skiResort": "Predazzo-Gardone'",
+        "coordinates": {
+            "latitude": 46.3402748,
+            "longitude": 11.577241
+        }
+    },
+    {
+        "skiResort": "Ruffre'",
+        "coordinates": {
+            "latitude": 46.414813,
+            "longitude": 11.177774
+        }
+    },
+    {
+        "skiResort": "Serrada",
+        "coordinates": {
+            "latitude": 41.456944,
+            "longitude": -4.8625389
+        }
+    },
+    {
+        "skiResort": "S. Martino di Castrozza",
+        "coordinates": {
+            "latitude": 46.2623377,
+            "longitude": 11.802828
+        }
+    },
+    {
+        "skiResort": "S. Valentino",
+        "coordinates": {
+            "latitude": 42.7039011,
+            "longitude": 11.7380594
+        }
+    },
+    {
+        "skiResort": "Tremalzo",
+        "coordinates": {
+            "latitude": 45.841883,
+            "longitude": 10.6866449
+        }
+    }
+]
+

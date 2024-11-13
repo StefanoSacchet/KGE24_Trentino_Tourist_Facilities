@@ -1,0 +1,6676 @@
+[
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Ciampac - Alba",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":104133.5725,
+"PERIMETRO":5185.9101,
+"INTERNAL ID":"61",
+"USER ID":"60",
+"SCI_CD":"11.2.6",
+"X_COORD":"713643.837233",
+"Y_COORD":"5148043.56472",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Colleg. Roseal-Brunec",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":9878.5574,
+"PERIMETRO":685.6176,
+"INTERNAL ID":"73",
+"USER ID":"72",
+"SCI_CD":"11.2.8",
+"X_COORD":"712698.469178",
+"Y_COORD":"5146789.09399",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Delle Baite",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":64815.2735,
+"PERIMETRO":1627.0786,
+"INTERNAL ID":"70",
+"USER ID":"69",
+"SCI_CD":"11.2.3",
+"X_COORD":"712700.971628",
+"Y_COORD":"5147097.58865",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Racc. Brunec- Roseal",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":9950.8361,
+"PERIMETRO":527.5755,
+"INTERNAL ID":"82",
+"USER ID":"81",
+"SCI_CD":"11.2.7",
+"X_COORD":"712560.969884",
+"Y_COORD":"5146569.09889",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Roseal",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":37820.4456,
+"PERIMETRO":1372.9380,
+"INTERNAL ID":"81",
+"USER ID":"80",
+"SCI_CD":"11.2.1",
+"X_COORD":"712483.969642",
+"Y_COORD":"5146367.10299",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Sasso di Rocca 1",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":21549.2702,
+"PERIMETRO":1182.7631,
+"INTERNAL ID":"86",
+"USER ID":"85",
+"SCI_CD":"11.2.4",
+"X_COORD":"712709.714954",
+"Y_COORD":"5146292.10246",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Sasso di Rocca 2",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":18423.3806,
+"PERIMETRO":1386.6601,
+"INTERNAL ID":"83",
+"USER ID":"82",
+"SCI_CD":"11.2.5",
+"X_COORD":"712776.589178",
+"Y_COORD":"5146345.60100",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Alba-Ciampac",
+"NOME":"Sella Brunec",
+"GESTORE":"Funivia Ciampac & Contrin S.p.A.",
+"CODICE":"79.0000000000",
+"AREA":69872.0949,
+"PERIMETRO":2711.8863,
+"INTERNAL ID":"75",
+"USER ID":"74",
+"SCI_CD":"11.2.2",
+"X_COORD":"712372.972243",
+"Y_COORD":"5146440.60263",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Altopiano di Pine'",
+"NOME":"Prati del Lago",
+"GESTORE":"Andreatta Raffale",
+"CODICE":"4.00000000000",
+"AREA":5341.0614,
+"PERIMETRO":384.1309,
+"INTERNAL ID":"538",
+"USER ID":"537",
+"SCI_CD":"4.3.3",
+"X_COORD":"676860.975112",
+"Y_COORD":"5113781.45278",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Cacciatori 1",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"2.00000000000",
+"AREA":90883.1342,
+"PERIMETRO":6092.7536,
+"INTERNAL ID":"536",
+"USER ID":"535",
+"SCI_CD":"5.1.15",
+"X_COORD":"655041.370502",
+"Y_COORD":"5113892.12737",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Cacciatori 2",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":54022.1859,
+"PERIMETRO":3947.1131,
+"INTERNAL ID":"551",
+"USER ID":"550",
+"SCI_CD":"5.1.16",
+"X_COORD":"655777.344432",
+"Y_COORD":"5112314.14861",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Coll. Doss Pelà-Malga Zambana",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":4121.4169,
+"PERIMETRO":600.7249,
+"INTERNAL ID":"561",
+"USER ID":"560",
+"SCI_CD":"5.1.21",
+"X_COORD":"656304.960750",
+"Y_COORD":"5112420.14252",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Conca d' Argento",
+"GESTORE":"Valle Bianca S.p.A.",
+"CODICE":"2.00000000000",
+"AREA":19477.7496,
+"PERIMETRO":1460.9089,
+"INTERNAL ID":"572",
+"USER ID":"571",
+"SCI_CD":"5.1.9",
+"X_COORD":"656176.833407",
+"Y_COORD":"5111844.15348",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Gaggia",
+"GESTORE":"Valle Bianca S.p.A.",
+"CODICE":"2.00000000000",
+"AREA":19950.3892,
+"PERIMETRO":1631.9111,
+"INTERNAL ID":"550",
+"USER ID":"549",
+"SCI_CD":"5.1.5",
+"X_COORD":"654163.628145",
+"Y_COORD":"5112875.15200",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Laghet A",
+"GESTORE":"Valle Bianca S.p.A.",
+"CODICE":"2.00000000000",
+"AREA":10357.1342,
+"PERIMETRO":681.0898,
+"INTERNAL ID":"537",
+"USER ID":"536",
+"SCI_CD":"5.1.4",
+"X_COORD":"654741.376755",
+"Y_COORD":"5113994.62803",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Malga Zambana",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":10293.5115,
+"PERIMETRO":805.8364,
+"INTERNAL ID":"567",
+"USER ID":"566",
+"SCI_CD":"5.1.7",
+"X_COORD":"656732.452754",
+"Y_COORD":"5112387.13963",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Olimpionica 1",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":28870.9492,
+"PERIMETRO":2163.3043,
+"INTERNAL ID":"543",
+"USER ID":"542",
+"SCI_CD":"5.1.12",
+"X_COORD":"655162.863028",
+"Y_COORD":"5113239.63763",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Olimpionica 2",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":32855.5272,
+"PERIMETRO":2700.7224,
+"INTERNAL ID":"546",
+"USER ID":"545",
+"SCI_CD":"5.1.13",
+"X_COORD":"656028.844071",
+"Y_COORD":"5112831.63766",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Olimpionica  3",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":46243.4919,
+"PERIMETRO":2829.1004,
+"INTERNAL ID":"570",
+"USER ID":"569",
+"SCI_CD":"5.1.1",
+"X_COORD":"656875.822618",
+"Y_COORD":"5112072.64389",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Paganella  2",
+"GESTORE":"Valle Bianca  S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":62545.7599,
+"PERIMETRO":4319.1264,
+"INTERNAL ID":"566",
+"USER ID":"565",
+"SCI_CD":"5.1.11",
+"X_COORD":"654646.361762",
+"Y_COORD":"5111928.66441",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Racc. Olimpionica 3-Cacciatori 2",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":7879.5967,
+"PERIMETRO":666.6558,
+"INTERNAL ID":"571",
+"USER ID":"570",
+"SCI_CD":"5.1.20",
+"X_COORD":"656146.962009",
+"Y_COORD":"5112222.64720",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Racc. Pian Dosson-Cacciatori 1",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":6444.1474,
+"PERIMETRO":525.5126,
+"INTERNAL ID":"553",
+"USER ID":"552",
+"SCI_CD":"5.1.23",
+"X_COORD":"655637.727554",
+"Y_COORD":"5113006.13782",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Racc. Pian Dosson-Olimpionica 1",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":3322.3827,
+"PERIMETRO":430.1624,
+"INTERNAL ID":"547",
+"USER ID":"546",
+"SCI_CD":"5.1.22",
+"X_COORD":"655670.853431",
+"Y_COORD":"5113188.63440",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Sant  Antonio",
+"GESTORE":"Valle Bianca S.p.A.",
+"CODICE":"2.00000000000",
+"AREA":31889.5301,
+"PERIMETRO":1750.9804,
+"INTERNAL ID":"576",
+"USER ID":"575",
+"SCI_CD":"5.1.8",
+"X_COORD":"656065.457485",
+"Y_COORD":"5111481.16064",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Teresat Due",
+"GESTORE":"Valle Bianca S.p.A.",
+"CODICE":"2.00000000000",
+"AREA":4926.9510,
+"PERIMETRO":433.3906,
+"INTERNAL ID":"564",
+"USER ID":"563",
+"SCI_CD":"5.1.18",
+"X_COORD":"654122.750944",
+"Y_COORD":"5112511.65859",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Teresat Uno",
+"GESTORE":"Valle Bianca S.p.A.",
+"CODICE":"2.00000000000",
+"AREA":6937.7550,
+"PERIMETRO":477.7273,
+"INTERNAL ID":"562",
+"USER ID":"561",
+"SCI_CD":"5.1.6",
+"X_COORD":"654175.749998",
+"Y_COORD":"5112513.15814",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Andalo",
+"NOME":"Tre-Tre",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":31792.4085,
+"PERIMETRO":2059.2248,
+"INTERNAL ID":"559",
+"USER ID":"558",
+"SCI_CD":"5.1.17",
+"X_COORD":"656789.578557",
+"Y_COORD":"5112614.13525",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Bellamonte",
+"NOME":"Castelir",
+"GESTORE":"S.I.T. Bellamonte S.p.A.",
+"CODICE":"64.0000000000",
+"AREA":6192.3751,
+"PERIMETRO":385.0021,
+"INTERNAL ID":"257",
+"USER ID":"256",
+"SCI_CD":"1.4.1",
+"X_COORD":"707088.705248",
+"Y_COORD":"5132528.88514",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Bellamonte",
+"NOME":"Colleg. Cune - La Morea",
+"GESTORE":"S.I.T. Bellamonte S.p.A.",
+"CODICE":"64.0000000000",
+"AREA":10616.2501,
+"PERIMETRO":1233.2348,
+"INTERNAL ID":"245",
+"USER ID":"244",
+"SCI_CD":"1.4.3",
+"X_COORD":"707871.579000",
+"Y_COORD":"5134124.35131",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Bellamonte",
+"NOME":"Le Fassane",
+"GESTORE":"S.I.T. Bellamonte S.p.A.",
+"CODICE":"64.0000000000",
+"AREA":99119.4370,
+"PERIMETRO":4509.3804,
+"INTERNAL ID":"243",
+"USER ID":"242",
+"SCI_CD":"1.4.2",
+"X_COORD":"708014.199784",
+"Y_COORD":"5133921.85365",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Bellamonte",
+"NOME":"Racc. Le Fassane-Castelir",
+"GESTORE":"S.I.T. Bellamonte S.p.A.",
+"CODICE":"64.0000000000",
+"AREA":30833.1924,
+"PERIMETRO":2008.8653,
+"INTERNAL ID":"252",
+"USER ID":"251",
+"SCI_CD":"1.4.7",
+"X_COORD":"707458.452240",
+"Y_COORD":"5132983.37432",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Bellamonte",
+"NOME":"Var. Fraine (Castelir)",
+"GESTORE":"S.I.T. Bellamonte S.p.A.",
+"CODICE":"64.0000000000",
+"AREA":60458.7399,
+"PERIMETRO":2958.0741,
+"INTERNAL ID":"250",
+"USER ID":"249",
+"SCI_CD":"1.4.6",
+"X_COORD":"707303.829591",
+"Y_COORD":"5132928.37652",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Bolbeno",
+"NOME":"Bolbeno A",
+"GESTORE":"Associazione Pro-Loco Bolbeno",
+"CODICE":"5.00000000000",
+"AREA":25264.0453,
+"PERIMETRO":996.9958,
+"INTERNAL ID":"636",
+"USER ID":"635",
+"SCI_CD":"8.4.1",
+"X_COORD":"634076.001614",
+"Y_COORD":"5098694.05890",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Calamento",
+"NOME":"Calamento",
+"GESTORE":"Impianti Turistici Val Calamento  S.n.c.",
+"CODICE":"73.0000000000",
+"AREA":19226.6648,
+"PERIMETRO":1191.3931,
+"INTERNAL ID":"568",
+"USER ID":"567",
+"SCI_CD":"3.3.1",
+"X_COORD":"690889.459008",
+"Y_COORD":"5112239.86587",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"Fedrich August 2 (Gabia 2)",
+"GESTORE":"Pri.me S.n.c. di Prinoth Gunther & Mentasti Isabella",
+"CODICE":"127.000000000",
+"AREA":2834.4312,
+"PERIMETRO":565.4514,
+"INTERNAL ID":"20",
+"USER ID":"19",
+"SCI_CD":"11.3.12",
+"X_COORD":"710723.807458",
+"Y_COORD":"5153288.99793",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"Gabia 1",
+"GESTORE":"Pri.me S.n.c. di Prinoth Gunther & Mentasti Isabella",
+"CODICE":"127.000000000",
+"AREA":9238.7362,
+"PERIMETRO":482.0111,
+"INTERNAL ID":"21",
+"USER ID":"20",
+"SCI_CD":"11.3.11",
+"X_COORD":"710729.807984",
+"Y_COORD":"5153367.49653",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"Mortic",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":41814.4296,
+"PERIMETRO":3477.0644,
+"INTERNAL ID":"27",
+"USER ID":"26",
+"SCI_CD":"11.3.13",
+"X_COORD":"713286.748412",
+"Y_COORD":"5151718.00428",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"n.° 11    3-Tre",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":93126.5237,
+"PERIMETRO":5000.6906,
+"INTERNAL ID":"16",
+"USER ID":"15",
+"SCI_CD":"11.3.2",
+"X_COORD":"712638.893057",
+"Y_COORD":"5152698.49262",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"n.12 Rodella",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":7237.9319,
+"PERIMETRO":430.2719,
+"INTERNAL ID":"17",
+"USER ID":"16",
+"SCI_CD":"11.3.18",
+"X_COORD":"710727.558498",
+"Y_COORD":"5153425.99554",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"n.12 Rodella",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":140242.9222,
+"PERIMETRO":2491.9072,
+"INTERNAL ID":"11",
+"USER ID":"10",
+"SCI_CD":"11.3.4",
+"X_COORD":"711110.550550",
+"Y_COORD":"5153299.49462",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"n.° 13 Cinque Dita",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":57508.5003,
+"PERIMETRO":1720.4993,
+"INTERNAL ID":"14",
+"USER ID":"13",
+"SCI_CD":"11.3.1",
+"X_COORD":"711441.421105",
+"Y_COORD":"5153489.48867",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"n.° 14 Salei",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":62414.7020,
+"PERIMETRO":2044.3120,
+"INTERNAL ID":"6",
+"USER ID":"5",
+"SCI_CD":"11.3.5",
+"X_COORD":"710975.805065",
+"Y_COORD":"5153556.49128",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"n.° 15 Grohmann",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":30982.9683,
+"PERIMETRO":1370.2935,
+"INTERNAL ID":"2",
+"USER ID":"1",
+"SCI_CD":"11.3.6",
+"X_COORD":"710867.809202",
+"Y_COORD":"5153826.48750",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"Raccordo Salei-Rodella",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":9099.2412,
+"PERIMETRO":1206.6617,
+"INTERNAL ID":"8",
+"USER ID":"7",
+"SCI_CD":"11.3.14",
+"X_COORD":"710720.059507",
+"Y_COORD":"5153533.99374",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"Var. Salei",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":15974.5608,
+"PERIMETRO":1055.9227,
+"INTERNAL ID":"7",
+"USER ID":"6",
+"SCI_CD":"11.3.16",
+"X_COORD":"711103.054079",
+"Y_COORD":"5153718.98745",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Campitello-Col Rodella",
+"NOME":"Var. Turistica (n. 11  3-Tre)",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":28952.1650,
+"PERIMETRO":1467.2022,
+"INTERNAL ID":"24",
+"USER ID":"23",
+"SCI_CD":"11.3.15",
+"X_COORD":"712634.141355",
+"Y_COORD":"5152477.49647",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"Avisio",
+"GESTORE":"Sciovia Avisio di Pellegrin Tullio & C.",
+"CODICE":"12.0000000000",
+"AREA":6090.7224,
+"PERIMETRO":329.3005,
+"INTERNAL ID":"58",
+"USER ID":"57",
+"SCI_CD":"11.1.3",
+"X_COORD":"712556.251043",
+"Y_COORD":"5150410.53272",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"Gonzaga 1",
+"GESTORE":"Società Pordoi di Finazzer Walter & C.S.n.c.",
+"CODICE":"11.0000000000",
+"AREA":39922.1214,
+"PERIMETRO":1689.6221,
+"INTERNAL ID":"29",
+"USER ID":"28",
+"SCI_CD":"11.1.9",
+"X_COORD":"714988.842076",
+"Y_COORD":"5151648.49171",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"n° 1 Sass BecÚ",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":98869.5396,
+"PERIMETRO":3378.7915,
+"INTERNAL ID":"30",
+"USER ID":"29",
+"SCI_CD":"11.1.4",
+"X_COORD":"715438.080827",
+"Y_COORD":"5151261.99473",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"n° 2 Belvedere",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":95772.8052,
+"PERIMETRO":3762.1253,
+"INTERNAL ID":"32",
+"USER ID":"31",
+"SCI_CD":"11.1.5",
+"X_COORD":"715063.088214",
+"Y_COORD":"5151336.99647",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"n° 3 Kristiania",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":128995.7882,
+"PERIMETRO":3662.6204,
+"INTERNAL ID":"34",
+"USER ID":"33",
+"SCI_CD":"11.1.6",
+"X_COORD":"715018.713114",
+"Y_COORD":"5151225.49875",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"n° 4 Gardeccia",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":64366.5706,
+"PERIMETRO":1968.3744,
+"INTERNAL ID":"47",
+"USER ID":"46",
+"SCI_CD":"11.1.7",
+"X_COORD":"715140.458749",
+"Y_COORD":"5150958.00238",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"n° 5 Col dei Rossi",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":169989.9030,
+"PERIMETRO":4870.1336,
+"INTERNAL ID":"37",
+"USER ID":"36",
+"SCI_CD":"11.1.1",
+"X_COORD":"714428.600547",
+"Y_COORD":"5151443.49977",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"n° 6  Del Bosco",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":80527.8749,
+"PERIMETRO":7207.8577,
+"INTERNAL ID":"25",
+"USER ID":"24",
+"SCI_CD":"11.1.2",
+"X_COORD":"713571.869729",
+"Y_COORD":"5151899.99883",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"n.7 Pordoi",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":18882.4582,
+"PERIMETRO":1951.4787,
+"INTERNAL ID":"28",
+"USER ID":"27",
+"SCI_CD":"11.1.8",
+"X_COORD":"715169.092364",
+"Y_COORD":"5152086.98269",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"Var. Facile (Belvedere)",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":2849.0556,
+"PERIMETRO":332.5432,
+"INTERNAL ID":"50",
+"USER ID":"49",
+"SCI_CD":"11.1.14",
+"X_COORD":"715492.452385",
+"Y_COORD":"5150957.99953",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Canazei-Belvedere",
+"NOME":"Var. ToÚ (n. 5 Col dei Rossi )",
+"GESTORE":"S.I.T.C. Società Incremento Turistico Canazei S.r.l.",
+"CODICE":"88.0000000000",
+"AREA":12958.7611,
+"PERIMETRO":813.6523,
+"INTERNAL ID":"45",
+"USER ID":"44",
+"SCI_CD":"11.1.12",
+"X_COORD":"714520.347970",
+"Y_COORD":"5151330.00099",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Colleg. Costabella- Prafiorý",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":3772.8668,
+"PERIMETRO":751.3405,
+"INTERNAL ID":"412",
+"USER ID":"411",
+"SCI_CD":"1.1.15",
+"X_COORD":"692303.658375",
+"Y_COORD":"5124594.14150",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Colleg. Lagorai-Costabella",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":13203.6275,
+"PERIMETRO":1609.3559,
+"INTERNAL ID":"404",
+"USER ID":"403",
+"SCI_CD":"1.1.14",
+"X_COORD":"692842.900082",
+"Y_COORD":"5124774.13403",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Costabella",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":63259.2660,
+"PERIMETRO":2879.9628,
+"INTERNAL ID":"407",
+"USER ID":"406",
+"SCI_CD":"1.1.3",
+"X_COORD":"692619.902119",
+"Y_COORD":"5124527.64009",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Lagorai",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":66026.2620,
+"PERIMETRO":2237.8020,
+"INTERNAL ID":"399",
+"USER ID":"398",
+"SCI_CD":"1.1.9",
+"X_COORD":"693039.517891",
+"Y_COORD":"5124324.64019",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Olimpia 1",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":23084.3723,
+"PERIMETRO":1300.5547,
+"INTERNAL ID":"422",
+"USER ID":"421",
+"SCI_CD":"1.1.2",
+"X_COORD":"692780.271571",
+"Y_COORD":"5124200.14443",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Olimpia 2",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":97182.1930,
+"PERIMETRO":4875.0093,
+"INTERNAL ID":"377",
+"USER ID":"376",
+"SCI_CD":"1.1.1",
+"X_COORD":"691788.301546",
+"Y_COORD":"5125688.62680",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Prafiori'",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":65077.7955,
+"PERIMETRO":3345.5202,
+"INTERNAL ID":"425",
+"USER ID":"424",
+"SCI_CD":"1.1.6",
+"X_COORD":"692569.647467",
+"Y_COORD":"5123840.15234",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Var. dei Cirmi (Lagorai)",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":6120.4714,
+"PERIMETRO":715.2279,
+"INTERNAL ID":"408",
+"USER ID":"407",
+"SCI_CD":"1.1.4",
+"X_COORD":"692939.522421",
+"Y_COORD":"5124661.13520",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cavalese-Cermis",
+"NOME":"Var. Salera (Prafiori)",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":24687.3782,
+"PERIMETRO":2161.5219,
+"INTERNAL ID":"432",
+"USER ID":"431",
+"SCI_CD":"1.1.5",
+"X_COORD":"692434.273309",
+"Y_COORD":"5123641.65686",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Cermis",
+"NOME":"Cermis",
+"GESTORE":"Funivie Alpe Cermis S.p.A.",
+"CODICE":"16.0000000000",
+"AREA":3344.6631,
+"PERIMETRO":267.8005,
+"INTERNAL ID":"396",
+"USER ID":"395",
+"SCI_CD":"1.1.10",
+"X_COORD":"692955.025154",
+"Y_COORD":"5125033.62865",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"Campo Primi Passi Meriz",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":18060.5809,
+"PERIMETRO":1603.0968,
+"INTERNAL ID":"534",
+"USER ID":"533",
+"SCI_CD":"5.3.7",
+"X_COORD":"658306.936801",
+"Y_COORD":"5113934.10023",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"Cronei",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":9188.5818,
+"PERIMETRO":448.5846,
+"INTERNAL ID":"552",
+"USER ID":"551",
+"SCI_CD":"5.3.6",
+"X_COORD":"658259.180101",
+"Y_COORD":"5112999.11673",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"Dosso Larici",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":27399.7199,
+"PERIMETRO":2219.3286,
+"INTERNAL ID":"540",
+"USER ID":"539",
+"SCI_CD":"5.3.3",
+"X_COORD":"657876.191685",
+"Y_COORD":"5113575.10990",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"La Rocca",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":72357.1009,
+"PERIMETRO":5751.2564,
+"INTERNAL ID":"514",
+"USER ID":"513",
+"SCI_CD":"5.3.1",
+"X_COORD":"658183.445570",
+"Y_COORD":"5114742.08730",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"Malga Fai",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":14900.5988,
+"PERIMETRO":1430.3580,
+"INTERNAL ID":"542",
+"USER ID":"541",
+"SCI_CD":"5.3.2",
+"X_COORD":"658328.556112",
+"Y_COORD":"5113279.11134",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"Nuvola Rossa",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":26542.0627,
+"PERIMETRO":2013.6535,
+"INTERNAL ID":"563",
+"USER ID":"562",
+"SCI_CD":"5.3.5",
+"X_COORD":"657652.434050",
+"Y_COORD":"5112131.13660",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"Panoramica",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":39599.6640,
+"PERIMETRO":3493.3796,
+"INTERNAL ID":"556",
+"USER ID":"555",
+"SCI_CD":"5.3.4",
+"X_COORD":"657330.193286",
+"Y_COORD":"5112552.63194",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Fai",
+"NOME":"Racc. Dosso Larici-Malga Fai",
+"GESTORE":"Paganella 2001 S.p.A.",
+"CODICE":"1.00000000000",
+"AREA":5205.5037,
+"PERIMETRO":688.8600,
+"INTERNAL ID":"541",
+"USER ID":"540",
+"SCI_CD":"5.3.8",
+"X_COORD":"658074.687841",
+"Y_COORD":"5113543.60884",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Baby Spilzi",
+"GESTORE":"Impianti Maso S.p.A.",
+"CODICE":"26.0000000000",
+"AREA":24105.0862,
+"PERIMETRO":774.8837,
+"INTERNAL ID":"657",
+"USER ID":"656",
+"SCI_CD":"10.1.38",
+"X_COORD":"670242.880024",
+"Y_COORD":"5087234.46386",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Campo Scuola Fondo Grande",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":13972.2566,
+"PERIMETRO":634.1703,
+"INTERNAL ID":"680",
+"USER ID":"679",
+"SCI_CD":"10.1.34",
+"X_COORD":"670148.358659",
+"Y_COORD":"5084382.01378",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Campo Scuola Fondo Piccolo",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"32.0000000000",
+"AREA":10872.8348,
+"PERIMETRO":588.4430,
+"INTERNAL ID":"704",
+"USER ID":"703",
+"SCI_CD":"10.1.13",
+"X_COORD":"670775.088058",
+"Y_COORD":"5083236.02846",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Campo Slitte Costa",
+"GESTORE":"Impianti Maso S.p.A.",
+"CODICE":"36.0000000000",
+"AREA":8602.4462,
+"PERIMETRO":595.8241,
+"INTERNAL ID":"656",
+"USER ID":"655",
+"SCI_CD":"10.1.33",
+"X_COORD":"670294.879338",
+"Y_COORD":"5087265.96289",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Campo slitte Fondo Piccolo",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"32.0000000000",
+"AREA":7118.7486,
+"PERIMETRO":456.0682,
+"INTERNAL ID":"703",
+"USER ID":"702",
+"SCI_CD":"10.1.63",
+"X_COORD":"670717.089373",
+"Y_COORD":"5083269.02837",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Cargaore",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"32.0000000000",
+"AREA":32317.5462,
+"PERIMETRO":2046.7723,
+"INTERNAL ID":"707",
+"USER ID":"706",
+"SCI_CD":"10.1.14",
+"X_COORD":"670979.456997",
+"Y_COORD":"5082943.53185",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Cengio Rosso",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"32.0000000000",
+"AREA":15090.8108,
+"PERIMETRO":829.5546,
+"INTERNAL ID":"725",
+"USER ID":"724",
+"SCI_CD":"10.1.6",
+"X_COORD":"671216.199343",
+"Y_COORD":"5082526.53712",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Cherle 1",
+"GESTORE":"Sciovie Forte Cherle S.n.c.",
+"CODICE":"33.0000000000",
+"AREA":15473.6410,
+"PERIMETRO":950.1534,
+"INTERNAL ID":"663",
+"USER ID":"662",
+"SCI_CD":"10.1.37",
+"X_COORD":"672981.327653",
+"Y_COORD":"5086880.94780",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Cherle 2",
+"GESTORE":"Sciovie Forte Cherle S.n.c.",
+"CODICE":"33.0000000000",
+"AREA":8245.5838,
+"PERIMETRO":707.6849,
+"INTERNAL ID":"665",
+"USER ID":"664",
+"SCI_CD":"10.1.3",
+"X_COORD":"672959.702353",
+"Y_COORD":"5086795.44944",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Coe",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"32.0000000000",
+"AREA":8982.4953,
+"PERIMETRO":1543.1475,
+"INTERNAL ID":"720",
+"USER ID":"719",
+"SCI_CD":"10.1.20",
+"X_COORD":"671576.567953",
+"Y_COORD":"5082542.03394",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Colleg. Cherle 1-Parcheggio",
+"GESTORE":"Sciovie Forte Cherle S.n.c.",
+"CODICE":"33.0000000000",
+"AREA":5668.8936,
+"PERIMETRO":839.9498,
+"INTERNAL ID":"664",
+"USER ID":"663",
+"SCI_CD":"10.1.51",
+"X_COORD":"673032.077322",
+"Y_COORD":"5086953.44614",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Colleg. Martinella - Serrada",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":8244.4276,
+"PERIMETRO":797.0841,
+"INTERNAL ID":"700",
+"USER ID":"699",
+"SCI_CD":"10.1.53",
+"X_COORD":"668873.627641",
+"Y_COORD":"5083879.53275",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Colleg. Serrada - Martinella",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":4142.6974,
+"PERIMETRO":793.0314,
+"INTERNAL ID":"698",
+"USER ID":"697",
+"SCI_CD":"10.1.54",
+"X_COORD":"669120.373710",
+"Y_COORD":"5083945.02963",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Coll. Fondo Piccolo-Passo Coe",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"37.0000000000",
+"AREA":2119.4564,
+"PERIMETRO":544.9264,
+"INTERNAL ID":"724",
+"USER ID":"723",
+"SCI_CD":"10.1.61",
+"X_COORD":"671802.814991",
+"Y_COORD":"5082681.52971",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Coll. F. Piccolo-F.Grande-Martinella",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":23946.4356,
+"PERIMETRO":3214.1105,
+"INTERNAL ID":"682",
+"USER ID":"681",
+"SCI_CD":"10.1.58",
+"X_COORD":"670179.354495",
+"Y_COORD":"5083936.52121",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Coll. Martinella - Fondo Piccolo",
+"GESTORE":"Port Roberto",
+"CODICE":"31.0000000000",
+"AREA":14792.5401,
+"PERIMETRO":2716.8169,
+"INTERNAL ID":"701",
+"USER ID":"700",
+"SCI_CD":"10.1.56",
+"X_COORD":"669948.730841",
+"Y_COORD":"5083587.52909",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Coll. Salizzona - Martinella",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":2167.9547,
+"PERIMETRO":361.5085,
+"INTERNAL ID":"690",
+"USER ID":"689",
+"SCI_CD":"10.1.59",
+"X_COORD":"670076.982911",
+"Y_COORD":"5084130.01870",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Cuel",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":8196.2105,
+"PERIMETRO":657.8886,
+"INTERNAL ID":"671",
+"USER ID":"670",
+"SCI_CD":"10.1.31",
+"X_COORD":"669761.502698",
+"Y_COORD":"5085870.99125",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Dosso della Madonna 1",
+"GESTORE":"Segg. Dosso Della Madonna S.n.c.",
+"CODICE":"34.0000000000",
+"AREA":10441.8187,
+"PERIMETRO":708.4122,
+"INTERNAL ID":"662",
+"USER ID":"661",
+"SCI_CD":"10.1.19",
+"X_COORD":"670351.251705",
+"Y_COORD":"5087066.46587",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Dosso della Madonna 2",
+"GESTORE":"Segg. Dosso Della Madonna S.n.c.",
+"CODICE":"34.0000000000",
+"AREA":10635.5619,
+"PERIMETRO":587.3747,
+"INTERNAL ID":"659",
+"USER ID":"658",
+"SCI_CD":"10.1.1",
+"X_COORD":"670114.507045",
+"Y_COORD":"5087197.46553",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Fondo Piccolo 4",
+"GESTORE":"Port Roberto",
+"CODICE":"31.0000000000",
+"AREA":30910.6584,
+"PERIMETRO":1561.1772,
+"INTERNAL ID":"702",
+"USER ID":"701",
+"SCI_CD":"10.1.12",
+"X_COORD":"670349.344606",
+"Y_COORD":"5083094.03435",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Fondo Piccolo 5",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"32.0000000000",
+"AREA":28240.8777,
+"PERIMETRO":1371.8764,
+"INTERNAL ID":"717",
+"USER ID":"716",
+"SCI_CD":"10.1.15",
+"X_COORD":"671211.825882",
+"Y_COORD":"5082707.03405",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Francolini",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":74345.6557,
+"PERIMETRO":4658.3557,
+"INTERNAL ID":"672",
+"USER ID":"671",
+"SCI_CD":"10.1.39",
+"X_COORD":"669716.124805",
+"Y_COORD":"5085411.99953",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Leite",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"37.0000000000",
+"AREA":16548.7906,
+"PERIMETRO":1312.6850,
+"INTERNAL ID":"710",
+"USER ID":"709",
+"SCI_CD":"10.1.47",
+"X_COORD":"672037.188229",
+"Y_COORD":"5082987.52254",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Martinella",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":43802.5468,
+"PERIMETRO":2382.6459,
+"INTERNAL ID":"679",
+"USER ID":"678",
+"SCI_CD":"10.1.5",
+"X_COORD":"669506.617321",
+"Y_COORD":"5084018.52524",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Maso Spilzi",
+"GESTORE":"Impianti Maso S.p.A.",
+"CODICE":"36.0000000000",
+"AREA":56871.1478,
+"PERIMETRO":3147.3015,
+"INTERNAL ID":"661",
+"USER ID":"660",
+"SCI_CD":"10.1.30",
+"X_COORD":"670907.491357",
+"Y_COORD":"5087030.46200",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Plaut",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"37.0000000000",
+"AREA":17612.1905,
+"PERIMETRO":1163.4463,
+"INTERNAL ID":"709",
+"USER ID":"708",
+"SCI_CD":"10.1.32",
+"X_COORD":"671891.066089",
+"Y_COORD":"5083014.52325",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Plaut Camini",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"37.0000000000",
+"AREA":10731.8397,
+"PERIMETRO":878.0389,
+"INTERNAL ID":"712",
+"USER ID":"711",
+"SCI_CD":"10.1.42",
+"X_COORD":"671610.571047",
+"Y_COORD":"5083000.52576",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Racc. Cherle 1",
+"GESTORE":"Sciovie Forte Cherle S.n.c.",
+"CODICE":"33.0000000000",
+"AREA":3922.0490,
+"PERIMETRO":441.6652,
+"INTERNAL ID":"669",
+"USER ID":"668",
+"SCI_CD":"10.1.48",
+"X_COORD":"673090.323911",
+"Y_COORD":"5086661.95069",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Racc. Fondo Grande-Fondo Piccolo",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"32.0000000000",
+"AREA":19976.0133,
+"PERIMETRO":2171.4613,
+"INTERNAL ID":"697",
+"USER ID":"696",
+"SCI_CD":"10.1.55",
+"X_COORD":"670633.592828",
+"Y_COORD":"5083509.52490",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Racc. Francolini - Fondo Grande",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":7348.6155,
+"PERIMETRO":1356.1587,
+"INTERNAL ID":"676",
+"USER ID":"675",
+"SCI_CD":"10.1.2",
+"X_COORD":"669848.991806",
+"Y_COORD":"5084720.01038",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Racc. Parcheggio-Cherle 1",
+"GESTORE":"Sciovie Forte Cherle S.n.c.",
+"CODICE":"33.0000000000",
+"AREA":1043.2132,
+"PERIMETRO":141.6163,
+"INTERNAL ID":"668",
+"USER ID":"667",
+"SCI_CD":"10.1.50",
+"X_COORD":"673169.198047",
+"Y_COORD":"5086731.44885",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Racc. Sciovia Termental",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"37.0000000000",
+"AREA":2803.4010,
+"PERIMETRO":354.5588,
+"INTERNAL ID":"715",
+"USER ID":"714",
+"SCI_CD":"10.1.46",
+"X_COORD":"672137.935514",
+"Y_COORD":"5082877.02363",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Racc. Sommo Alto - Francolini",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":10887.7717,
+"PERIMETRO":2056.7345,
+"INTERNAL ID":"678",
+"USER ID":"677",
+"SCI_CD":"10.1.44",
+"X_COORD":"670653.224863",
+"Y_COORD":"5084423.00899",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Salizzona",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":67772.8878,
+"PERIMETRO":2231.9283,
+"INTERNAL ID":"681",
+"USER ID":"680",
+"SCI_CD":"10.1.9",
+"X_COORD":"670508.974275",
+"Y_COORD":"5084028.01697",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Stella d'Italia",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":55869.9019,
+"PERIMETRO":3251.9479,
+"INTERNAL ID":"674",
+"USER ID":"673",
+"SCI_CD":"10.1.8",
+"X_COORD":"670477.983608",
+"Y_COORD":"5085112.49853",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Termental",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"37.0000000000",
+"AREA":10114.5178,
+"PERIMETRO":714.3804,
+"INTERNAL ID":"714",
+"USER ID":"713",
+"SCI_CD":"10.1.21",
+"X_COORD":"672299.557369",
+"Y_COORD":"5082849.52279",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Trugalait 1",
+"GESTORE":"Port Roberto",
+"CODICE":"31.0000000000",
+"AREA":34315.9756,
+"PERIMETRO":1715.3040,
+"INTERNAL ID":"706",
+"USER ID":"705",
+"SCI_CD":"10.1.10",
+"X_COORD":"670648.713587",
+"Y_COORD":"5083019.03323",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Trugalait 2",
+"GESTORE":"Seggiovie Fondo Piccolo S.r.l.",
+"CODICE":"31.0000000000",
+"AREA":6350.4007,
+"PERIMETRO":448.4151,
+"INTERNAL ID":"723",
+"USER ID":"722",
+"SCI_CD":"10.1.11",
+"X_COORD":"670892.956518",
+"Y_COORD":"5082691.03690",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Var. Cherle 2",
+"GESTORE":"Sciovie Forte Cherle s.n.c.",
+"CODICE":"33.0000000000",
+"AREA":6330.1202,
+"PERIMETRO":515.6023,
+"INTERNAL ID":"666",
+"USER ID":"665",
+"SCI_CD":"10.1.49",
+"X_COORD":"673034.575833",
+"Y_COORD":"5086774.94919",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Var. Fondo Piccolo 4",
+"GESTORE":"Port Roberto",
+"CODICE":"31.0000000000",
+"AREA":6798.8536,
+"PERIMETRO":1059.1082,
+"INTERNAL ID":"716",
+"USER ID":"715",
+"SCI_CD":"10.1.18",
+"X_COORD":"670570.588236",
+"Y_COORD":"5082801.03762",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Var. Martinella Alta",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":6920.3181,
+"PERIMETRO":786.0893,
+"INTERNAL ID":"695",
+"USER ID":"694",
+"SCI_CD":"10.1.35",
+"X_COORD":"669669.362656",
+"Y_COORD":"5083805.52759",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgaria",
+"NOME":"Var. Milegna (Fondo Piccolo 5)",
+"GESTORE":"Rella Giuseppe",
+"CODICE":"33.0000000000",
+"AREA":9218.0182,
+"PERIMETRO":1219.3223,
+"INTERNAL ID":"719",
+"USER ID":"718",
+"SCI_CD":"10.1.65",
+"X_COORD":"671271.450536",
+"Y_COORD":"5082797.53201",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Azzurra",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":97931.9790,
+"PERIMETRO":5852.8152,
+"INTERNAL ID":"292",
+"USER ID":"291",
+"SCI_CD":"7.2.11",
+"X_COORD":"643207.075442",
+"Y_COORD":"5128229.47599",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Belvedere",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":36122.9118,
+"PERIMETRO":2203.1748,
+"INTERNAL ID":"301",
+"USER ID":"300",
+"SCI_CD":"7.2.22",
+"X_COORD":"643431.569142",
+"Y_COORD":"5127952.47895",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Brenzi",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":40035.3361,
+"PERIMETRO":2144.9978,
+"INTERNAL ID":"333",
+"USER ID":"332",
+"SCI_CD":"7.2.3",
+"X_COORD":"642010.340624",
+"Y_COORD":"5127431.49942",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Busa del Vigo",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":33805.6186,
+"PERIMETRO":1968.6556,
+"INTERNAL ID":"373",
+"USER ID":"372",
+"SCI_CD":"7.2.8",
+"X_COORD":"641125.222401",
+"Y_COORD":"5126291.02624",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Casina",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":27134.5730,
+"PERIMETRO":1582.5189,
+"INTERNAL ID":"300",
+"USER ID":"299",
+"SCI_CD":"7.2.12",
+"X_COORD":"643601.696130",
+"Y_COORD":"5128578.46678",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Coll. Panoramica - Malghet Haut",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":17773.1223,
+"PERIMETRO":2093.3287,
+"INTERNAL ID":"344",
+"USER ID":"343",
+"SCI_CD":"7.2.21",
+"X_COORD":"641660.469260",
+"Y_COORD":"5127099.00798",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Delle Rocce",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":57764.2100,
+"PERIMETRO":2784.3236,
+"INTERNAL ID":"368",
+"USER ID":"367",
+"SCI_CD":"7.2.5",
+"X_COORD":"641178.473529",
+"Y_COORD":"5126549.52136",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Folgarida",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":64686.1218,
+"PERIMETRO":3742.4420,
+"INTERNAL ID":"293",
+"USER ID":"292",
+"SCI_CD":"7.2.4",
+"X_COORD":"643019.707939",
+"Y_COORD":"5128737.46875",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Malghet Haut Destra",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":15094.4669,
+"PERIMETRO":717.9120,
+"INTERNAL ID":"314",
+"USER ID":"313",
+"SCI_CD":"7.2.13",
+"X_COORD":"642192.216089",
+"Y_COORD":"5127895.48996",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Malghet Haut Sinistra",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":12356.5011,
+"PERIMETRO":679.7342,
+"INTERNAL ID":"317",
+"USER ID":"316",
+"SCI_CD":"7.2.14",
+"X_COORD":"642211.965080",
+"Y_COORD":"5127814.99118",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Malghette",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":57567.1232,
+"PERIMETRO":3145.2260,
+"INTERNAL ID":"384",
+"USER ID":"383",
+"SCI_CD":"7.2.6",
+"X_COORD":"641191.590818",
+"Y_COORD":"5125625.53717",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Mastellina",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":49882.6134,
+"PERIMETRO":2188.0969,
+"INTERNAL ID":"331",
+"USER ID":"330",
+"SCI_CD":"7.2.2",
+"X_COORD":"641015.732275",
+"Y_COORD":"5127267.01030",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Orso Bruno",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":55724.2196,
+"PERIMETRO":2887.4008,
+"INTERNAL ID":"361",
+"USER ID":"360",
+"SCI_CD":"7.2.7",
+"X_COORD":"640584.734398",
+"Y_COORD":"5126566.02587",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Panoramica",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":19852.7051,
+"PERIMETRO":1627.8580,
+"INTERNAL ID":"340",
+"USER ID":"339",
+"SCI_CD":"7.2.9",
+"X_COORD":"641443.848192",
+"Y_COORD":"5127101.00970",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Racc. Provetti - Brenzi",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":2788.4640,
+"PERIMETRO":361.2051,
+"INTERNAL ID":"325",
+"USER ID":"324",
+"SCI_CD":"7.2.10",
+"X_COORD":"642307.087633",
+"Y_COORD":"5127724.99197",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Spolverino",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":58225.5687,
+"PERIMETRO":3327.1151,
+"INTERNAL ID":"312",
+"USER ID":"311",
+"SCI_CD":"7.2.1",
+"X_COORD":"641948.970600",
+"Y_COORD":"5127909.49168",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Var. Busa del Vigo",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":1236.3313,
+"PERIMETRO":270.1106,
+"INTERNAL ID":"382",
+"USER ID":"381",
+"SCI_CD":"7.2.20",
+"X_COORD":"640963.473853",
+"Y_COORD":"5126109.03069",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Var. Malghetto ( Spolverino)",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":21311.4036,
+"PERIMETRO":1271.6672,
+"INTERNAL ID":"315",
+"USER ID":"314",
+"SCI_CD":"7.2.16",
+"X_COORD":"641682.974086",
+"Y_COORD":"5127745.99665",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Var. Mastellina",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":7081.0937,
+"PERIMETRO":476.8211,
+"INTERNAL ID":"364",
+"USER ID":"363",
+"SCI_CD":"7.2.18",
+"X_COORD":"641060.102441",
+"Y_COORD":"5126768.51854",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Folgarida",
+"NOME":"Var. Provetti (Spolverino)",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":19086.2635,
+"PERIMETRO":1794.2161,
+"INTERNAL ID":"324",
+"USER ID":"323",
+"SCI_CD":"7.2.17",
+"X_COORD":"642143.215523",
+"Y_COORD":"5127715.99345",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Avez del  Prinzipe",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":69702.4134,
+"PERIMETRO":5215.8192,
+"INTERNAL ID":"643",
+"USER ID":"642",
+"SCI_CD":"4.1.5",
+"X_COORD":"678983.255762",
+"Y_COORD":"5091408.32122",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Del Tablat",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":26688.8075,
+"PERIMETRO":1919.1626,
+"INTERNAL ID":"650",
+"USER ID":"649",
+"SCI_CD":"4.1.15",
+"X_COORD":"676024.430941",
+"Y_COORD":"5090998.35222",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Malga Fratelle",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":18912.8008,
+"PERIMETRO":1747.3865,
+"INTERNAL ID":"639",
+"USER ID":"638",
+"SCI_CD":"4.1.4",
+"X_COORD":"679128.006251",
+"Y_COORD":"5091792.31343",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Malga Rivetta",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":24863.8719,
+"PERIMETRO":1390.4716,
+"INTERNAL ID":"638",
+"USER ID":"637",
+"SCI_CD":"4.1.6",
+"X_COORD":"679286.254389",
+"Y_COORD":"5091915.81002",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Rivetta Baby",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":7390.8640,
+"PERIMETRO":500.2516,
+"INTERNAL ID":"637",
+"USER ID":"636",
+"SCI_CD":"4.1.7",
+"X_COORD":"679312.630797",
+"Y_COORD":"5092148.80579",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Soneck",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":14931.9102,
+"PERIMETRO":985.8831,
+"INTERNAL ID":"647",
+"USER ID":"646",
+"SCI_CD":"4.1.18",
+"X_COORD":"676475.674263",
+"Y_COORD":"5091181.34541",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Tobia",
+"GESTORE":"Nuova Tobia S.n.c.",
+"CODICE":"43.0000000000",
+"AREA":10446.3186,
+"PERIMETRO":505.5753,
+"INTERNAL ID":"653",
+"USER ID":"652",
+"SCI_CD":"4.1.8",
+"X_COORD":"675382.807555",
+"Y_COORD":"5089763.87868",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Ust - Laghetto",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":45919.0658,
+"PERIMETRO":2888.9277,
+"INTERNAL ID":"641",
+"USER ID":"640",
+"SCI_CD":"4.1.25",
+"X_COORD":"677424.911278",
+"Y_COORD":"5091697.82883",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Ust - Soneck",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":15269.5545,
+"PERIMETRO":1084.3253,
+"INTERNAL ID":"646",
+"USER ID":"645",
+"SCI_CD":"4.1.24",
+"X_COORD":"676759.420932",
+"Y_COORD":"5091403.83928",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Lavarone",
+"NOME":"Var.  Bertoldi  (Del Tablat)",
+"GESTORE":"Turismo Lavarone S.r.l.",
+"CODICE":"44.0000000000",
+"AREA":13738.7648,
+"PERIMETRO":1032.2435,
+"INTERNAL ID":"648",
+"USER ID":"647",
+"SCI_CD":"4.1.12",
+"X_COORD":"676194.554604",
+"Y_COORD":"5091213.34713",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"5 Laghi",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":39674.0051,
+"PERIMETRO":2870.9077,
+"INTERNAL ID":"494",
+"USER ID":"493",
+"SCI_CD":"8.1.5",
+"X_COORD":"639707.953693",
+"Y_COORD":"5120810.63216",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Amazzonia",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":86133.4269,
+"PERIMETRO":5515.8159,
+"INTERNAL ID":"454",
+"USER ID":"453",
+"SCI_CD":"8.1.34",
+"X_COORD":"640235.457345",
+"Y_COORD":"5122441.09979",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Baby Biancaneve",
+"GESTORE":"Campo Carlo Magno S.p.A.",
+"CODICE":"78.0000000000",
+"AREA":20429.2473,
+"PERIMETRO":925.6633,
+"INTERNAL ID":"457",
+"USER ID":"456",
+"SCI_CD":"8.1.40",
+"X_COORD":"642068.549826",
+"Y_COORD":"5122518.08364",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Bamby",
+"GESTORE":"Skilift Bambi di Rozzi Anna S.n.c.",
+"CODICE":"113.000000000",
+"AREA":3424.3478,
+"PERIMETRO":303.6611,
+"INTERNAL ID":"488",
+"USER ID":"487",
+"SCI_CD":"8.1.36",
+"X_COORD":"641088.182136",
+"Y_COORD":"5121230.61376",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Belvedere",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":8447.0454,
+"PERIMETRO":797.0566,
+"INTERNAL ID":"480",
+"USER ID":"479",
+"SCI_CD":"8.1.23",
+"X_COORD":"641120.184073",
+"Y_COORD":"5121541.60814",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Boch",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":42272.4446,
+"PERIMETRO":2818.2196,
+"INTERNAL ID":"496",
+"USER ID":"495",
+"SCI_CD":"8.1.8",
+"X_COORD":"643286.262651",
+"Y_COORD":"5120644.10609",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Campo scuola larici 1",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":10034.1769,
+"PERIMETRO":623.5905,
+"INTERNAL ID":"442",
+"USER ID":"441",
+"SCI_CD":"8.1.62",
+"X_COORD":"640655.833242",
+"Y_COORD":"5123491.57829",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Canalone Miramonti",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":37575.5168,
+"PERIMETRO":1984.3166,
+"INTERNAL ID":"482",
+"USER ID":"481",
+"SCI_CD":"8.1.3",
+"X_COORD":"640547.193155",
+"Y_COORD":"5121383.61550",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Carlo Magno Due",
+"GESTORE":"Campo Carlo Magno S.p.A.",
+"CODICE":"78.0000000000",
+"AREA":7999.0613,
+"PERIMETRO":559.5084,
+"INTERNAL ID":"461",
+"USER ID":"460",
+"SCI_CD":"8.1.60",
+"X_COORD":"641924.676513",
+"Y_COORD":"5122405.08675",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Carlo Magno Uno",
+"GESTORE":"Campo Carlo Magno S.p.A.",
+"CODICE":"78.0000000000",
+"AREA":19352.6291,
+"PERIMETRO":810.5585,
+"INTERNAL ID":"458",
+"USER ID":"457",
+"SCI_CD":"8.1.38",
+"X_COORD":"641832.178076",
+"Y_COORD":"5122391.58773",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Cima GrostÚ",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":29703.9197,
+"PERIMETRO":2813.3315,
+"INTERNAL ID":"506",
+"USER ID":"505",
+"SCI_CD":"8.1.28",
+"X_COORD":"646161.703403",
+"Y_COORD":"5119746.59830",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Colleg. Miramonti - Patascoss",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":3072.3915,
+"PERIMETRO":405.4166,
+"INTERNAL ID":"483",
+"USER ID":"482",
+"SCI_CD":"8.1.61",
+"X_COORD":"640286.697464",
+"Y_COORD":"5121334.11846",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Coll. Nube d'Argento - Fortini",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":15138.5279,
+"PERIMETRO":1718.8991,
+"INTERNAL ID":"467",
+"USER ID":"466",
+"SCI_CD":"8.1.59",
+"X_COORD":"641727.553302",
+"Y_COORD":"5122185.59213",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Corna Rossa",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":52410.1491,
+"PERIMETRO":2996.6837,
+"INTERNAL ID":"505",
+"USER ID":"504",
+"SCI_CD":"8.1.29",
+"X_COORD":"646000.331281",
+"Y_COORD":"5119741.59969",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Fiocco di Neve",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":65721.1478,
+"PERIMETRO":3362.3515,
+"INTERNAL ID":"427",
+"USER ID":"426",
+"SCI_CD":"8.1.16",
+"X_COORD":"640510.213059",
+"Y_COORD":"5123761.57481",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Fis 3-Tre",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":124281.6109,
+"PERIMETRO":7034.9840,
+"INTERNAL ID":"475",
+"USER ID":"474",
+"SCI_CD":"8.1.4",
+"X_COORD":"639874.952814",
+"Y_COORD":"5121075.12625",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Fortini",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":57292.8829,
+"PERIMETRO":4368.0040,
+"INTERNAL ID":"471",
+"USER ID":"470",
+"SCI_CD":"8.1.7",
+"X_COORD":"641852.548202",
+"Y_COORD":"5121834.59716",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Genziana",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":49740.9309,
+"PERIMETRO":3145.4257,
+"INTERNAL ID":"398",
+"USER ID":"397",
+"SCI_CD":"8.1.14",
+"X_COORD":"640789.589184",
+"Y_COORD":"5124525.05939",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Genziana Alta",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":33758.3391,
+"PERIMETRO":2016.6479,
+"INTERNAL ID":"416",
+"USER ID":"415",
+"SCI_CD":"8.1.15",
+"X_COORD":"640302.472097",
+"Y_COORD":"5124414.56524",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Genziana Bassa",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":8997.8072,
+"PERIMETRO":859.6628,
+"INTERNAL ID":"429",
+"USER ID":"428",
+"SCI_CD":"8.1.57",
+"X_COORD":"640562.089038",
+"Y_COORD":"5123998.57031",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Graffer",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":57928.3917,
+"PERIMETRO":3049.0322,
+"INTERNAL ID":"504",
+"USER ID":"503",
+"SCI_CD":"8.1.27",
+"X_COORD":"646292.076050",
+"Y_COORD":"5119747.09723",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Grotte",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":9133.0212,
+"PERIMETRO":1399.8420,
+"INTERNAL ID":"473",
+"USER ID":"472",
+"SCI_CD":"8.1.10",
+"X_COORD":"641397.555781",
+"Y_COORD":"5121754.60222",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Lame",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":115925.8748,
+"PERIMETRO":5845.1531,
+"INTERNAL ID":"487",
+"USER ID":"486",
+"SCI_CD":"8.1.31",
+"X_COORD":"644694.988310",
+"Y_COORD":"5120783.59229",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Lame Var. Boch",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":22135.6245,
+"PERIMETRO":1882.1096,
+"INTERNAL ID":"495",
+"USER ID":"494",
+"SCI_CD":"8.1.33",
+"X_COORD":"644038.250539",
+"Y_COORD":"5120827.59684",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Larici",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":16226.9582,
+"PERIMETRO":902.6863,
+"INTERNAL ID":"446",
+"USER ID":"445",
+"SCI_CD":"8.1.22",
+"X_COORD":"640678.457182",
+"Y_COORD":"5123411.07949",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Mondifrà",
+"GESTORE":"Campo Carlo Magno S.p.A.",
+"CODICE":"78.0000000000",
+"AREA":13775.9197,
+"PERIMETRO":792.7843,
+"INTERNAL ID":"456",
+"USER ID":"455",
+"SCI_CD":"8.1.39",
+"X_COORD":"642145.174581",
+"Y_COORD":"5122659.08059",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Nube d' Argento",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":62216.3340,
+"PERIMETRO":4126.8986,
+"INTERNAL ID":"463",
+"USER ID":"462",
+"SCI_CD":"8.1.25",
+"X_COORD":"642489.662614",
+"Y_COORD":"5121949.59003",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Pozza Vecia",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":37898.3491,
+"PERIMETRO":4588.2716,
+"INTERNAL ID":"465",
+"USER ID":"464",
+"SCI_CD":"8.1.32",
+"X_COORD":"643377.268217",
+"Y_COORD":"5121535.58999",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Pradalago Diretta",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":69630.9472,
+"PERIMETRO":4440.3877,
+"INTERNAL ID":"452",
+"USER ID":"451",
+"SCI_CD":"8.1.19",
+"X_COORD":"640943.321986",
+"Y_COORD":"5122742.58887",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Pradalago Facile",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":51730.6419,
+"PERIMETRO":3283.7870,
+"INTERNAL ID":"437",
+"USER ID":"436",
+"SCI_CD":"8.1.17",
+"X_COORD":"641198.570809",
+"Y_COORD":"5123167.57948",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Pradalago Facile",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":84400.0506,
+"PERIMETRO":3342.8267,
+"INTERNAL ID":"441",
+"USER ID":"440",
+"SCI_CD":"8.1.17",
+"X_COORD":"639980.969255",
+"Y_COORD":"5123344.58628",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Pradalago Provetti",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":35804.3293,
+"PERIMETRO":2157.9197,
+"INTERNAL ID":"449",
+"USER ID":"448",
+"SCI_CD":"8.1.20",
+"X_COORD":"640833.326935",
+"Y_COORD":"5123108.58345",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Racc. Pradalago Facile-Belvedere",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":9529.2572,
+"PERIMETRO":1012.3764,
+"INTERNAL ID":"469",
+"USER ID":"468",
+"SCI_CD":"8.1.24",
+"X_COORD":"641304.558219",
+"Y_COORD":"5121848.10137",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Racc. Pradal. Facile - Camp.",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":14616.6713,
+"PERIMETRO":2270.7182,
+"INTERNAL ID":"459",
+"USER ID":"458",
+"SCI_CD":"8.1.44",
+"X_COORD":"641111.815668",
+"Y_COORD":"5122338.09448",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Spinale Diretta",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":81372.6263,
+"PERIMETRO":3657.2454,
+"INTERNAL ID":"481",
+"USER ID":"480",
+"SCI_CD":"8.1.9",
+"X_COORD":"642554.152554",
+"Y_COORD":"5120850.10846",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Spinale Direttissima",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":62744.0342,
+"PERIMETRO":3834.7802,
+"INTERNAL ID":"491",
+"USER ID":"490",
+"SCI_CD":"8.1.2",
+"X_COORD":"641623.669013",
+"Y_COORD":"5120805.11676",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Vagliana",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":22278.0570,
+"PERIMETRO":1849.4362,
+"INTERNAL ID":"472",
+"USER ID":"471",
+"SCI_CD":"8.1.30",
+"X_COORD":"644001.757650",
+"Y_COORD":"5121625.08339",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Var. Capanna  (Spinale Diretta)",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":3844.3642,
+"PERIMETRO":403.4162,
+"INTERNAL ID":"498",
+"USER ID":"497",
+"SCI_CD":"8.1.11",
+"X_COORD":"642586.524663",
+"Y_COORD":"5120565.11311",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Var. Marchi  (Spinale Diretta)",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":12284.7224,
+"PERIMETRO":836.7059,
+"INTERNAL ID":"485",
+"USER ID":"484",
+"SCI_CD":"8.1.51",
+"X_COORD":"642538.530744",
+"Y_COORD":"5121209.60239",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Var.  Pietra Grande (Graffer)",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":18685.0589,
+"PERIMETRO":1313.6602,
+"INTERNAL ID":"510",
+"USER ID":"509",
+"SCI_CD":"8.1.26",
+"X_COORD":"646290.452119",
+"Y_COORD":"5119875.59503",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Madonna di Campiglio",
+"NOME":"Zeledria",
+"GESTORE":"Funivie Madonna di Campiglio S.p.A.",
+"CODICE":"56.0000000000",
+"AREA":20497.5574,
+"PERIMETRO":1441.5824,
+"INTERNAL ID":"434",
+"USER ID":"433",
+"SCI_CD":"8.1.21",
+"X_COORD":"640079.594902",
+"Y_COORD":"5123645.08030",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Biancaneve",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":9729.1877,
+"PERIMETRO":640.8261,
+"INTERNAL ID":"295",
+"USER ID":"294",
+"SCI_CD":"7.1.4",
+"X_COORD":"639313.527053",
+"Y_COORD":"5128997.99424",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Campo Primi Passi Marilleva",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":1138.6160,
+"PERIMETRO":159.4702,
+"INTERNAL ID":"297",
+"USER ID":"296",
+"SCI_CD":"7.1.17",
+"X_COORD":"639429.525482",
+"Y_COORD":"5129062.99218",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Colleg. Orti-Doss della Pesa Facile",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":4212.3512,
+"PERIMETRO":502.9831,
+"INTERNAL ID":"346",
+"USER ID":"345",
+"SCI_CD":"7.1.18",
+"X_COORD":"639887.252157",
+"Y_COORD":"5127202.52055",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Colleg. Orti-Panciana",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":8093.0892,
+"PERIMETRO":1059.5223,
+"INTERNAL ID":"319",
+"USER ID":"318",
+"SCI_CD":"7.1.10",
+"X_COORD":"639898.631477",
+"Y_COORD":"5127762.01081",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Doss della Pesa",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":25843.0561,
+"PERIMETRO":1790.9893,
+"INTERNAL ID":"358",
+"USER ID":"357",
+"SCI_CD":"7.1.13",
+"X_COORD":"640066.619703",
+"Y_COORD":"5126682.02806",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Doss della Pesa Facile",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":29666.7023,
+"PERIMETRO":1263.2062,
+"INTERNAL ID":"354",
+"USER ID":"353",
+"SCI_CD":"7.1.9",
+"X_COORD":"639832.376203",
+"Y_COORD":"5126962.02513",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Half Pipe Marilleva",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":1884.9022,
+"PERIMETRO":213.0060,
+"INTERNAL ID":"343",
+"USER ID":"342",
+"SCI_CD":"7.1.19",
+"X_COORD":"640154.748254",
+"Y_COORD":"5127318.01639",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Marilleva",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":48305.8878,
+"PERIMETRO":3359.9609,
+"INTERNAL ID":"298",
+"USER ID":"297",
+"SCI_CD":"7.1.3",
+"X_COORD":"639637.392639",
+"Y_COORD":"5128557.99920",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Ometto 1",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":31853.9063,
+"PERIMETRO":1614.0711,
+"INTERNAL ID":"365",
+"USER ID":"364",
+"SCI_CD":"7.1.1",
+"X_COORD":"640366.612310",
+"Y_COORD":"5126438.52983",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Ometto 2",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":38964.0615,
+"PERIMETRO":2025.3936,
+"INTERNAL ID":"360",
+"USER ID":"359",
+"SCI_CD":"7.1.2",
+"X_COORD":"640067.368153",
+"Y_COORD":"5126492.03133",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Orti",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":24078.4622,
+"PERIMETRO":1445.9018,
+"INTERNAL ID":"316",
+"USER ID":"315",
+"SCI_CD":"7.1.8",
+"X_COORD":"639724.633579",
+"Y_COORD":"5127633.01444",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Panciana",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":53332.5853,
+"PERIMETRO":3317.3618,
+"INTERNAL ID":"296",
+"USER ID":"295",
+"SCI_CD":"7.1.6",
+"X_COORD":"639820.014482",
+"Y_COORD":"5128575.99742",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Pancianina",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":45623.3888,
+"PERIMETRO":2058.4396,
+"INTERNAL ID":"320",
+"USER ID":"319",
+"SCI_CD":"7.1.7",
+"X_COORD":"640177.249259",
+"Y_COORD":"5127492.51320",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Racc. Biancaneve-Albarè",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":6650.0776,
+"PERIMETRO":908.4629,
+"INTERNAL ID":"291",
+"USER ID":"290",
+"SCI_CD":"7.1.14",
+"X_COORD":"639364.779564",
+"Y_COORD":"5129422.98650",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Racc. Doss della Pesa-Ometto",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":3759.8672,
+"PERIMETRO":318.5302,
+"INTERNAL ID":"359",
+"USER ID":"358",
+"SCI_CD":"7.1.16",
+"X_COORD":"640308.992655",
+"Y_COORD":"5126970.52113",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Racc. Doss della Pesa-Orti",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":8003.7486,
+"PERIMETRO":696.7999,
+"INTERNAL ID":"347",
+"USER ID":"346",
+"SCI_CD":"7.1.11",
+"X_COORD":"639794.378468",
+"Y_COORD":"5127157.02208",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Sghirlat",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":40073.0223,
+"PERIMETRO":2078.6835,
+"INTERNAL ID":"327",
+"USER ID":"326",
+"SCI_CD":"7.1.5",
+"X_COORD":"640319.996149",
+"Y_COORD":"5127427.01318",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marilleva",
+"NOME":"Var. Sghirlat",
+"GESTORE":"Funivie Folgarida Marilleva S.p.A.",
+"CODICE":"20.0000000000",
+"AREA":27215.0701,
+"PERIMETRO":1345.7062,
+"INTERNAL ID":"345",
+"USER ID":"344",
+"SCI_CD":"7.1.15",
+"X_COORD":"640323.493885",
+"Y_COORD":"5127155.01783",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marmolada",
+"NOME":"Fedaia",
+"GESTORE":"Funivia Tofana e Marmolada S.p.A.",
+"CODICE":"129.000000000",
+"AREA":80249.2910,
+"PERIMETRO":3316.7737,
+"INTERNAL ID":"62",
+"USER ID":"61",
+"SCI_CD":"11.9.7",
+"X_COORD":"721371.446895",
+"Y_COORD":"5147966.50354",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marmolada",
+"NOME":"Marmolada",
+"GESTORE":"Funivie Fedaia Marmolada S.r.l.",
+"CODICE":"77.0000000000",
+"AREA":114371.0547,
+"PERIMETRO":4951.4160,
+"INTERNAL ID":"60",
+"USER ID":"59",
+"SCI_CD":"11.9.1",
+"X_COORD":"719789.225781",
+"Y_COORD":"5148001.01574",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marmolada",
+"NOME":"Punta Rocca",
+"GESTORE":"Funivia Tofana e Marmolada S.p.A.",
+"CODICE":"129.000000000",
+"AREA":97544.6177,
+"PERIMETRO":5245.8829,
+"INTERNAL ID":"68",
+"USER ID":"67",
+"SCI_CD":"11.9.2",
+"X_COORD":"720580.450483",
+"Y_COORD":"5146642.03276",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marmolada",
+"NOME":"Sas del Mul \"A\"",
+"GESTORE":"Funivia Tofana e Marmolada S.p.A.",
+"CODICE":"129.000000000",
+"AREA":55462.2288,
+"PERIMETRO":3191.0872,
+"INTERNAL ID":"65",
+"USER ID":"64",
+"SCI_CD":"11.9.6",
+"X_COORD":"721306.066732",
+"Y_COORD":"5147182.01759",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Marmolada",
+"NOME":"Sas del Mul \"B\"",
+"GESTORE":"Funivia Tofana e Marmolada S.p.A.",
+"CODICE":"129.000000000",
+"AREA":6532.1443,
+"PERIMETRO":490.3172,
+"INTERNAL ID":"78",
+"USER ID":"77",
+"SCI_CD":"11.9.3",
+"X_COORD":"720822.196617",
+"Y_COORD":"5146704.52973",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Mendola - Roen",
+"NOME":"Campo Scuola Campi di Golf",
+"GESTORE":"Alta Val di Non S.p.A.",
+"CODICE":"17.0000000000",
+"AREA":6389.4931,
+"PERIMETRO":431.5664,
+"INTERNAL ID":"129",
+"USER ID":"128",
+"SCI_CD":"6.1.2",
+"X_COORD":"669700.701232",
+"Y_COORD":"5141184.03841",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Mendola-Roen",
+"NOME":"Prati Golf",
+"GESTORE":"Alta Val di Non S.p.A.",
+"CODICE":"17.0000000000",
+"AREA":53636.3558,
+"PERIMETRO":3065.8083,
+"INTERNAL ID":"128",
+"USER ID":"127",
+"SCI_CD":"6.1.1",
+"X_COORD":"669754.571225",
+"Y_COORD":"5140685.54656",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Campo Primi Passi Valbona",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":833.8768,
+"PERIMETRO":128.3370,
+"INTERNAL ID":"175",
+"USER ID":"174",
+"SCI_CD":"11.6.10",
+"X_COORD":"706480.754530",
+"Y_COORD":"5137262.30848",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Campo Scuola Valbona",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":10285.2618,
+"PERIMETRO":443.4516,
+"INTERNAL ID":"176",
+"USER ID":"175",
+"SCI_CD":"11.6.14",
+"X_COORD":"706403.255530",
+"Y_COORD":"5137212.80996",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Cune",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":30774.1632,
+"PERIMETRO":1207.1857,
+"INTERNAL ID":"212",
+"USER ID":"211",
+"SCI_CD":"11.6.4",
+"X_COORD":"707691.719681",
+"Y_COORD":"5135660.82629",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Fiamme Oro",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":56292.5120,
+"PERIMETRO":2915.3537,
+"INTERNAL ID":"168",
+"USER ID":"167",
+"SCI_CD":"11.6.1",
+"X_COORD":"706682.631133",
+"Y_COORD":"5137911.79565",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Fiamme Oro 2",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":139470.6683,
+"PERIMETRO":6040.0274,
+"INTERNAL ID":"173",
+"USER ID":"172",
+"SCI_CD":"11.6.2",
+"X_COORD":"706460.872415",
+"Y_COORD":"5136338.32456",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Laste",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":108563.6348,
+"PERIMETRO":4906.1206,
+"INTERNAL ID":"200",
+"USER ID":"199",
+"SCI_CD":"11.6.5",
+"X_COORD":"708193.461940",
+"Y_COORD":"5135825.31939",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Mediolanum",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":30201.8709,
+"PERIMETRO":1876.0685,
+"INTERNAL ID":"179",
+"USER ID":"178",
+"SCI_CD":"11.6.3",
+"X_COORD":"706529.874468",
+"Y_COORD":"5136746.31697",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Piavac",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":59673.1739,
+"PERIMETRO":2804.7654,
+"INTERNAL ID":"180",
+"USER ID":"179",
+"SCI_CD":"11.6.20",
+"X_COORD":"706944.738840",
+"Y_COORD":"5136359.82028",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Racc. Lastè-Passo Lusia",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":3731.3682,
+"PERIMETRO":388.2930,
+"INTERNAL ID":"210",
+"USER ID":"209",
+"SCI_CD":"11.6.16",
+"X_COORD":"707973.090682",
+"Y_COORD":"5135795.32169",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Var. Brodoi   ( LastÞ )",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":42359.8165,
+"PERIMETRO":3186.8595,
+"INTERNAL ID":"213",
+"USER ID":"212",
+"SCI_CD":"11.6.9",
+"X_COORD":"708996.814933",
+"Y_COORD":"5134900.32884",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Var. Direttissima  Le Cune",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":96737.6149,
+"PERIMETRO":4188.4697,
+"INTERNAL ID":"201",
+"USER ID":"200",
+"SCI_CD":"11.6.18",
+"X_COORD":"707584.343957",
+"Y_COORD":"5135331.33283",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Moena-Lusia",
+"NOME":"Zirmes",
+"GESTORE":"S.I.F. Lusia Societa' Impianti Funiviari S.p.A.",
+"CODICE":"50.0000000000",
+"AREA":97832.9200,
+"PERIMETRO":5301.5359,
+"INTERNAL ID":"206",
+"USER ID":"205",
+"SCI_CD":"11.6.8",
+"X_COORD":"708790.068380",
+"Y_COORD":"5134864.33113",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Molveno",
+"NOME":"Pradel",
+"GESTORE":"Turistica Molveno S.r.l.",
+"CODICE":"51.0000000000",
+"AREA":22606.7016,
+"PERIMETRO":1781.8577,
+"INTERNAL ID":"545",
+"USER ID":"544",
+"SCI_CD":"5.4.2",
+"X_COORD":"651355.805642",
+"Y_COORD":"5113089.17102",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Molveno",
+"NOME":"Var. Tovre ( Pradel)",
+"GESTORE":"Turistica Molveno S.r.l.",
+"CODICE":"51.0000000000",
+"AREA":7324.9601,
+"PERIMETRO":718.4339,
+"INTERNAL ID":"549",
+"USER ID":"548",
+"SCI_CD":"5.4.4",
+"X_COORD":"651496.802454",
+"Y_COORD":"5113010.17124",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"3 - Tre",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":19448.1882,
+"PERIMETRO":1070.0470,
+"INTERNAL ID":"617",
+"USER ID":"616",
+"SCI_CD":"5.2.1",
+"X_COORD":"660208.801740",
+"Y_COORD":"5101488.29935",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Canalon",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":53907.6587,
+"PERIMETRO":2426.3907,
+"INTERNAL ID":"629",
+"USER ID":"628",
+"SCI_CD":"5.2.13",
+"X_COORD":"659237.181930",
+"Y_COORD":"5099958.33358",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Cordela",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":81170.1647,
+"PERIMETRO":2710.4247,
+"INTERNAL ID":"618",
+"USER ID":"617",
+"SCI_CD":"5.2.3",
+"X_COORD":"659773.554752",
+"Y_COORD":"5100887.81322",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Fortino",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":50028.3582,
+"PERIMETRO":2549.3855,
+"INTERNAL ID":"631",
+"USER ID":"630",
+"SCI_CD":"5.2.9",
+"X_COORD":"658580.565441",
+"Y_COORD":"5099542.84606",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Lavaman",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":113716.1403,
+"PERIMETRO":4646.9907,
+"INTERNAL ID":"619",
+"USER ID":"618",
+"SCI_CD":"5.2.4",
+"X_COORD":"659905.801835",
+"Y_COORD":"5100822.81327",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Palon",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":33088.7065,
+"PERIMETRO":1812.3934,
+"INTERNAL ID":"632",
+"USER ID":"631",
+"SCI_CD":"5.2.12",
+"X_COORD":"659249.800017",
+"Y_COORD":"5099131.84773",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Pinot",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":26136.2020,
+"PERIMETRO":1606.9663,
+"INTERNAL ID":"615",
+"USER ID":"614",
+"SCI_CD":"5.2.11",
+"X_COORD":"659938.806803",
+"Y_COORD":"5101510.80115",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Rocce Rosse",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":53398.8954,
+"PERIMETRO":3517.7175,
+"INTERNAL ID":"626",
+"USER ID":"625",
+"SCI_CD":"5.2.10",
+"X_COORD":"657560.212824",
+"Y_COORD":"5100029.34592",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Var. Fortino",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":14306.0573,
+"PERIMETRO":935.6039,
+"INTERNAL ID":"634",
+"USER ID":"633",
+"SCI_CD":"5.2.16",
+"X_COORD":"658990.930118",
+"Y_COORD":"5099183.84892",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Monte Bondone",
+"NOME":"Var. Topolino (3-Tre)",
+"GESTORE":"Trento Funvie S.p.A.",
+"CODICE":"21.0000000000",
+"AREA":17530.2247,
+"PERIMETRO":828.5736,
+"INTERNAL ID":"621",
+"USER ID":"620",
+"SCI_CD":"5.2.8",
+"X_COORD":"660034.425998",
+"Y_COORD":"5101006.80906",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Agnello",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":69455.4221,
+"PERIMETRO":3460.5957,
+"INTERNAL ID":"222",
+"USER ID":"221",
+"SCI_CD":"1.2.9",
+"X_COORD":"696090.548698",
+"Y_COORD":"5134952.43234",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Naturale Agnello",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":63866.3383,
+"PERIMETRO":2361.2742,
+"INTERNAL ID":"238",
+"USER ID":"237",
+"SCI_CD":"1.2.10",
+"X_COORD":"696268.792155",
+"Y_COORD":"5134541.93797",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Pala di Santa",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":103297.8207,
+"PERIMETRO":4583.0282,
+"INTERNAL ID":"190",
+"USER ID":"189",
+"SCI_CD":"1.2.5",
+"X_COORD":"694794.329940",
+"Y_COORD":"5135917.42619",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Passo Feudo - Residenza",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":48853.3060,
+"PERIMETRO":3278.8952,
+"INTERNAL ID":"198",
+"USER ID":"197",
+"SCI_CD":"1.2.12",
+"X_COORD":"696837.916495",
+"Y_COORD":"5135732.41285",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Racc. Agnello - Tresca",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":21513.3027,
+"PERIMETRO":1310.9354,
+"INTERNAL ID":"226",
+"USER ID":"225",
+"SCI_CD":"1.2.17",
+"X_COORD":"695998.926693",
+"Y_COORD":"5135117.93023",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Stradina Panoramica",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":12312.0339,
+"PERIMETRO":1592.6260,
+"INTERNAL ID":"214",
+"USER ID":"213",
+"SCI_CD":"1.2.7",
+"X_COORD":"696501.420719",
+"Y_COORD":"5135502.41953",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Tresca",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":106642.0464,
+"PERIMETRO":4936.3412,
+"INTERNAL ID":"220",
+"USER ID":"219",
+"SCI_CD":"1.2.8",
+"X_COORD":"696474.289892",
+"Y_COORD":"5134721.43321",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Val della Pigna (Tresca)",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":12059.2929,
+"PERIMETRO":1047.6501,
+"INTERNAL ID":"228",
+"USER ID":"227",
+"SCI_CD":"1.2.21",
+"X_COORD":"696175.298521",
+"Y_COORD":"5135119.92876",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Val Todesca",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":63524.6628,
+"PERIMETRO":3388.8900,
+"INTERNAL ID":"191",
+"USER ID":"190",
+"SCI_CD":"1.2.6",
+"X_COORD":"695637.190352",
+"Y_COORD":"5135997.91798",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Var. Bosco (Pala di Santa)",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":6781.6980,
+"PERIMETRO":795.2627,
+"INTERNAL ID":"194",
+"USER ID":"193",
+"SCI_CD":"1.2.13",
+"X_COORD":"695244.448011",
+"Y_COORD":"5136066.91997",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Var Dossi (Tresca)",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":5214.8158,
+"PERIMETRO":487.1912,
+"INTERNAL ID":"248",
+"USER ID":"247",
+"SCI_CD":"1.2.22",
+"X_COORD":"696792.153575",
+"Y_COORD":"5134032.94251",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Var. Muro  (Agnello)",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":13190.3779,
+"PERIMETRO":696.8923,
+"INTERNAL ID":"235",
+"USER ID":"234",
+"SCI_CD":"1.2.14",
+"X_COORD":"696073.923319",
+"Y_COORD":"5134868.43392",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Var. Muro  (Tresca)",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":9176.5509,
+"PERIMETRO":542.0943,
+"INTERNAL ID":"237",
+"USER ID":"236",
+"SCI_CD":"1.2.20",
+"X_COORD":"696562.912938",
+"Y_COORD":"5134677.93325",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pampeago",
+"NOME":"Var. Prà Erto (Val Todesca)",
+"GESTORE":"I.T.A.P.  S.p.A.",
+"CODICE":"74.0000000000",
+"AREA":49152.9516,
+"PERIMETRO":2914.5696,
+"INTERNAL ID":"197",
+"USER ID":"196",
+"SCI_CD":"1.2.1",
+"X_COORD":"695836.809668",
+"Y_COORD":"5135741.42079",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Cima Storta",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":49517.4700,
+"PERIMETRO":3148.2443,
+"INTERNAL ID":"601",
+"USER ID":"600",
+"SCI_CD":"4.2.2",
+"X_COORD":"679978.201768",
+"Y_COORD":"5102410.12355",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Colleg. Malga - Rigolor",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":9795.1541,
+"PERIMETRO":1673.4419,
+"INTERNAL ID":"597",
+"USER ID":"596",
+"SCI_CD":"4.2.7",
+"X_COORD":"679426.090965",
+"Y_COORD":"5102931.11904",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Colleg. Rifugio - Storta",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":7017.9084,
+"PERIMETRO":957.8623,
+"INTERNAL ID":"609",
+"USER ID":"608",
+"SCI_CD":"4.2.9",
+"X_COORD":"679547.208408",
+"Y_COORD":"5102267.62949",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Colleg. Rigolor-Malga",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":4428.7498,
+"PERIMETRO":883.6074,
+"INTERNAL ID":"604",
+"USER ID":"603",
+"SCI_CD":"4.2.6",
+"X_COORD":"679568.711607",
+"Y_COORD":"5102711.12167",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Diagonale",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":19886.9227,
+"PERIMETRO":1711.0914,
+"INTERNAL ID":"613",
+"USER ID":"612",
+"SCI_CD":"4.2.3",
+"X_COORD":"679894.825982",
+"Y_COORD":"5102126.62911",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Furet",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":9108.7721,
+"PERIMETRO":728.1173,
+"INTERNAL ID":"614",
+"USER ID":"613",
+"SCI_CD":"4.2.5",
+"X_COORD":"679182.463170",
+"Y_COORD":"5102041.13634",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Malga Montagna Granda",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":59353.7164,
+"PERIMETRO":2494.0182,
+"INTERNAL ID":"599",
+"USER ID":"598",
+"SCI_CD":"4.2.1",
+"X_COORD":"679089.094291",
+"Y_COORD":"5102589.12766",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Racc. Storta-Rigolor",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":16257.8321,
+"PERIMETRO":931.7131,
+"INTERNAL ID":"602",
+"USER ID":"601",
+"SCI_CD":"4.2.8",
+"X_COORD":"679752.207929",
+"Y_COORD":"5102666.62095",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Rigolor",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":60300.0580,
+"PERIMETRO":2877.9035,
+"INTERNAL ID":"596",
+"USER ID":"595",
+"SCI_CD":"4.2.4",
+"X_COORD":"679906.830902",
+"Y_COORD":"5102761.61807",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Var. 2 (Malga M. Granda)",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":10786.7128,
+"PERIMETRO":726.8058,
+"INTERNAL ID":"606",
+"USER ID":"605",
+"SCI_CD":"4.2.10",
+"X_COORD":"679211.465942",
+"Y_COORD":"5102448.62909",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Panarotta",
+"NOME":"Var. Tornante (Cima Storta )",
+"GESTORE":"Nuova Panarotta Societa' Impianti S.p.A.",
+"CODICE":"45.0000000000",
+"AREA":8363.4859,
+"PERIMETRO":1165.2774,
+"INTERNAL ID":"610",
+"USER ID":"609",
+"SCI_CD":"4.2.12",
+"X_COORD":"680119.448474",
+"Y_COORD":"5102318.62398",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Bosco",
+"GESTORE":"Tesino S.p.A.",
+"CODICE":"99.0000000000",
+"AREA":56604.8135,
+"PERIMETRO":1998.5595,
+"INTERNAL ID":"583",
+"USER ID":"582",
+"SCI_CD":"3.1.3",
+"X_COORD":"705546.300421",
+"Y_COORD":"5109941.28692",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Brocon",
+"GESTORE":"Boso Roberto",
+"CODICE":"15.0000000000",
+"AREA":10896.1777,
+"PERIMETRO":764.9238,
+"INTERNAL ID":"578",
+"USER ID":"577",
+"SCI_CD":"3.1.8",
+"X_COORD":"707771.890242",
+"Y_COORD":"5110566.75814",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Campo Scuola Marande",
+"GESTORE":"Tesino S.p.A.",
+"CODICE":"99.0000000000",
+"AREA":7485.2357,
+"PERIMETRO":365.9543,
+"INTERNAL ID":"582",
+"USER ID":"581",
+"SCI_CD":"3.1.1",
+"X_COORD":"705690.926123",
+"Y_COORD":"5110351.27869",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Coazzo",
+"GESTORE":"Boso Roberto",
+"CODICE":"15.0000000000",
+"AREA":23783.4101,
+"PERIMETRO":943.7197,
+"INTERNAL ID":"580",
+"USER ID":"579",
+"SCI_CD":"3.1.2",
+"X_COORD":"707578.267707",
+"Y_COORD":"5110438.76191",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Col di Lu",
+"GESTORE":"Boso Roberto",
+"CODICE":"15.0000000000",
+"AREA":35749.0813,
+"PERIMETRO":1533.0956,
+"INTERNAL ID":"577",
+"USER ID":"576",
+"SCI_CD":"3.1.9",
+"X_COORD":"707615.018038",
+"Y_COORD":"5110561.75950",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Matusa",
+"GESTORE":"Tesino S.p.A.",
+"CODICE":"99.0000000000",
+"AREA":29372.3065,
+"PERIMETRO":1874.2359,
+"INTERNAL ID":"590",
+"USER ID":"589",
+"SCI_CD":"3.1.6",
+"X_COORD":"705326.422986",
+"Y_COORD":"5109148.80236",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Paradiso",
+"GESTORE":"Tesino S.p.A.",
+"CODICE":"99.0000000000",
+"AREA":40022.7428,
+"PERIMETRO":1767.5261,
+"INTERNAL ID":"592",
+"USER ID":"591",
+"SCI_CD":"3.1.5",
+"X_COORD":"705104.299110",
+"Y_COORD":"5108791.31032",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Prisco",
+"GESTORE":"Tesino S.p.A.",
+"CODICE":"99.0000000000",
+"AREA":35983.8855,
+"PERIMETRO":1925.2881,
+"INTERNAL ID":"594",
+"USER ID":"593",
+"SCI_CD":"3.1.4",
+"X_COORD":"705282.170805",
+"Y_COORD":"5108780.30907",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Var. Piloni ( Bosco )",
+"GESTORE":"Tesino S.p.A.",
+"CODICE":"99.0000000000",
+"AREA":71033.1164,
+"PERIMETRO":2645.8834,
+"INTERNAL ID":"584",
+"USER ID":"583",
+"SCI_CD":"3.1.7",
+"X_COORD":"705398.176728",
+"Y_COORD":"5109771.79104",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Broccon",
+"NOME":"Var. Strafaiole (Matusa)",
+"GESTORE":"Tesino S.p.A.",
+"CODICE":"99.0000000000",
+"AREA":39671.0052,
+"PERIMETRO":2415.8560,
+"INTERNAL ID":"588",
+"USER ID":"587",
+"SCI_CD":"3.1.11",
+"X_COORD":"705523.546820",
+"Y_COORD":"5109445.29566",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Passo Cereda",
+"NOME":"Passo Cereda",
+"GESTORE":"Impianti  Passo Cereda di Iagher B. e Daldon V.",
+"CODICE":"76.0000000000",
+"AREA":20237.4728,
+"PERIMETRO":941.5006,
+"INTERNAL ID":"509",
+"USER ID":"508",
+"SCI_CD":"2.3.1",
+"X_COORD":"724038.671311",
+"Y_COORD":"5119859.46639",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Alpe Alta",
+"GESTORE":"S.In.Val. Societa' Industriale Valle Camonica S.r.l.",
+"CODICE":"22.0000000000",
+"AREA":68242.3400,
+"PERIMETRO":3056.6072,
+"INTERNAL ID":"391",
+"USER ID":"390",
+"SCI_CD":"7.3.4",
+"X_COORD":"621763.435218",
+"Y_COORD":"5124777.70894",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Cadì 1",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":42373.4723,
+"PERIMETRO":1381.4493,
+"INTERNAL ID":"388",
+"USER ID":"387",
+"SCI_CD":"7.3.6",
+"X_COORD":"621828.186854",
+"Y_COORD":"5125124.70244",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Cadý 2",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":29151.2205,
+"PERIMETRO":1977.2553,
+"INTERNAL ID":"390",
+"USER ID":"389",
+"SCI_CD":"7.3.7",
+"X_COORD":"621790.561249",
+"Y_COORD":"5124965.70548",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Campo Scuola Presena",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":20238.7540,
+"PERIMETRO":663.2563,
+"INTERNAL ID":"503",
+"USER ID":"502",
+"SCI_CD":"7.3.11",
+"X_COORD":"621704.649796",
+"Y_COORD":"5120267.28716",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Cima Tonale",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":58202.9758,
+"PERIMETRO":2371.2327,
+"INTERNAL ID":"374",
+"USER ID":"373",
+"SCI_CD":"7.3.2",
+"X_COORD":"621541.203165",
+"Y_COORD":"5126499.68106",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Contrabbandieri",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":77808.5959,
+"PERIMETRO":3646.5364,
+"INTERNAL ID":"332",
+"USER ID":"331",
+"SCI_CD":"7.3.17",
+"X_COORD":"621511.083499",
+"Y_COORD":"5127091.67110",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Maroccaro",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":19833.2058,
+"PERIMETRO":737.2363,
+"INTERNAL ID":"512",
+"USER ID":"511",
+"SCI_CD":"7.3.12",
+"X_COORD":"621846.768695",
+"Y_COORD":"5119830.79353",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Paradiso-Presena",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":41075.7056,
+"PERIMETRO":2542.3293,
+"INTERNAL ID":"478",
+"USER ID":"477",
+"SCI_CD":"7.3.13",
+"X_COORD":"621858.777421",
+"Y_COORD":"5120936.27438",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Paradiso-Tonale",
+"GESTORE":"Carosello Tonale S.P.A.",
+"CODICE":"82.0000000000",
+"AREA":50850.9229,
+"PERIMETRO":2981.3312,
+"INTERNAL ID":"455",
+"USER ID":"454",
+"SCI_CD":"7.3.20",
+"X_COORD":"621717.666466",
+"Y_COORD":"5122357.25103",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Presena Destra",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":74836.3259,
+"PERIMETRO":1871.9662,
+"INTERNAL ID":"501",
+"USER ID":"500",
+"SCI_CD":"7.3.10",
+"X_COORD":"621979.517456",
+"Y_COORD":"5119974.28998",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Presena Sinistra",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":31600.4778,
+"PERIMETRO":1491.0187,
+"INTERNAL ID":"502",
+"USER ID":"501",
+"SCI_CD":"7.3.9",
+"X_COORD":"622105.640309",
+"Y_COORD":"5119990.78868",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Racc.  Contrabbandieri - Cima Tonale",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":6828.5713,
+"PERIMETRO":582.4591,
+"INTERNAL ID":"370",
+"USER ID":"369",
+"SCI_CD":"7.3.21",
+"X_COORD":"621596.578527",
+"Y_COORD":"5126668.17771",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Racc. Valbiolo - Passo Tonale",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":34215.2604,
+"PERIMETRO":1408.7507,
+"INTERNAL ID":"409",
+"USER ID":"408",
+"SCI_CD":"7.3.3",
+"X_COORD":"622094.552060",
+"Y_COORD":"5124509.21089",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Racc. Valena - Valbiolo",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":4499.1224,
+"PERIMETRO":371.0513,
+"INTERNAL ID":"401",
+"USER ID":"400",
+"SCI_CD":"7.3.19",
+"X_COORD":"622080.805431",
+"Y_COORD":"5124895.20435",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Valbiolo",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":111923.0786,
+"PERIMETRO":5350.7613,
+"INTERNAL ID":"379",
+"USER ID":"378",
+"SCI_CD":"7.3.1",
+"X_COORD":"622226.804263",
+"Y_COORD":"5125077.20003",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Valena",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":26998.6715,
+"PERIMETRO":1396.7386,
+"INTERNAL ID":"406",
+"USER ID":"405",
+"SCI_CD":"7.3.5",
+"X_COORD":"621991.054117",
+"Y_COORD":"5124532.21133",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo del Tonale-Presena",
+"NOME":"Var. Gare ( Cadý 1 )",
+"GESTORE":"Carosello Tonale S.p.A.",
+"CODICE":"82.0000000000",
+"AREA":24767.5003,
+"PERIMETRO":1078.9993,
+"INTERNAL ID":"394",
+"USER ID":"393",
+"SCI_CD":"7.3.18",
+"X_COORD":"621996.933363",
+"Y_COORD":"5125070.20201",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo di Costalunga",
+"NOME":"Fieg",
+"GESTORE":"Laurin S.p.A.",
+"CODICE":"86.0000000000",
+"AREA":22041.0966,
+"PERIMETRO":1183.6918,
+"INTERNAL ID":"117",
+"USER ID":"116",
+"SCI_CD":"11.7.2",
+"X_COORD":"700380.028257",
+"Y_COORD":"5142012.77595",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo di Costalunga",
+"NOME":"Latemar",
+"GESTORE":"Laurin S.p.A.",
+"CODICE":"86.0000000000",
+"AREA":60055.7853,
+"PERIMETRO":2166.6685,
+"INTERNAL ID":"119",
+"USER ID":"118",
+"SCI_CD":"11.7.1",
+"X_COORD":"700185.529695",
+"Y_COORD":"5141755.78196",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Lavazè",
+"NOME":"Nuova Malga Varena",
+"GESTORE":"Esse di Goss Franco & C. s.n.c.",
+"CODICE":"81.0000000000",
+"AREA":40988.7400,
+"PERIMETRO":1679.5438,
+"INTERNAL ID":"184",
+"USER ID":"183",
+"SCI_CD":"1.5.1",
+"X_COORD":"691252.023838",
+"Y_COORD":"5136517.44450",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Castellazzo 1",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":38047.8751,
+"PERIMETRO":2072.5116,
+"INTERNAL ID":"266",
+"USER ID":"265",
+"SCI_CD":"2.2.1",
+"X_COORD":"714875.555601",
+"Y_COORD":"5131433.34104",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Castellazzo 2",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":46480.2023,
+"PERIMETRO":2872.6500,
+"INTERNAL ID":"264",
+"USER ID":"263",
+"SCI_CD":"2.2.2",
+"X_COORD":"715357.423240",
+"Y_COORD":"5131600.33426",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Castellazzo 3",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":24891.9959,
+"PERIMETRO":2002.9257,
+"INTERNAL ID":"270",
+"USER ID":"269",
+"SCI_CD":"2.2.18",
+"X_COORD":"715216.922852",
+"Y_COORD":"5131238.34164",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Cemin",
+"GESTORE":"S.I.T.R. Societa' Impianti Turistici Rolle S.r.l.",
+"CODICE":"65.0000000000",
+"AREA":32030.1501,
+"PERIMETRO":1243.4257,
+"INTERNAL ID":"279",
+"USER ID":"278",
+"SCI_CD":"2.2.9",
+"X_COORD":"714518.555649",
+"Y_COORD":"5130641.35757",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Ferrari",
+"GESTORE":"S.I.T.R. Societa' Impianti Turistici Rolle S.r.l.",
+"CODICE":"65.0000000000",
+"AREA":18771.8996,
+"PERIMETRO":1164.8600,
+"INTERNAL ID":"281",
+"USER ID":"280",
+"SCI_CD":"2.2.12",
+"X_COORD":"714286.433317",
+"Y_COORD":"5130452.36271",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Fiamme Gialle",
+"GESTORE":"S.I.T.R. Societa' Impianti Turistici Rolle S.r.l.",
+"CODICE":"65.0000000000",
+"AREA":41542.5954,
+"PERIMETRO":2693.4621,
+"INTERNAL ID":"283",
+"USER ID":"282",
+"SCI_CD":"2.2.7",
+"X_COORD":"714621.799686",
+"Y_COORD":"5130134.86547",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Paradiso 1",
+"GESTORE":"S.I.T.R. Societa' Impianti Turistici Rolle S.r.l.",
+"CODICE":"65.0000000000",
+"AREA":55327.9523,
+"PERIMETRO":2571.9691,
+"INTERNAL ID":"285",
+"USER ID":"284",
+"SCI_CD":"2.2.10",
+"X_COORD":"714241.305517",
+"Y_COORD":"5130005.37078",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Paradiso 2",
+"GESTORE":"S.I.T.R. Societa' Impianti Turistici Rolle S.r.l.",
+"CODICE":"65.0000000000",
+"AREA":29132.6587,
+"PERIMETRO":2032.4435,
+"INTERNAL ID":"288",
+"USER ID":"287",
+"SCI_CD":"2.2.11",
+"X_COORD":"714222.676935",
+"Y_COORD":"5129520.87928",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Racc. Castellazzo 1- Rolle  Due",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":6056.0049,
+"PERIMETRO":795.6782,
+"INTERNAL ID":"272",
+"USER ID":"271",
+"SCI_CD":"2.2.16",
+"X_COORD":"714446.936126",
+"Y_COORD":"5131158.34924",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Racc. Cemin- Ferrari",
+"GESTORE":"S.I.T.R. Societa' Impianti Turistici Rolle S.r.l.",
+"CODICE":"65.0000000000",
+"AREA":19315.4116,
+"PERIMETRO":1235.3638,
+"INTERNAL ID":"278",
+"USER ID":"277",
+"SCI_CD":"2.2.8",
+"X_COORD":"714084.187702",
+"Y_COORD":"5130542.36279",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Racc. Parcheggio - Rolle Due",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":4248.8499,
+"PERIMETRO":650.8189,
+"INTERNAL ID":"277",
+"USER ID":"276",
+"SCI_CD":"2.2.17",
+"X_COORD":"713999.191224",
+"Y_COORD":"5130787.85925",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Racc.  Rolle - Castellazzo",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":15219.8688,
+"PERIMETRO":1457.5562,
+"INTERNAL ID":"271",
+"USER ID":"270",
+"SCI_CD":"2.2.14",
+"X_COORD":"714682.181655",
+"Y_COORD":"5131131.34780",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Rolle Due",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":38406.0499,
+"PERIMETRO":1772.6524,
+"INTERNAL ID":"274",
+"USER ID":"273",
+"SCI_CD":"2.2.4",
+"X_COORD":"714115.440688",
+"Y_COORD":"5130981.35497",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Rolle Uno",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":31812.0953,
+"PERIMETRO":1618.9950,
+"INTERNAL ID":"276",
+"USER ID":"275",
+"SCI_CD":"2.2.3",
+"X_COORD":"714264.561956",
+"Y_COORD":"5130853.35597",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo Rolle",
+"NOME":"Var.  Castellazzo 1",
+"GESTORE":"Castellazzo S.r.l.",
+"CODICE":"61.0000000000",
+"AREA":4816.8924,
+"PERIMETRO":333.4153,
+"INTERNAL ID":"269",
+"USER ID":"268",
+"SCI_CD":"2.2.15",
+"X_COORD":"714749.682731",
+"Y_COORD":"5131415.34236",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Campagnola",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":29772.8548,
+"PERIMETRO":1748.7444,
+"INTERNAL ID":"148",
+"USER ID":"147",
+"SCI_CD":"11.8.10",
+"X_COORD":"713793.770797",
+"Y_COORD":"5140165.69928",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Campigol",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":35385.1879,
+"PERIMETRO":1317.8467,
+"INTERNAL ID":"149",
+"USER ID":"148",
+"SCI_CD":"11.8.11",
+"X_COORD":"713993.642098",
+"Y_COORD":"5140155.19785",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Capanna Margherita",
+"GESTORE":"Capanna Margherita  S.p.A.",
+"CODICE":"47.0000000000",
+"AREA":11561.0917,
+"PERIMETRO":829.6422,
+"INTERNAL ID":"153",
+"USER ID":"152",
+"SCI_CD":"11.8.21",
+"X_COORD":"714159.638656",
+"Y_COORD":"5140100.69744",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Chiesetta",
+"GESTORE":"Cima Uomo S.r.l.",
+"CODICE":"6.00000000000",
+"AREA":45541.9229,
+"PERIMETRO":2735.4799,
+"INTERNAL ID":"143",
+"USER ID":"142",
+"SCI_CD":"11.8.1",
+"X_COORD":"715117.373512",
+"Y_COORD":"5140369.18507",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Ciadin",
+"GESTORE":"Cima Uomo S.r.l.",
+"CODICE":"6.00000000000",
+"AREA":81266.9425,
+"PERIMETRO":4093.1187,
+"INTERNAL ID":"124",
+"USER ID":"123",
+"SCI_CD":"11.8.7",
+"X_COORD":"714851.882313",
+"Y_COORD":"5140863.67869",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Cima Uomo",
+"GESTORE":"Cima Uomo S.r.l.",
+"CODICE":"6.00000000000",
+"AREA":60935.0668,
+"PERIMETRO":3070.6744,
+"INTERNAL ID":"116",
+"USER ID":"115",
+"SCI_CD":"11.8.22",
+"X_COORD":"714939.765847",
+"Y_COORD":"5142115.15641",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Colleg.  Ciadin-Costabella",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":3953.5791,
+"PERIMETRO":446.2346,
+"INTERNAL ID":"134",
+"USER ID":"133",
+"SCI_CD":"11.8.18",
+"X_COORD":"714741.010227",
+"Y_COORD":"5140976.17765",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Col Margherita",
+"GESTORE":"Funivia Tre Vallli S.p.A.",
+"CODICE":"48.0000000000",
+"AREA":117162.0499,
+"PERIMETRO":6567.0292,
+"INTERNAL ID":"161",
+"USER ID":"160",
+"SCI_CD":"11.8.5",
+"X_COORD":"715725.849172",
+"Y_COORD":"5138720.20857",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Costabella",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":32005.6197,
+"PERIMETRO":1846.1835,
+"INTERNAL ID":"139",
+"USER ID":"138",
+"SCI_CD":"11.8.3",
+"X_COORD":"714404.263682",
+"Y_COORD":"5140650.68598",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Del Passo",
+"GESTORE":"Funivia Tre Vallli S.p.A.",
+"CODICE":"48.0000000000",
+"AREA":23857.9074,
+"PERIMETRO":1761.6412,
+"INTERNAL ID":"159",
+"USER ID":"158",
+"SCI_CD":"11.8.14",
+"X_COORD":"715049.745630",
+"Y_COORD":"5139861.69436",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Fuchiade",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":27626.2431,
+"PERIMETRO":2093.4461,
+"INTERNAL ID":"140",
+"USER ID":"139",
+"SCI_CD":"11.8.2",
+"X_COORD":"714631.258527",
+"Y_COORD":"5140520.68639",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Le Coste",
+"GESTORE":"Cima Uomo S.r.l.",
+"CODICE":"6.00000000000",
+"AREA":110380.2269,
+"PERIMETRO":4414.9997,
+"INTERNAL ID":"126",
+"USER ID":"125",
+"SCI_CD":"11.8.8",
+"X_COORD":"715374.247383",
+"Y_COORD":"5140803.67550",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Martinet",
+"GESTORE":"Capanna Margherita di Giovanelli M. & C. S.p.A.",
+"CODICE":"47.0000000000",
+"AREA":12518.0267,
+"PERIMETRO":828.4736,
+"INTERNAL ID":"152",
+"USER ID":"151",
+"SCI_CD":"11.8.6",
+"X_COORD":"714075.390212",
+"Y_COORD":"5140104.69806",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Monzoni",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":85123.4313,
+"PERIMETRO":4055.3652,
+"INTERNAL ID":"123",
+"USER ID":"122",
+"SCI_CD":"11.8.4",
+"X_COORD":"714274.764374",
+"Y_COORD":"5140446.69055",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Panorama",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":33845.0235,
+"PERIMETRO":2416.4748,
+"INTERNAL ID":"120",
+"USER ID":"119",
+"SCI_CD":"11.8.13",
+"X_COORD":"714206.522176",
+"Y_COORD":"5141258.67711",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Paradiso",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":97226.1914,
+"PERIMETRO":3242.6702,
+"INTERNAL ID":"121",
+"USER ID":"120",
+"SCI_CD":"11.8.12",
+"X_COORD":"714321.268160",
+"Y_COORD":"5141018.68031",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Racc. Costabella-Ciadin",
+"GESTORE":"Cima Uomo S.r.l.",
+"CODICE":"6.00000000000",
+"AREA":6387.8682,
+"PERIMETRO":538.7686,
+"INTERNAL ID":"142",
+"USER ID":"141",
+"SCI_CD":"11.8.17",
+"X_COORD":"714834.131602",
+"Y_COORD":"5140736.18103",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Racc. Paradiso - Monzoni",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":9447.9788,
+"PERIMETRO":554.3375,
+"INTERNAL ID":"135",
+"USER ID":"134",
+"SCI_CD":"11.8.20",
+"X_COORD":"714208.894209",
+"Y_COORD":"5140897.18332",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Var.  La Volata (Col  Margherita)",
+"GESTORE":"Funivia Tre Vallli S.p.A.",
+"CODICE":"48.0000000000",
+"AREA":19513.0296,
+"PERIMETRO":1197.2054,
+"INTERNAL ID":"166",
+"USER ID":"165",
+"SCI_CD":"11.8.16",
+"X_COORD":"715449.977902",
+"Y_COORD":"5138564.71348",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Var. Le Caviette (Col Margherita)",
+"GESTORE":"Funivia Tre Vallli S.p.A.",
+"CODICE":"48.0000000000",
+"AREA":46634.3531,
+"PERIMETRO":5006.4750,
+"INTERNAL ID":"163",
+"USER ID":"162",
+"SCI_CD":"11.8.15",
+"X_COORD":"716410.840185",
+"Y_COORD":"5139140.19579",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Passo San Pellegrino",
+"NOME":"Var. Monzoni",
+"GESTORE":"Catinaccio Impianti a Fune  S.r.l.",
+"CODICE":"6.00000000000",
+"AREA":23695.7569,
+"PERIMETRO":1222.4213,
+"INTERNAL ID":"132",
+"USER ID":"131",
+"SCI_CD":"11.8.23",
+"X_COORD":"714013.023466",
+"Y_COORD":"5140985.68338",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Baby Tarlenta",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":18212.6693,
+"PERIMETRO":1069.1059,
+"INTERNAL ID":"183",
+"USER ID":"182",
+"SCI_CD":"7.4.8",
+"X_COORD":"627635.174949",
+"Y_COORD":"5136631.95714",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Beverina",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":26364.7877,
+"PERIMETRO":1366.9397,
+"INTERNAL ID":"170",
+"USER ID":"169",
+"SCI_CD":"7.4.6",
+"X_COORD":"628257.043037",
+"Y_COORD":"5137167.44287",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Biancaneve",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":17769.5600,
+"PERIMETRO":810.5580,
+"INTERNAL ID":"234",
+"USER ID":"233",
+"SCI_CD":"7.4.1",
+"X_COORD":"630180.616033",
+"Y_COORD":"5135037.96402",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Delle Gole",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":49386.1309,
+"PERIMETRO":4708.9203,
+"INTERNAL ID":"188",
+"USER ID":"187",
+"SCI_CD":"7.4.4",
+"X_COORD":"628308.406034",
+"Y_COORD":"5135798.46605",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Dos dei Gembri",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":35670.5215,
+"PERIMETRO":3433.7278,
+"INTERNAL ID":"169",
+"USER ID":"168",
+"SCI_CD":"7.4.5",
+"X_COORD":"627968.047647",
+"Y_COORD":"5137091.44652",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Mezoli",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":39484.0743,
+"PERIMETRO":1741.2535,
+"INTERNAL ID":"231",
+"USER ID":"230",
+"SCI_CD":"7.4.2",
+"X_COORD":"627528.163435",
+"Y_COORD":"5134969.48665",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Saroden",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":28480.7754,
+"PERIMETRO":1521.2840,
+"INTERNAL ID":"172",
+"USER ID":"171",
+"SCI_CD":"7.4.7",
+"X_COORD":"628150.169411",
+"Y_COORD":"5137098.44493",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Tarlenta",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":56468.4120,
+"PERIMETRO":4691.3889,
+"INTERNAL ID":"187",
+"USER ID":"186",
+"SCI_CD":"7.4.3",
+"X_COORD":"627175.677096",
+"Y_COORD":"5135870.47398",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Var Canalone B del Vioz (D. dei Gembri)",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":24097.9615,
+"PERIMETRO":1221.4770,
+"INTERNAL ID":"177",
+"USER ID":"176",
+"SCI_CD":"7.4.9",
+"X_COORD":"627792.049102",
+"Y_COORD":"5136877.95163",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Peio",
+"NOME":"Var. Pejo Paese (Tarlenta)",
+"GESTORE":"Peio Funivie S.p.A.",
+"CODICE":"54.0000000000",
+"AREA":19217.4463,
+"PERIMETRO":2563.9250,
+"INTERNAL ID":"209",
+"USER ID":"208",
+"SCI_CD":"7.4.10",
+"X_COORD":"627722.041883",
+"Y_COORD":"5135828.97027",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pian delle Fugazze",
+"NOME":"Monte Cornetto",
+"GESTORE":"Società Monte Cornetto S.n.c.",
+"CODICE":"84.0000000000",
+"AREA":13206.2524,
+"PERIMETRO":965.9861,
+"INTERNAL ID":"805",
+"USER ID":"804",
+"SCI_CD":"10.6.1",
+"X_COORD":"669026.258194",
+"Y_COORD":"5069454.28014",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Cioca",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":39590.9768,
+"PERIMETRO":2839.2469,
+"INTERNAL ID":"515",
+"USER ID":"514",
+"SCI_CD":"8.2.8",
+"X_COORD":"639471.914309",
+"Y_COORD":"5115414.22708",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Competition",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":107915.3139,
+"PERIMETRO":7950.2741,
+"INTERNAL ID":"521",
+"USER ID":"520",
+"SCI_CD":"8.2.6",
+"X_COORD":"638091.678513",
+"Y_COORD":"5114085.26115",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Fossadei",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":31305.2069,
+"PERIMETRO":3016.7263,
+"INTERNAL ID":"519",
+"USER ID":"518",
+"SCI_CD":"8.2.10",
+"X_COORD":"638563.923850",
+"Y_COORD":"5114564.24907",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Grual",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":84922.4697,
+"PERIMETRO":4674.2631,
+"INTERNAL ID":"517",
+"USER ID":"516",
+"SCI_CD":"8.2.4",
+"X_COORD":"639817.400252",
+"Y_COORD":"5114448.74093",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Mandrel",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":22715.8853,
+"PERIMETRO":1551.3054,
+"INTERNAL ID":"520",
+"USER ID":"519",
+"SCI_CD":"8.2.11",
+"X_COORD":"639779.030432",
+"Y_COORD":"5115003.23168",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Prà Rodont",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":3611.8412,
+"PERIMETRO":310.1234,
+"INTERNAL ID":"532",
+"USER ID":"531",
+"SCI_CD":"8.2.1",
+"X_COORD":"637874.558963",
+"Y_COORD":"5114273.75966",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Rododendro",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":41456.5359,
+"PERIMETRO":2623.3298,
+"INTERNAL ID":"528",
+"USER ID":"527",
+"SCI_CD":"8.2.9",
+"X_COORD":"639117.037155",
+"Y_COORD":"5114354.74821",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Var. Grual  Diretta (Grual)",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":13840.3550,
+"PERIMETRO":861.4406,
+"INTERNAL ID":"527",
+"USER ID":"526",
+"SCI_CD":"8.2.7",
+"X_COORD":"639635.402892",
+"Y_COORD":"5114368.24379",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pinzolo-Dos del Sabion",
+"NOME":"Var. Valagola (Grual)",
+"GESTORE":"Funivie Pinzolo S.p.A.",
+"CODICE":"57.0000000000",
+"AREA":19710.0227,
+"PERIMETRO":1149.7086,
+"INTERNAL ID":"523",
+"USER ID":"522",
+"SCI_CD":"8.2.3",
+"X_COORD":"639940.148531",
+"Y_COORD":"5114510.23887",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Campo primo sci Polsa",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":741.3488,
+"PERIMETRO":108.9191,
+"INTERNAL ID":"769",
+"USER ID":"768",
+"SCI_CD":"10.8.27",
+"X_COORD":"651091.848172",
+"Y_COORD":"5071398.39171",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Collegamento Bocca d'Ardole-Montagnola",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":6988.9719,
+"PERIMETRO":1191.5861,
+"INTERNAL ID":"776",
+"USER ID":"775",
+"SCI_CD":"10.8.24",
+"X_COORD":"650894.599239",
+"Y_COORD":"5071089.39863",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Colleg. Momo - Polsa",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":8120.1195,
+"PERIMETRO":2172.7052,
+"INTERNAL ID":"766",
+"USER ID":"765",
+"SCI_CD":"10.8.17",
+"X_COORD":"651654.960188",
+"Y_COORD":"5071051.89313",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Coll. San Valentino - Polsa",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":5996.3507,
+"PERIMETRO":721.1340,
+"INTERNAL ID":"785",
+"USER ID":"784",
+"SCI_CD":"10.8.20",
+"X_COORD":"649843.490391",
+"Y_COORD":"5070736.91321",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Malga Pravecchio",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":17705.2497,
+"PERIMETRO":1266.2532,
+"INTERNAL ID":"787",
+"USER ID":"786",
+"SCI_CD":"10.8.1",
+"X_COORD":"650463.227815",
+"Y_COORD":"5070567.41112",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Malga Vignola",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":36389.1836,
+"PERIMETRO":1853.0195,
+"INTERNAL ID":"795",
+"USER ID":"794",
+"SCI_CD":"10.8.12",
+"X_COORD":"652152.195718",
+"Y_COORD":"5070374.40078",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Meribel",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":29322.5895,
+"PERIMETRO":1417.0495,
+"INTERNAL ID":"788",
+"USER ID":"787",
+"SCI_CD":"10.8.8",
+"X_COORD":"651135.592236",
+"Y_COORD":"5070762.40232",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Momo",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":16143.7424,
+"PERIMETRO":947.3158,
+"INTERNAL ID":"799",
+"USER ID":"798",
+"SCI_CD":"10.8.21",
+"X_COORD":"651869.825730",
+"Y_COORD":"5070362.90326",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Montagnola",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":121074.5679,
+"PERIMETRO":3189.5928,
+"INTERNAL ID":"750",
+"USER ID":"749",
+"SCI_CD":"10.8.5",
+"X_COORD":"650961.349447",
+"Y_COORD":"5071264.39507",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Polsa",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":172465.6905,
+"PERIMETRO":4360.8097,
+"INTERNAL ID":"755",
+"USER ID":"754",
+"SCI_CD":"10.8.2",
+"X_COORD":"651404.713374",
+"Y_COORD":"5070886.39800",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Racc. Montagnola - Momo",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":5426.8083,
+"PERIMETRO":655.2630,
+"INTERNAL ID":"797",
+"USER ID":"796",
+"SCI_CD":"10.8.19",
+"X_COORD":"651811.078301",
+"Y_COORD":"5070549.40052",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Racc. Montagnola-Rosa del Sole",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":4727.5205,
+"PERIMETRO":656.9817,
+"INTERNAL ID":"775",
+"USER ID":"774",
+"SCI_CD":"10.8.18",
+"X_COORD":"650634.479928",
+"Y_COORD":"5071211.39863",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Racc. Polsa - San  Valentino",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":15817.6914,
+"PERIMETRO":1292.1165,
+"INTERNAL ID":"782",
+"USER ID":"781",
+"SCI_CD":"10.8.25",
+"X_COORD":"649742.617203",
+"Y_COORD":"5070735.41405",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Rosa del Sole",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":40989.3962,
+"PERIMETRO":2558.7891,
+"INTERNAL ID":"780",
+"USER ID":"779",
+"SCI_CD":"10.8.14",
+"X_COORD":"650147.110715",
+"Y_COORD":"5070837.40902",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Var.  Bellavista ( Polsa)",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":22422.1457,
+"PERIMETRO":1728.5641,
+"INTERNAL ID":"758",
+"USER ID":"757",
+"SCI_CD":"10.8.4",
+"X_COORD":"651497.089066",
+"Y_COORD":"5071178.39222",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Var. Bocca D'Ardole (M. Pravecchio)",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":35000.7327,
+"PERIMETRO":2644.4561,
+"INTERNAL ID":"793",
+"USER ID":"792",
+"SCI_CD":"10.8.15",
+"X_COORD":"650144.232713",
+"Y_COORD":"5070459.91555",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Var Camping (Polsa)",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":16132.8365,
+"PERIMETRO":1637.8405,
+"INTERNAL ID":"757",
+"USER ID":"756",
+"SCI_CD":"10.8.3",
+"X_COORD":"651405.091692",
+"Y_COORD":"5071297.39092",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Var. Malga Susine  (Meribel)",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":59365.3722,
+"PERIMETRO":2614.8928,
+"INTERNAL ID":"783",
+"USER ID":"782",
+"SCI_CD":"10.8.9",
+"X_COORD":"650943.345029",
+"Y_COORD":"5070677.90533",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Var. Malga Vignola  (Vignola)",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":11932.5473,
+"PERIMETRO":783.0961,
+"INTERNAL ID":"802",
+"USER ID":"801",
+"SCI_CD":"10.8.13",
+"X_COORD":"652002.948275",
+"Y_COORD":"5070356.90229",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Polsa",
+"NOME":"Var. Vignolet",
+"GESTORE":"Impianti Polsa S.p.A.",
+"CODICE":"7.00000000000",
+"AREA":5326.5619,
+"PERIMETRO":409.0541,
+"INTERNAL ID":"803",
+"USER ID":"802",
+"SCI_CD":"10.8.16",
+"X_COORD":"651772.326809",
+"Y_COORD":"5070278.40551",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Porta Vescovo - Arabba",
+"NOME":"Europa",
+"GESTORE":"Ditta S.O.F.M.A. S.p.A.",
+"CODICE":"120.000000000",
+"AREA":18671.1844,
+"PERIMETRO":982.1879,
+"INTERNAL ID":"55",
+"USER ID":"54",
+"SCI_CD":"11.10.1",
+"X_COORD":"720190.489290",
+"Y_COORD":"5150567.96825",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Alloch",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":68695.7302,
+"PERIMETRO":2127.6948,
+"INTERNAL ID":"105",
+"USER ID":"104",
+"SCI_CD":"11.5.1",
+"X_COORD":"707031.430864",
+"Y_COORD":"5144839.17343",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Baby Buffaure",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":40688.1256,
+"PERIMETRO":2202.8152,
+"INTERNAL ID":"100",
+"USER ID":"99",
+"SCI_CD":"11.5.9",
+"X_COORD":"709215.021537",
+"Y_COORD":"5145476.14479",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Buffaure",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":99833.2868,
+"PERIMETRO":10133.3602,
+"INTERNAL ID":"103",
+"USER ID":"102",
+"SCI_CD":"11.5.2",
+"X_COORD":"709184.013269",
+"Y_COORD":"5144384.66386",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Buffaure di Sotto",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":18202.0447,
+"PERIMETRO":1015.9940,
+"INTERNAL ID":"101",
+"USER ID":"100",
+"SCI_CD":"11.5.7",
+"X_COORD":"708987.150807",
+"Y_COORD":"5145494.64632",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Fraine 1",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":11093.9832,
+"PERIMETRO":566.6035,
+"INTERNAL ID":"91",
+"USER ID":"90",
+"SCI_CD":"11.5.11",
+"X_COORD":"707172.313497",
+"Y_COORD":"5146097.65060",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Fraine 2",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":10455.5995,
+"PERIMETRO":537.0660,
+"INTERNAL ID":"93",
+"USER ID":"92",
+"SCI_CD":"11.5.12",
+"X_COORD":"707142.688328",
+"Y_COORD":"5146010.65234",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Valvacin",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":44077.3809,
+"PERIMETRO":3224.3006,
+"INTERNAL ID":"96",
+"USER ID":"95",
+"SCI_CD":"11.5.13",
+"X_COORD":"709964.258347",
+"Y_COORD":"5145520.13797",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Var. Gecene  (Alloch )",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":16015.7469,
+"PERIMETRO":1073.8473,
+"INTERNAL ID":"106",
+"USER ID":"105",
+"SCI_CD":"11.5.6",
+"X_COORD":"706902.181049",
+"Y_COORD":"5144573.17907",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Pozza-Buffaure",
+"NOME":"Var. Pian de Mez (Alloch)",
+"GESTORE":"Funivie Buffaure S.r.l.",
+"CODICE":"58.0000000000",
+"AREA":2751.5278,
+"PERIMETRO":334.9825,
+"INTERNAL ID":"108",
+"USER ID":"107",
+"SCI_CD":"11.5.10",
+"X_COORD":"706972.930093",
+"Y_COORD":"5144613.17780",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Prà Alpesina",
+"NOME":"Baby Prà  Alpesina",
+"GESTORE":"Pra' Alpesina di Menotti Marco & C. S.n.c.",
+"CODICE":"3.00000000000",
+"AREA":9269.2976,
+"PERIMETRO":659.0166,
+"INTERNAL ID":"814",
+"USER ID":"813",
+"SCI_CD":"10.5.5",
+"X_COORD":"646135.041974",
+"Y_COORD":"5068824.97616",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Prà Alpesina",
+"NOME":"Diretta",
+"GESTORE":"Az. Trasp. Funic. Malcesine - Monte Baldo",
+"CODICE":"83.0000000000",
+"AREA":29851.8520,
+"PERIMETRO":2264.5374,
+"INTERNAL ID":"812",
+"USER ID":"811",
+"SCI_CD":"10.5.2",
+"X_COORD":"645405.431589",
+"Y_COORD":"5069000.97903",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"Prà Alpesina",
+"NOME":"Falco Prà Alpesina",
+"GESTORE":"Pra' Alpesina di Menotti Marco & C. S.n.c.",
+"CODICE":"3.00000000000",
+"AREA":25346.0424,
+"PERIMETRO":1155.3511,
+"INTERNAL ID":"813",
+"USER ID":"812",
+"SCI_CD":"10.5.4",
+"X_COORD":"645809.798724",
+"Y_COORD":"5068932.47694",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Prà Alpesina",
+"NOME":"Prà Alpesina",
+"GESTORE":"Az. Trasp. Funic. Malcesine - Monte Baldo",
+"CODICE":"83.0000000000",
+"AREA":53720.2903,
+"PERIMETRO":3891.7722,
+"INTERNAL ID":"806",
+"USER ID":"805",
+"SCI_CD":"10.5.1",
+"X_COORD":"645406.183808",
+"Y_COORD":"5069276.97426",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Prà Alpesina",
+"NOME":"Var. Diagonale ( Prà Alpesina)",
+"GESTORE":"Az. Trasp. Funic. Malcesine - Monte Baldo",
+"CODICE":"83.0000000000",
+"AREA":8377.8916,
+"PERIMETRO":644.0415,
+"INTERNAL ID":"810",
+"USER ID":"809",
+"SCI_CD":"10.5.3",
+"X_COORD":"645772.676130",
+"Y_COORD":"5069146.97354",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Predaia",
+"NOME":"Ciasazza Due",
+"GESTORE":"Societa' Operatori Predaia S.r.l.",
+"CODICE":"19.0000000000",
+"AREA":15765.0995,
+"PERIMETRO":1239.6261,
+"INTERNAL ID":"262",
+"USER ID":"261",
+"SCI_CD":"6.2.2",
+"X_COORD":"665091.588369",
+"Y_COORD":"5132382.72738",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Predaia",
+"NOME":"Ciasazza Uno",
+"GESTORE":"Societa' Operatori Predaia S.r.l.",
+"CODICE":"19.0000000000",
+"AREA":20451.1528,
+"PERIMETRO":1405.8060,
+"INTERNAL ID":"259",
+"USER ID":"258",
+"SCI_CD":"6.2.1",
+"X_COORD":"665219.211482",
+"Y_COORD":"5132434.72545",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Predaia",
+"NOME":"Racc. Predaia-Ciasazza Due",
+"GESTORE":"Societa' Operatori Predaia S.r.l.",
+"CODICE":"19.0000000000",
+"AREA":19987.1379,
+"PERIMETRO":1755.5098,
+"INTERNAL ID":"261",
+"USER ID":"260",
+"SCI_CD":"6.2.5",
+"X_COORD":"665138.836495",
+"Y_COORD":"5132256.72917",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Predazzo-Gardone'",
+"NOME":"5  Nazioni",
+"GESTORE":"Latemar 2200 S.p.A.",
+"CODICE":"63.0000000000",
+"AREA":133626.6872,
+"PERIMETRO":5138.5029,
+"INTERNAL ID":"211",
+"USER ID":"210",
+"SCI_CD":"1.3.1",
+"X_COORD":"697450.026477",
+"Y_COORD":"5135243.91632",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Predazzo-Gardone'",
+"NOME":"Campo scuola GardonÞ",
+"GESTORE":"Latemar 2200 S.p.A.",
+"CODICE":"63.0000000000",
+"AREA":16371.4531,
+"PERIMETRO":843.8535,
+"INTERNAL ID":"221",
+"USER ID":"220",
+"SCI_CD":"1.3.3",
+"X_COORD":"698270.511092",
+"Y_COORD":"5135175.91085",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Predazzo-Gardone'",
+"NOME":"Var.  Slalom (5 Nazioni)",
+"GESTORE":"Latemar 2200 S.p.A.",
+"CODICE":"63.0000000000",
+"AREA":6227.6551,
+"PERIMETRO":486.3343,
+"INTERNAL ID":"223",
+"USER ID":"222",
+"SCI_CD":"1.3.5",
+"X_COORD":"697770.895643",
+"Y_COORD":"5135239.91379",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Ruffre'",
+"NOME":"Monte Noch A",
+"GESTORE":"Alta Val di Non S. p. A.",
+"CODICE":"90.0000000000",
+"AREA":15412.3620,
+"PERIMETRO":915.8312,
+"INTERNAL ID":"111",
+"USER ID":"110",
+"SCI_CD":"6.3.1",
+"X_COORD":"667612.753578",
+"Y_COORD":"5142988.52419",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Ruffre'",
+"NOME":"Monte Noch B",
+"GESTORE":"Alta Val di Non S.p.A.",
+"CODICE":"90.0000000000",
+"AREA":21039.3507,
+"PERIMETRO":1540.6722,
+"INTERNAL ID":"112",
+"USER ID":"111",
+"SCI_CD":"6.3.2",
+"X_COORD":"667775.875427",
+"Y_COORD":"5142963.52330",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Serrada",
+"NOME":"Campo Primi Passi Serrada",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":1960.4620,
+"PERIMETRO":223.1104,
+"INTERNAL ID":"693",
+"USER ID":"692",
+"SCI_CD":"10.2.13",
+"X_COORD":"667385.781317",
+"Y_COORD":"5084099.04101",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Serrada",
+"NOME":"Prà Grand",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":14409.0224,
+"PERIMETRO":865.3664,
+"INTERNAL ID":"691",
+"USER ID":"690",
+"SCI_CD":"10.2.1",
+"X_COORD":"667600.652295",
+"Y_COORD":"5084082.03956",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Serrada",
+"NOME":"Serrada",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":112253.5670,
+"PERIMETRO":6814.9761,
+"INTERNAL ID":"684",
+"USER ID":"683",
+"SCI_CD":"10.2.2",
+"X_COORD":"667959.519678",
+"Y_COORD":"5083942.53906",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Serrada",
+"NOME":"Var. Slalom Toll (Serrada)",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":19204.2905,
+"PERIMETRO":1182.9227,
+"INTERNAL ID":"685",
+"USER ID":"684",
+"SCI_CD":"10.2.4",
+"X_COORD":"667601.153479",
+"Y_COORD":"5084229.53702",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Serrada",
+"NOME":"Var. Valletta (Serrada)",
+"GESTORE":"Carosello Ski Folgaria S.r.l.",
+"CODICE":"26.0000000000",
+"AREA":15648.9161,
+"PERIMETRO":1287.8670,
+"INTERNAL ID":"689",
+"USER ID":"688",
+"SCI_CD":"10.2.8",
+"X_COORD":"668391.763796",
+"Y_COORD":"5084181.53145",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Baby Tognola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":4691.0531,
+"PERIMETRO":364.6790,
+"INTERNAL ID":"417",
+"USER ID":"416",
+"SCI_CD":"2.1.19",
+"X_COORD":"714154.137054",
+"Y_COORD":"5124437.46745",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Bellaria",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":33913.6148,
+"PERIMETRO":1909.0484,
+"INTERNAL ID":"337",
+"USER ID":"336",
+"SCI_CD":"2.1.2",
+"X_COORD":"714616.151944",
+"Y_COORD":"5127310.91418",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Cigolera di Tognola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":27872.6407,
+"PERIMETRO":1215.8299,
+"INTERNAL ID":"389",
+"USER ID":"388",
+"SCI_CD":"2.1.16",
+"X_COORD":"713275.909476",
+"Y_COORD":"5125246.46061",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Cima Tognola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":65404.8152,
+"PERIMETRO":3214.6273,
+"INTERNAL ID":"387",
+"USER ID":"386",
+"SCI_CD":"2.1.15",
+"X_COORD":"713020.789780",
+"Y_COORD":"5125331.96120",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Colbricon",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":63568.5050,
+"PERIMETRO":3466.8741,
+"INTERNAL ID":"304",
+"USER ID":"303",
+"SCI_CD":"2.1.11",
+"X_COORD":"712638.317185",
+"Y_COORD":"5127864.92064",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Coll. Scavalco-Sole",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":19712.0539,
+"PERIMETRO":1503.2405,
+"INTERNAL ID":"356",
+"USER ID":"355",
+"SCI_CD":"2.1.13",
+"X_COORD":"712854.181156",
+"Y_COORD":"5126983.93407",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Col Verde",
+"GESTORE":"S.I.A.T.I.  S.r.l.",
+"CODICE":"98.0000000000",
+"AREA":78506.8525,
+"PERIMETRO":4112.8032,
+"INTERNAL ID":"310",
+"USER ID":"309",
+"SCI_CD":"2.1.24",
+"X_COORD":"716582.867830",
+"Y_COORD":"5127489.39520",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Conca Tognola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":23515.7008,
+"PERIMETRO":1549.9144,
+"INTERNAL ID":"420",
+"USER ID":"419",
+"SCI_CD":"2.1.17",
+"X_COORD":"713745.642510",
+"Y_COORD":"5124198.97486",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Direttissima",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":59612.8947,
+"PERIMETRO":3044.5102,
+"INTERNAL ID":"323",
+"USER ID":"322",
+"SCI_CD":"2.1.1",
+"X_COORD":"713365.299604",
+"Y_COORD":"5127316.42421",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Kristiania",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":55117.1473,
+"PERIMETRO":3808.5378,
+"INTERNAL ID":"366",
+"USER ID":"365",
+"SCI_CD":"2.1.8",
+"X_COORD":"712278.811228",
+"Y_COORD":"5126324.95009",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Prà delle Nasse Destro",
+"GESTORE":"Sciovia Pra' Delle Nasse  S.n.c.",
+"CODICE":"71.0000000000",
+"AREA":6710.0755,
+"PERIMETRO":398.4607,
+"INTERNAL ID":"350",
+"USER ID":"349",
+"SCI_CD":"2.1.26",
+"X_COORD":"715677.381819",
+"Y_COORD":"5127194.90760",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Prà delle Nasse Sinistro",
+"GESTORE":"Sciovia Pra' Delle Nasse  S.n.c.",
+"CODICE":"71.0000000000",
+"AREA":7037.5327,
+"PERIMETRO":379.6140,
+"INTERNAL ID":"352",
+"USER ID":"351",
+"SCI_CD":"2.1.25",
+"X_COORD":"715605.508131",
+"Y_COORD":"5127196.40816",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Racc. Conca-Scandola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":4912.2640,
+"PERIMETRO":408.6914,
+"INTERNAL ID":"413",
+"USER ID":"412",
+"SCI_CD":"2.1.27",
+"X_COORD":"713357.403004",
+"Y_COORD":"5124628.47060",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Racc. Scandola-Conca",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":2672.2181,
+"PERIMETRO":398.6708,
+"INTERNAL ID":"419",
+"USER ID":"418",
+"SCI_CD":"2.1.28",
+"X_COORD":"713551.898132",
+"Y_COORD":"5124460.97191",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Racc.  Uno  - Tre",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":10133.5484,
+"PERIMETRO":1606.2371,
+"INTERNAL ID":"385",
+"USER ID":"384",
+"SCI_CD":"2.1.21",
+"X_COORD":"714771.513329",
+"Y_COORD":"5125974.93595",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Rac. Direttissima -Record",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":3173.7629,
+"PERIMETRO":451.2678,
+"INTERNAL ID":"353",
+"USER ID":"352",
+"SCI_CD":"2.1.32",
+"X_COORD":"713604.544450",
+"Y_COORD":"5127213.92404",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Record",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":39772.9391,
+"PERIMETRO":2463.7296,
+"INTERNAL ID":"339",
+"USER ID":"338",
+"SCI_CD":"2.1.9",
+"X_COORD":"713703.792453",
+"Y_COORD":"5127188.92367",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Scandola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":63407.7607,
+"PERIMETRO":2212.0323,
+"INTERNAL ID":"415",
+"USER ID":"414",
+"SCI_CD":"2.1.3",
+"X_COORD":"713040.283487",
+"Y_COORD":"5124597.47370",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Sole",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":24126.3980,
+"PERIMETRO":1204.5271,
+"INTERNAL ID":"341",
+"USER ID":"340",
+"SCI_CD":"2.1.10",
+"X_COORD":"712668.061122",
+"Y_COORD":"5127181.93217",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Tre di Tognola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":168823.1629,
+"PERIMETRO":8596.7958,
+"INTERNAL ID":"376",
+"USER ID":"375",
+"SCI_CD":"2.1.20",
+"X_COORD":"713544.652838",
+"Y_COORD":"5125026.46223",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Uno di Tognola",
+"GESTORE":"Funivie e Seggiovie San Martino S.p.A.",
+"CODICE":"69.0000000000",
+"AREA":122137.3429,
+"PERIMETRO":5688.5082,
+"INTERNAL ID":"381",
+"USER ID":"380",
+"SCI_CD":"2.1.22",
+"X_COORD":"714921.381534",
+"Y_COORD":"5125469.94345",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Valbonetta",
+"GESTORE":"Nuova Rosalpina S.p.A.",
+"CODICE":"70.0000000000",
+"AREA":134540.4674,
+"PERIMETRO":5356.5563,
+"INTERNAL ID":"303",
+"USER ID":"302",
+"SCI_CD":"2.1.12",
+"X_COORD":"713822.670905",
+"Y_COORD":"5127881.41077",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Martino di Castrozza",
+"NOME":"Var. delle Pale (Col Verde)",
+"GESTORE":"S.I.A.T.I.  S.r.l.",
+"CODICE":"98.0000000000",
+"AREA":25640.1570,
+"PERIMETRO":1524.5292,
+"INTERNAL ID":"307",
+"USER ID":"306",
+"SCI_CD":"2.1.31",
+"X_COORD":"717119.612729",
+"Y_COORD":"5128058.38105",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Baby 1",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":9281.2347,
+"PERIMETRO":486.4122,
+"INTERNAL ID":"738",
+"USER ID":"737",
+"SCI_CD":"10.3.1",
+"X_COORD":"649031.016183",
+"Y_COORD":"5072109.39613",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Baby 2",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":9639.9408,
+"PERIMETRO":548.1623,
+"INTERNAL ID":"736",
+"USER ID":"735",
+"SCI_CD":"10.3.2",
+"X_COORD":"648962.893001",
+"Y_COORD":"5072181.89543",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Panoramica",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":23279.3654,
+"PERIMETRO":1997.1466,
+"INTERNAL ID":"734",
+"USER ID":"733",
+"SCI_CD":"10.3.3",
+"X_COORD":"649571.256881",
+"Y_COORD":"5072166.89076",
+"UR_CD":"0E-11"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Postemon",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":89867.0450,
+"PERIMETRO":3861.8173,
+"INTERNAL ID":"739",
+"USER ID":"738",
+"SCI_CD":"10.3.4",
+"X_COORD":"648953.140924",
+"Y_COORD":"5071903.40031",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Racc. Intermedia (Panoramica)",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":1775.3436,
+"PERIMETRO":278.6202,
+"INTERNAL ID":"753",
+"USER ID":"752",
+"SCI_CD":"10.3.11",
+"X_COORD":"649725.623900",
+"Y_COORD":"5071525.40057",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"San Valentino Nord",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":26334.2262,
+"PERIMETRO":1955.3936,
+"INTERNAL ID":"760",
+"USER ID":"759",
+"SCI_CD":"10.3.5",
+"X_COORD":"649410.626728",
+"Y_COORD":"5071170.90923",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"San Valentino Sud",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":35712.8638,
+"PERIMETRO":1945.2151,
+"INTERNAL ID":"761",
+"USER ID":"760",
+"SCI_CD":"10.3.6",
+"X_COORD":"649127.382634",
+"Y_COORD":"5071267.90985",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Vallone",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":67455.0553,
+"PERIMETRO":2593.7223,
+"INTERNAL ID":"741",
+"USER ID":"740",
+"SCI_CD":"10.3.7",
+"X_COORD":"649528.253217",
+"Y_COORD":"5071617.90057",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Var.  Bucaneve (Panoramica)",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":8703.0364,
+"PERIMETRO":700.6367,
+"INTERNAL ID":"740",
+"USER ID":"739",
+"SCI_CD":"10.3.10",
+"X_COORD":"649492.007023",
+"Y_COORD":"5072007.39415",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Var. Canalone ( Vallone )",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":13409.4639,
+"PERIMETRO":981.3425,
+"INTERNAL ID":"751",
+"USER ID":"750",
+"SCI_CD":"10.3.8",
+"X_COORD":"649653.750034",
+"Y_COORD":"5071504.90151",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Var. Costapelada (Panoramica)",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":55441.4796,
+"PERIMETRO":3957.7286,
+"INTERNAL ID":"732",
+"USER ID":"731",
+"SCI_CD":"10.3.9",
+"X_COORD":"649680.627865",
+"Y_COORD":"5071914.89422",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Var. Diretta  ( Postemon )",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":5335.6553,
+"PERIMETRO":464.7521,
+"INTERNAL ID":"748",
+"USER ID":"747",
+"SCI_CD":"10.3.12",
+"X_COORD":"649039.139446",
+"Y_COORD":"5071912.89945",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Var. Intermedia ( Vallone )",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":7343.4594,
+"PERIMETRO":563.4658,
+"INTERNAL ID":"756",
+"USER ID":"755",
+"SCI_CD":"10.3.15",
+"X_COORD":"649641.749677",
+"Y_COORD":"5071433.90283",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"S. Valentino",
+"NOME":"Var. Mosee ( Postemon )",
+"GESTORE":"Sciovie San Valentino S.r.l.",
+"CODICE":"9.00000000000",
+"AREA":15827.8473,
+"PERIMETRO":1451.5603,
+"INTERNAL ID":"744",
+"USER ID":"743",
+"SCI_CD":"10.3.14",
+"X_COORD":"649282.133569",
+"Y_COORD":"5071729.40064",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Tremalzo",
+"NOME":"Scoiattolo",
+"GESTORE":"I.R.V.A.T. S.r.l.",
+"CODICE":"75.0000000000",
+"AREA":50017.7961,
+"PERIMETRO":2439.0507,
+"INTERNAL ID":"728",
+"USER ID":"727",
+"SCI_CD":"9.1.2",
+"X_COORD":"630604.892036",
+"Y_COORD":"5077389.45417",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Tremalzo",
+"NOME":"Tremalzo 1",
+"GESTORE":"I.R.V.A.T. S.r.l.",
+"CODICE":"75.0000000000",
+"AREA":34389.2855,
+"PERIMETRO":1143.2450,
+"INTERNAL ID":"729",
+"USER ID":"728",
+"SCI_CD":"9.1.1",
+"X_COORD":"631034.134922",
+"Y_COORD":"5077469.44932",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"CiampediÚ",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":29274.4349,
+"PERIMETRO":1123.0873,
+"INTERNAL ID":"94",
+"USER ID":"93",
+"SCI_CD":"11.4.6",
+"X_COORD":"704920.477487",
+"Y_COORD":"5145884.67249",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"CiampediÚ Pian Pecei",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":15481.2033,
+"PERIMETRO":1148.1226,
+"INTERNAL ID":"97",
+"USER ID":"96",
+"SCI_CD":"11.4.7",
+"X_COORD":"704576.232748",
+"Y_COORD":"5145765.67733",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"Cigolade",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":52825.1970,
+"PERIMETRO":2784.3836,
+"INTERNAL ID":"88",
+"USER ID":"87",
+"SCI_CD":"11.4.4",
+"X_COORD":"703893.872754",
+"Y_COORD":"5146095.67716",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"Negritella",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":79605.2824,
+"PERIMETRO":2586.4725,
+"INTERNAL ID":"87",
+"USER ID":"86",
+"SCI_CD":"11.4.1",
+"X_COORD":"704363.361750",
+"Y_COORD":"5145784.67872",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"Th÷eni",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":80714.1495,
+"PERIMETRO":7016.7998,
+"INTERNAL ID":"99",
+"USER ID":"98",
+"SCI_CD":"11.4.2",
+"X_COORD":"704671.347697",
+"Y_COORD":"5144735.69431",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"Tomba",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":31018.9358,
+"PERIMETRO":1537.4420,
+"INTERNAL ID":"90",
+"USER ID":"89",
+"SCI_CD":"11.4.12",
+"X_COORD":"704167.491744",
+"Y_COORD":"5145964.17721",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"Vajolet 1",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":22738.9470,
+"PERIMETRO":2893.4581,
+"INTERNAL ID":"77",
+"USER ID":"76",
+"SCI_CD":"11.4.5",
+"X_COORD":"706446.456574",
+"Y_COORD":"5146710.14592",
+"UR_CD":"6100.00000000"
+}
+,
+{
+"LOCALITA'":"Vigo-Pera-Gardeccia",
+"NOME":"Vajolet 2",
+"GESTORE":"Catinaccio Impianti a Fune S.r.l.",
+"CODICE":"85.0000000000",
+"AREA":41227.9190,
+"PERIMETRO":3470.8599,
+"INTERNAL ID":"76",
+"USER ID":"75",
+"SCI_CD":"11.4.3",
+"X_COORD":"705286.476127",
+"Y_COORD":"5146534.65833",
+"UR_CD":"6100.00000000"
+}
+]
