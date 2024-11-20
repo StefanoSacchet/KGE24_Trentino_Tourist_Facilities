@@ -1,4 +1,4 @@
-id,osmId,type,name,addrCity,addrPostcode,addrStreet,phone,coordinates
+id,osmId,type,name,addrCity,addrPostcode,addrStreet,addrHousenumber,phone,coordinates
 ski_rental0,node/6466815112,ski_rental,Ski School S. Cristina,Santa Cristina Valgardena,39047,Via Dursan,60,+39 0471 792045,"[11.7258401, 46.5569714]"
 ski_rental1,node/7047951560,ski_rental,Ski School & Rental Ortisei,Ortisei,39046,Str. Val d'Anna,2,+39 0471 786242,"[11.6748659, 46.5765605]"
 ski_rental2,node/7704856850,ski_rental,Maciaconi,Selva di Val Gardena,39048,Str. Plan da Tieja,6,+39 0471 792279,"[11.7284331, 46.5583359]"
