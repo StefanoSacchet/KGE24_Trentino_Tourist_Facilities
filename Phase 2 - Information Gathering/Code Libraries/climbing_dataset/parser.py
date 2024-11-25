@@ -9,6 +9,9 @@ from geopy.geocoders import Nominatim
 df = pd.read_csv("data/routes_rated.csv")
 filtered_df = df[df["crag"] == "arco"]
 
+# Update the "sector" column with the modified values
+filtered_df["cluster"] = filtered_df["cluster"].apply(lambda x: "cluster-" + str(x))
+
 # Get unique crags
 crags = filtered_df["sector"].unique()
 
@@ -44,3 +47,9 @@ crag_df.drop(columns=["latitude", "longitude"], inplace=True)
 merged_df = filtered_df.merge(crag_df, on="sector", how="left")
 
 merged_df.to_csv("data/arco_routes_with_coordinates.csv", index=False)
+
+df = pd.read_csv("data/arco_routes_with_coordinates.csv")
+
+df.drop(columns=["Unnamed: 0"], inplace=True)
+
+df.to_csv("data/arco_routes_with_coordinates.csv", index=False)
