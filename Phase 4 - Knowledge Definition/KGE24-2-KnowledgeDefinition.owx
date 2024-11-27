@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://knowdive.disi.unitn.it/etype#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://knowdive.disi.unitn.it/etype#">
+    <Prefix name="" IRI="http://knowdive.disi.unitn.it/etype#/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="ComplexType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Coordinates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ski_trail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_coordinates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="activity_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="ConceptID"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="isEtype"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Coordinates"/>
+        <Class IRI="ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ski_trail"/>
+        <Class IRI="Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sport"/>
+        <Class IRI="ComplexType"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_coordinates"/>
+        <Class IRI="Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_coordinates"/>
+        <Class IRI="Coordinates"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="activity_type"/>
+        <Class IRI="Sport"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="name"/>
+        <Class IRI="Sport"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="activity_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Coordinates</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Coordinates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Coordinates</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Coordinates</IRI>
+        <Literal>A point on our planet can be described by two coordinates: latitude and longitude.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Coordinates</IRI>
+        <Literal xml:lang="en">Coordinates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Ski_trail</IRI>
+        <Literal>UKC-22959</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Ski_trail</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Ski_trail</IRI>
+        <Literal>Trail or slope prepared for skiing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Ski_trail</IRI>
+        <Literal xml:lang="en">Ski_trail</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Sport</IRI>
+        <Literal>UKC-2593</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Sport</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Sport</IRI>
+        <Literal>An active diversion requiring physical exertion and competition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Sport</IRI>
+        <Literal xml:lang="en">Sport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>activity_type</IRI>
+        <Literal>KGE-24-2-20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>activity_type</IRI>
+        <Literal>A subdivision of a particular kind of sport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>activity_type</IRI>
+        <Literal xml:lang="en">sport_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>has_coordinates</IRI>
+        <Literal xml:lang="en">has_coordinates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>name</IRI>
+        <Literal>UKC-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>name</IRI>
+        <Literal>A language unit by which a person or thing is known</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>name</IRI>
+        <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
