@@ -13,6 +13,9 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="Building"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="ComplexType"/>
     </Declaration>
     <Declaration>
@@ -25,7 +28,19 @@
         <Class IRI="Hiking_trail"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Restaurant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Rock_climbing_route"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ski_rental"/>
     </Declaration>
     <Declaration>
         <Class IRI="Ski_trail"/>
@@ -34,13 +49,25 @@
         <Class IRI="Sport"/>
     </Declaration>
     <Declaration>
+        <Class IRI="View"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="has_coordinates"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="OSMId"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="Position"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="activity_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="beds"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="building_type"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="country"/>
@@ -52,7 +79,16 @@
         <DataProperty IRI="difficulty_level"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="elevation"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="elevation_gain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="house_number"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="identifier"/>
@@ -67,16 +103,40 @@
         <DataProperty IRI="longitude"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="municipality"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="phone_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="postal_code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="price"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="sector"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="service"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="ski_resort"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="stars"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="street"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="surface"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="website"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="ConceptID"/>
@@ -84,6 +144,10 @@
     <Declaration>
         <AnnotationProperty IRI="isEtype"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="Building"/>
+        <Class IRI="Location"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="Coordinates"/>
         <Class IRI="ComplexType"/>
@@ -97,8 +161,24 @@
         <Class IRI="Sport"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Hotel"/>
+        <Class IRI="Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Location"/>
+        <Class IRI="ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Restaurant"/>
+        <Class IRI="Building"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Rock_climbing_route"/>
         <Class IRI="Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ski_rental"/>
+        <Class IRI="Building"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ski_trail"/>
@@ -108,6 +188,14 @@
         <Class IRI="Sport"/>
         <Class IRI="ComplexType"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="View"/>
+        <Class IRI="Location"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_coordinates"/>
+        <Class IRI="Location"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="has_coordinates"/>
         <Class IRI="Sport"/>
@@ -118,11 +206,47 @@
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
-        <Class IRI="ComplexType"/>
+        <Class IRI="Cycleway"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="Hiking_trail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="Restaurant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="Ski_rental"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="Ski_trail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="View"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Position"/>
+        <Class IRI="Location"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="activity_type"/>
         <Class IRI="Sport"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="beds"/>
+        <Class IRI="Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="building_type"/>
+        <Class IRI="Building"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="country"/>
@@ -141,12 +265,28 @@
         <Class IRI="Ski_trail"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="elevation"/>
+        <Class IRI="Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="elevation"/>
+        <Class IRI="View"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="elevation_gain"/>
         <Class IRI="Cycleway"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="elevation_gain"/>
         <Class IRI="Hiking_trail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="email"/>
+        <Class IRI="Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="house_number"/>
+        <Class IRI="Building"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="identifier"/>
@@ -169,20 +309,52 @@
         <Class IRI="Coordinates"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="municipality"/>
+        <Class IRI="Building"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="name"/>
+        <Class IRI="Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="name"/>
         <Class IRI="Sport"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="postal_code"/>
+        <Class IRI="Building"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="price"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="sector"/>
         <Class IRI="Rock_climbing_route"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="service"/>
+        <Class IRI="Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="ski_resort"/>
         <Class IRI="Ski_trail"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="stars"/>
+        <Class IRI="Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="street"/>
+        <Class IRI="Building"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="surface"/>
         <Class IRI="Cycleway"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="website"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="OSMId"/>
@@ -193,6 +365,14 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="beds"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="building_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="country"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -205,8 +385,20 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="elevation"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="elevation_gain"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="house_number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="identifier"/>
@@ -225,11 +417,27 @@
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="municipality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="postal_code"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="price"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="sector"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="service"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -237,9 +445,41 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="stars"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="street"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="surface"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="website"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Building</IRI>
+        <Literal>UKC-15330</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Building</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Building</IRI>
+        <Literal>A structure that has a roof and walls and stands more or less permanently in one place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Building</IRI>
+        <Literal>Building</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>Coordinates</IRI>
@@ -302,6 +542,46 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Hotel</IRI>
+        <Literal>UKC-18979</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Hotel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Hotel</IRI>
+        <Literal>A building where travelers can pay for lodging and meals and other services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Hotel</IRI>
+        <Literal>Hotel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Location</IRI>
+        <Literal>UKC-50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Location</IRI>
+        <Literal>A point or extent in space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Location</IRI>
+        <Literal>Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>OSMId</IRI>
         <Literal>UKC-38423</Literal>
     </AnnotationAssertion>
@@ -314,6 +594,41 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>OSMId</IRI>
         <Literal xml:lang="en">OSMId</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Position</IRI>
+        <Literal>UKC-45514</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Position</IRI>
+        <Literal>The particular portion of space occupied by something</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Position</IRI>
+        <Literal>position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Restaurant</IRI>
+        <Literal>UKC-22077</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Restaurant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Restaurant</IRI>
+        <Literal>A building where people go to eat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Restaurant</IRI>
+        <Literal>Restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -334,6 +649,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Rock_climbing_route</IRI>
         <Literal xml:lang="en">Rock climbing route</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Ski_rental</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dski_rental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Ski_rental</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Ski_rental</IRI>
+        <Literal>A shop that rents skis and related accessories.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Ski_rental</IRI>
+        <Literal>Ski rental</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -377,6 +712,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>View</IRI>
+        <Literal>UKC-31769</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>View</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>View</IRI>
+        <Literal>The visual percept of a region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>View</IRI>
+        <Literal>View</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>activity_type</IRI>
         <Literal>KGE-24-2-20</Literal>
     </AnnotationAssertion>
@@ -389,6 +744,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>activity_type</IRI>
         <Literal xml:lang="en">sport_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>beds</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Key:beds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>beds</IRI>
+        <Literal>Beds indicates the number of beds in a hotel or hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>beds</IRI>
+        <Literal>beds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>building_type</IRI>
+        <Literal>KGE24-2-19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>building_type</IRI>
+        <Literal>A subdivision of a particular kind of building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>building_type</IRI>
+        <Literal>building_type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -437,6 +822,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>elevation</IRI>
+        <Literal>UKC-27800</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>elevation</IRI>
+        <Literal>Elevation especially above sea level or above the earth&apos;s surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>elevation</IRI>
+        <Literal>altitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>elevation_gain</IRI>
         <Literal>KGE24-2-3</Literal>
     </AnnotationAssertion>
@@ -451,9 +851,39 @@
         <Literal xml:lang="en">elevation gain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>email</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Key:email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>email</IRI>
+        <Literal>An email address associated with the object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>email</IRI>
+        <Literal>email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>has_coordinates</IRI>
         <Literal xml:lang="en">has_coordinates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>house_number</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Key:addr:housenumber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>house_number</IRI>
+        <Literal>The house number (may contain letters, dashes or other characters).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>house_number</IRI>
+        <Literal>house_number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -517,6 +947,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>municipality</IRI>
+        <Literal>UKC-45537</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>municipality</IRI>
+        <Literal>An urban district having corporate status and powers of self-government</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>municipality</IRI>
+        <Literal>municipality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>name</IRI>
         <Literal>UKC-2</Literal>
     </AnnotationAssertion>
@@ -529,6 +974,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>name</IRI>
         <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>phone_number</IRI>
+        <Literal>UKC-34007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>phone_number</IRI>
+        <Literal>The number is used in calling a particular telephone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>phone_number</IRI>
+        <Literal>phone_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>postal_code</IRI>
+        <Literal>UKC-33635</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>postal_code</IRI>
+        <Literal>A code of letters and digits added to a postal address to aid in the sorting of mail</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>postal_code</IRI>
+        <Literal>postal_code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>price</IRI>
+        <Literal>UKC-62880</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>price</IRI>
+        <Literal>The amount of money needed to purchase something</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>price</IRI>
+        <Literal>price</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -547,6 +1037,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>service</IRI>
+        <Literal>UKC-2880</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>service</IRI>
+        <Literal>Work done by one person or group that benefits another</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>service</IRI>
+        <Literal>service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>ski_resort</IRI>
         <Literal>UKC-45656</Literal>
     </AnnotationAssertion>
@@ -562,6 +1067,36 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>stars</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Key:stars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>stars</IRI>
+        <Literal>Is used to describe the classification of a hotel, restaurant, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>stars</IRI>
+        <Literal>stars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>street</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Key:addr:street</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>street</IRI>
+        <Literal>The portion of the address that conventionally indicates a street name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>street</IRI>
+        <Literal>street</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>surface</IRI>
         <Literal>UKC-23753</Literal>
     </AnnotationAssertion>
@@ -574,6 +1109,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>surface</IRI>
         <Literal xml:lang="en">surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>website</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Key:website</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>website</IRI>
+        <Literal>Is used to provide the full URL to the official website for the related feature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>website</IRI>
+        <Literal>website</Literal>
     </AnnotationAssertion>
 </Ontology>
 
