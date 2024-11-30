@@ -70,10 +70,16 @@
         <DataProperty IRI="building_type"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="cluster"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="country"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="crag"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="degree"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="difficulty_level"/>
@@ -118,10 +124,19 @@
         <DataProperty IRI="price"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="recommended_for_tall_people"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="sector"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="service"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="service_type"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="ski_resort"/>
@@ -249,11 +264,19 @@
         <Class IRI="Building"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="cluster"/>
+        <Class IRI="Rock_climbing_route"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="country"/>
         <Class IRI="Rock_climbing_route"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="crag"/>
+        <Class IRI="Rock_climbing_route"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="degree"/>
         <Class IRI="Rock_climbing_route"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -329,11 +352,23 @@
         <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="rating"/>
+        <Class IRI="Rock_climbing_route"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="recommended_for_tall_people"/>
+        <Class IRI="Rock_climbing_route"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="sector"/>
         <Class IRI="Rock_climbing_route"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="service"/>
+        <Class IRI="Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="service_type"/>
         <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -373,11 +408,19 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="cluster"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="country"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="crag"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="degree"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -433,11 +476,23 @@
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="rating"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="recommended_for_tall_people"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="sector"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="service"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="service_type"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -777,6 +832,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>cluster</IRI>
+        <Literal>KGE24-2-6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>cluster</IRI>
+        <Literal>Indicator that describe some characteristics of the rock climbing route</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>cluster</IRI>
+        <Literal xml:lang="en">cluster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>country</IRI>
         <Literal>UKC-45187</Literal>
     </AnnotationAssertion>
@@ -804,6 +874,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>crag</IRI>
         <Literal xml:lang="en">crag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>degree</IRI>
+        <Literal>UKC-27611</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>degree</IRI>
+        <Literal>A position on a scale of intensity or amount or quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>degree</IRI>
+        <Literal xml:lang="en">degree</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1022,6 +1107,36 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
+        <IRI>rating</IRI>
+        <Literal>UKC-30858</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>rating</IRI>
+        <Literal>An appraisal of the value of something</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>rating</IRI>
+        <Literal xml:lang="en">rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>recommended_for_tall_people</IRI>
+        <Literal>KGE24-2-7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>recommended_for_tall_people</IRI>
+        <Literal>Indicator that identifies whether a certain activity or object is recommended, neutral or not recommended for an average tall person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>recommended_for_tall_people</IRI>
+        <Literal xml:lang="en">recommended for tall people</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
         <IRI>sector</IRI>
         <Literal>KGE24-2-4</Literal>
     </AnnotationAssertion>
@@ -1049,6 +1164,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>service</IRI>
         <Literal>service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>service_type</IRI>
+        <Literal>KGE24-2-19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>service_type</IRI>
+        <Literal>A subdivision of a particular kinf of hotel service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>service_type</IRI>
+        <Literal xml:lang="en">service type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
