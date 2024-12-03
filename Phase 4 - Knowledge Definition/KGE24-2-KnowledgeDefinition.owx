@@ -34,6 +34,9 @@
         <Class IRI="Location"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Path"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Restaurant"/>
     </Declaration>
     <Declaration>
@@ -55,6 +58,9 @@
         <ObjectProperty IRI="has_coordinates"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="has_path"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="OSMId"/>
     </Declaration>
     <Declaration>
@@ -71,6 +77,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="cluster"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="coordinateId"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="country"/>
@@ -184,6 +193,10 @@
         <Class IRI="ComplexType"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Path"/>
+        <Class IRI="ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Restaurant"/>
         <Class IRI="Building"/>
     </SubClassOf>
@@ -213,23 +226,23 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="has_coordinates"/>
+        <Class IRI="Path"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_path"/>
         <Class IRI="Sport"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="has_coordinates"/>
         <Class IRI="Coordinates"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_path"/>
+        <Class IRI="Path"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
-        <Class IRI="Cycleway"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="OSMId"/>
-        <Class IRI="Hiking_trail"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="OSMId"/>
-        <Class IRI="Location"/>
+        <Class IRI="Path"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
@@ -238,10 +251,6 @@
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
         <Class IRI="Ski_rental"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="OSMId"/>
-        <Class IRI="Ski_trail"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
@@ -266,6 +275,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="cluster"/>
         <Class IRI="Rock_climbing_route"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="coordinateId"/>
+        <Class IRI="Path"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="country"/>
@@ -528,12 +541,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Building</IRI>
-        <Literal>A structure that has a roof and walls and stands more or less permanently in one place</Literal>
+        <Literal xml:lang="en">A structure that has a roof and walls and stands more or less permanently in one place</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Building</IRI>
-        <Literal>Building</Literal>
+        <Literal xml:lang="en">Building</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -548,7 +561,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Coordinates</IRI>
-        <Literal>A point on our planet can be described by two coordinates: latitude and longitude.</Literal>
+        <Literal xml:lang="en">A point on our planet can be described by two coordinates: latitude and longitude.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -568,7 +581,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Cycleway</IRI>
-        <Literal>A separate way for the use of cyclists.</Literal>
+        <Literal xml:lang="en">A separate way for the use of cyclists.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -588,7 +601,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Hiking_trail</IRI>
-        <Literal>A path or track roughly blazed through wild or hilly country where to go hiking</Literal>
+        <Literal xml:lang="en">A path or track roughly blazed through wild or hilly country where to go hiking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -608,12 +621,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Hotel</IRI>
-        <Literal>A building where travelers can pay for lodging and meals and other services</Literal>
+        <Literal xml:lang="en">A building where travelers can pay for lodging and meals and other services</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Hotel</IRI>
-        <Literal>Hotel</Literal>
+        <Literal xml:lang="en">Hotel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -628,12 +641,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Location</IRI>
-        <Literal>A point or extent in space</Literal>
+        <Literal xml:lang="en">A point or extent in space</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Location</IRI>
-        <Literal>Location</Literal>
+        <Literal xml:lang="en">Location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -643,12 +656,32 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>OSMId</IRI>
-        <Literal>A symbol that establishes the identity of the one bearing it</Literal>
+        <Literal xml:lang="en">A symbol that establishes the identity of the one bearing it</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>OSMId</IRI>
         <Literal xml:lang="en">OSMId</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>Path</IRI>
+        <Literal>UKC-21029</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Path</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Path</IRI>
+        <Literal xml:lang="en">A way especially designed for a particular use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Path</IRI>
+        <Literal xml:lang="en">Path</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -658,12 +691,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Position</IRI>
-        <Literal>The particular portion of space occupied by something</Literal>
+        <Literal xml:lang="en">The particular portion of space occupied by something</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Position</IRI>
-        <Literal>position</Literal>
+        <Literal xml:lang="en">position</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -678,12 +711,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Restaurant</IRI>
-        <Literal>A building where people go to eat</Literal>
+        <Literal xml:lang="en">A building where people go to eat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Restaurant</IRI>
-        <Literal>Restaurant</Literal>
+        <Literal xml:lang="en">Restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -698,7 +731,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Rock_climbing_route</IRI>
-        <Literal>A path by which a climber reaches the top of a mountain, a rock face or an ice-covered obstacle.</Literal>
+        <Literal xml:lang="en">A path by which a climber reaches the top of a mountain, a rock face or an ice-covered obstacle.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -718,12 +751,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Ski_rental</IRI>
-        <Literal>A shop that rents skis and related accessories.</Literal>
+        <Literal xml:lang="en">A shop that rents skis and related accessories.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Ski_rental</IRI>
-        <Literal>Ski rental</Literal>
+        <Literal xml:lang="en">Ski rental</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -738,7 +771,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Ski_trail</IRI>
-        <Literal>Trail or slope prepared for skiing</Literal>
+        <Literal xml:lang="en">Trail or slope prepared for skiing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -758,7 +791,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Sport</IRI>
-        <Literal>An active diversion requiring physical exertion and competition</Literal>
+        <Literal xml:lang="en">An active diversion requiring physical exertion and competition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -778,12 +811,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>View</IRI>
-        <Literal>The visual percept of a region</Literal>
+        <Literal xml:lang="en">The visual percept of a region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>View</IRI>
-        <Literal>View</Literal>
+        <Literal xml:lang="en">View</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -793,12 +826,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>activity_type</IRI>
-        <Literal>A subdivision of a particular kind of sport</Literal>
+        <Literal xml:lang="en">A subdivision of a particular kind of sport</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>activity_type</IRI>
-        <Literal xml:lang="en">sport_type</Literal>
+        <Literal xml:lang="en">sport type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -808,12 +841,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>beds</IRI>
-        <Literal>Beds indicates the number of beds in a hotel or hospital</Literal>
+        <Literal xml:lang="en">Beds indicates the number of beds in a hotel or hospital</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>beds</IRI>
-        <Literal>beds</Literal>
+        <Literal xml:lang="en">beds</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -823,12 +856,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>building_type</IRI>
-        <Literal>A subdivision of a particular kind of building</Literal>
+        <Literal xml:lang="en">A subdivision of a particular kind of building</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>building_type</IRI>
-        <Literal>building_type</Literal>
+        <Literal xml:lang="en">building type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -838,12 +871,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>cluster</IRI>
-        <Literal>Indicator that describe some characteristics of the rock climbing route</Literal>
+        <Literal xml:lang="en">Indicator that describe some characteristics of the rock climbing route</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>cluster</IRI>
         <Literal xml:lang="en">cluster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="ConceptID"/>
+        <IRI>coordinateId</IRI>
+        <Literal>UKC-38423</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>coordinateId</IRI>
+        <Literal xml:lang="en">A symbol that establishes the identity of the one bearing it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>coordinateId</IRI>
+        <Literal xml:lang="en">coordinateId</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -853,7 +901,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>country</IRI>
-        <Literal>The territory occupied by a nation</Literal>
+        <Literal xml:lang="en">The territory occupied by a nation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -868,7 +916,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>crag</IRI>
-        <Literal>A steep rugged rock or cliff</Literal>
+        <Literal xml:lang="en">A steep rugged rock or cliff</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -883,7 +931,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>degree</IRI>
-        <Literal>A position on a scale of intensity or amount or quality</Literal>
+        <Literal xml:lang="en">A position on a scale of intensity or amount or quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -893,7 +941,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>difficulty_level</IRI>
-        <Literal>KGE24-2-5</Literal>
+        <Literal xml:lang="en">KGE24-2-5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -913,12 +961,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>elevation</IRI>
-        <Literal>Elevation especially above sea level or above the earth&apos;s surface</Literal>
+        <Literal xml:lang="en">Elevation especially above sea level or above the earth&apos;s surface</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>elevation</IRI>
-        <Literal>altitude</Literal>
+        <Literal xml:lang="en">altitude</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -928,7 +976,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>elevation_gain</IRI>
-        <Literal>The total vertical distance climbed in a hike or route</Literal>
+        <Literal xml:lang="en">The total vertical distance climbed in a hike or route</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -943,12 +991,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>email</IRI>
-        <Literal>An email address associated with the object.</Literal>
+        <Literal xml:lang="en">An email address associated with the object.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>email</IRI>
-        <Literal>email</Literal>
+        <Literal xml:lang="en">email</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -963,12 +1011,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>house_number</IRI>
-        <Literal>The house number (may contain letters, dashes or other characters).</Literal>
+        <Literal xml:lang="en">The house number (may contain letters, dashes or other characters).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>house_number</IRI>
-        <Literal>house_number</Literal>
+        <Literal xml:lang="en">house number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -978,7 +1026,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>identifier</IRI>
-        <Literal>A symbol that establishes the identity of the one bearing it</Literal>
+        <Literal xml:lang="en">A symbol that establishes the identity of the one bearing it</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -993,7 +1041,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>latitude</IRI>
-        <Literal>The angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself</Literal>
+        <Literal xml:lang="en">The angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1008,7 +1056,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>lenght</IRI>
-        <Literal>The linear extent in space from one end to the other; the longest horizontal dimension of something that is fixed in place</Literal>
+        <Literal xml:lang="en">The linear extent in space from one end to the other; the longest horizontal dimension of something that is fixed in place</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1023,7 +1071,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>longitude</IRI>
-        <Literal>The angular distance between a point on any meridian and the prime meridian at Greenwich</Literal>
+        <Literal xml:lang="en">The angular distance between a point on any meridian and the prime meridian at Greenwich</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1038,12 +1086,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>municipality</IRI>
-        <Literal>An urban district having corporate status and powers of self-government</Literal>
+        <Literal xml:lang="en">An urban district having corporate status and powers of self-government</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>municipality</IRI>
-        <Literal>municipality</Literal>
+        <Literal xml:lang="en">municipality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1053,7 +1101,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>name</IRI>
-        <Literal>A language unit by which a person or thing is known</Literal>
+        <Literal xml:lang="en">A language unit by which a person or thing is known</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1068,12 +1116,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>phone_number</IRI>
-        <Literal>The number is used in calling a particular telephone</Literal>
+        <Literal xml:lang="en">The number is used in calling a particular telephone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>phone_number</IRI>
-        <Literal>phone_number</Literal>
+        <Literal xml:lang="en">phone number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1083,12 +1131,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>postal_code</IRI>
-        <Literal>A code of letters and digits added to a postal address to aid in the sorting of mail</Literal>
+        <Literal xml:lang="en">A code of letters and digits added to a postal address to aid in the sorting of mail</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>postal_code</IRI>
-        <Literal>postal_code</Literal>
+        <Literal xml:lang="en">postal_code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1098,12 +1146,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>price</IRI>
-        <Literal>The amount of money needed to purchase something</Literal>
+        <Literal xml:lang="en">The amount of money needed to purchase something</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>price</IRI>
-        <Literal>price</Literal>
+        <Literal xml:lang="en">price</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1113,7 +1161,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>rating</IRI>
-        <Literal>An appraisal of the value of something</Literal>
+        <Literal xml:lang="en">An appraisal of the value of something</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1128,7 +1176,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>recommended_for_tall_people</IRI>
-        <Literal>Indicator that identifies whether a certain activity or object is recommended, neutral or not recommended for an average tall person</Literal>
+        <Literal xml:lang="en">Indicator that identifies whether a certain activity or object is recommended, neutral or not recommended for an average tall person</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1143,7 +1191,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>sector</IRI>
-        <Literal>A sub-area within the crag where the route is located, offering a more precise location</Literal>
+        <Literal xml:lang="en">A sub-area within the crag where the route is located, offering a more precise location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1158,12 +1206,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>service</IRI>
-        <Literal>Work done by one person or group that benefits another</Literal>
+        <Literal xml:lang="en">Work done by one person or group that benefits another</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>service</IRI>
-        <Literal>service</Literal>
+        <Literal xml:lang="en">service</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1173,7 +1221,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>service_type</IRI>
-        <Literal>A subdivision of a particular kinf of hotel service</Literal>
+        <Literal xml:lang="en">A subdivision of a particular kinf of hotel service</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1188,7 +1236,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>ski_resort</IRI>
-        <Literal>A resort with lodging and facilities for skiing</Literal>
+        <Literal xml:lang="en">A resort with lodging and facilities for skiing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1203,12 +1251,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>stars</IRI>
-        <Literal>Is used to describe the classification of a hotel, restaurant, etc.</Literal>
+        <Literal xml:lang="en">Is used to describe the classification of a hotel, restaurant, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>stars</IRI>
-        <Literal>stars</Literal>
+        <Literal xml:lang="en">stars</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1218,12 +1266,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>street</IRI>
-        <Literal>The portion of the address that conventionally indicates a street name.</Literal>
+        <Literal xml:lang="en">The portion of the address that conventionally indicates a street name.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>street</IRI>
-        <Literal>street</Literal>
+        <Literal xml:lang="en">street</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1233,7 +1281,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>surface</IRI>
-        <Literal>The outer boundary of an artifact or a material layer constituting or resembling such a boundary</Literal>
+        <Literal xml:lang="en">The outer boundary of an artifact or a material layer constituting or resembling such a boundary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1248,12 +1296,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>website</IRI>
-        <Literal>Is used to provide the full URL to the official website for the related feature.</Literal>
+        <Literal xml:lang="en">Is used to provide the full URL to the official website for the related feature.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>website</IRI>
-        <Literal>website</Literal>
+        <Literal xml:lang="en">website</Literal>
     </AnnotationAssertion>
 </Ontology>
 
