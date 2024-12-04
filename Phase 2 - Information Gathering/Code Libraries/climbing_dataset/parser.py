@@ -52,4 +52,25 @@ df = pd.read_csv("data/arco_routes_with_coordinates.csv")
 
 df.drop(columns=["Unnamed: 0"], inplace=True)
 
+# Rename columns
+df.rename(columns={"tall_recommend_sum": "height_difficulty_score"}, inplace=True)
+df.rename(columns={"cluster": "route_category"}, inplace=True)
+
+# Update values in the column
+df["height_difficulty_score"] = df["height_difficulty_score"].map(
+    {1: "recommend_high", -1: "recommend_low"}
+)
+route_category = {
+    "cluster-0": "soft_route",
+    "cluster-1": "preferred_by_women",
+    "cluster-2": "famous_route",
+    "cluster-3": "hard_route",
+    "cluster-4": "repeated_route",
+    "cluster-5": "chipped_route",
+    "cluster-6": "non_chipped_route",
+    "cluster-7": "easy_on_sight",
+    "cluster-8": "less_repeated",
+}
+df["route_category"] = df["route_category"].map(route_category)
+
 df.to_csv("data/arco_routes_with_coordinates.csv", index=False)
