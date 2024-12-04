@@ -166,6 +166,9 @@
         <AnnotationProperty IRI="ConceptID"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="OSMsynonym"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="isEtype"/>
     </Declaration>
     <SubClassOf>
@@ -574,6 +577,11 @@
         <Literal>https://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>Cycleway</IRI>
+        <Literal>cycleway_GID-301523</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
         <IRI>Cycleway</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -592,6 +600,11 @@
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>Hiking_trail</IRI>
         <Literal>KGE24-2-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>Hiking_trail</IRI>
+        <Literal>footway_GID-301524</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
@@ -614,6 +627,11 @@
         <Literal>UKC-18979</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>Hotel</IRI>
+        <Literal>hotel_GID-301033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
         <IRI>Hotel</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -634,6 +652,11 @@
         <Literal>UKC-50</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>Location</IRI>
+        <Literal>osmPlace_GID-300871</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
         <IRI>Location</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -652,6 +675,11 @@
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>OSMId</IRI>
         <Literal>UKC-38423</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>OSMId</IRI>
+        <Literal>osmId_GID-301672</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -702,6 +730,11 @@
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>Restaurant</IRI>
         <Literal>UKC-22077</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>Restaurant</IRI>
+        <Literal>restaurant_GID-301071</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
@@ -802,6 +835,11 @@
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>View</IRI>
         <Literal>UKC-31769</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>View</IRI>
+        <Literal>viewpoint_GID-301461</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
@@ -1039,6 +1077,11 @@
         <Literal>UKC-45423</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>latitude</IRI>
+        <Literal>latitude_GID-301666</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>latitude</IRI>
         <Literal xml:lang="en">The angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself</Literal>
@@ -1067,6 +1110,11 @@
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>longitude</IRI>
         <Literal>UKC-45429</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="OSMsynonym"/>
+        <IRI>longitude</IRI>
+        <Literal>longitude_GID-301668</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
