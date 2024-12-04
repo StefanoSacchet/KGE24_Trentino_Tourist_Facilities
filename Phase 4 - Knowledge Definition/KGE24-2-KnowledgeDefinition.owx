@@ -19,9 +19,6 @@
         <Class IRI="ComplexType"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Coordinates"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Cycleway"/>
     </Declaration>
     <Declaration>
@@ -32,9 +29,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Location"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Path"/>
     </Declaration>
     <Declaration>
         <Class IRI="Restaurant"/>
@@ -55,16 +49,7 @@
         <Class IRI="View"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="has_coordinates"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="has_path"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="OSMId"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="Position"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="activity_type"/>
@@ -79,7 +64,7 @@
         <DataProperty IRI="cluster"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="coordinateId"/>
+        <DataProperty IRI="coordinates"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="country"/>
@@ -109,13 +94,7 @@
         <DataProperty IRI="identifier"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="latitude"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="lenght"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="longitude"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="municipality"/>
@@ -176,10 +155,6 @@
         <Class IRI="Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Coordinates"/>
-        <Class IRI="ComplexType"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Cycleway"/>
         <Class IRI="Sport"/>
     </SubClassOf>
@@ -193,10 +168,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Location"/>
-        <Class IRI="ComplexType"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Path"/>
         <Class IRI="ComplexType"/>
     </SubClassOf>
     <SubClassOf>
@@ -217,35 +188,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Sport"/>
-        <Class IRI="ComplexType"/>
+        <Class IRI="Location"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="View"/>
         <Class IRI="Location"/>
     </SubClassOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="has_coordinates"/>
-        <Class IRI="Location"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="has_coordinates"/>
-        <Class IRI="Path"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="has_path"/>
-        <Class IRI="Sport"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="has_coordinates"/>
-        <Class IRI="Coordinates"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="has_path"/>
-        <Class IRI="Path"/>
-    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
-        <Class IRI="Path"/>
+        <Class IRI="Cycleway"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="Hiking_trail"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
@@ -257,11 +212,11 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="OSMId"/>
-        <Class IRI="View"/>
+        <Class IRI="Ski_trail"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="Position"/>
-        <Class IRI="Location"/>
+        <DataProperty IRI="OSMId"/>
+        <Class IRI="View"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="activity_type"/>
@@ -280,8 +235,8 @@
         <Class IRI="Rock_climbing_route"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="coordinateId"/>
-        <Class IRI="Path"/>
+        <DataProperty IRI="coordinates"/>
+        <Class IRI="Location"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="country"/>
@@ -332,20 +287,12 @@
         <Class IRI="ComplexType"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="latitude"/>
-        <Class IRI="Coordinates"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="lenght"/>
         <Class IRI="Cycleway"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="lenght"/>
         <Class IRI="Hiking_trail"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="longitude"/>
-        <Class IRI="Coordinates"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="municipality"/>
@@ -356,8 +303,8 @@
         <Class IRI="Location"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="name"/>
-        <Class IRI="Sport"/>
+        <DataProperty IRI="phone_number"/>
+        <Class IRI="Building"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="postal_code"/>
@@ -428,6 +375,10 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="coordinates"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="country"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -464,16 +415,8 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="latitude"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="lenght"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="longitude"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="municipality"/>
@@ -481,6 +424,10 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="phone_number"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -550,26 +497,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Building</IRI>
         <Literal xml:lang="en">Building</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="ConceptID"/>
-        <IRI>Coordinates</IRI>
-        <Literal>https://wiki.openstreetmap.org/wiki/Coordinates</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="isEtype"/>
-        <IRI>Coordinates</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Coordinates</IRI>
-        <Literal xml:lang="en">A point on our planet can be described by two coordinates: latitude and longitude.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Coordinates</IRI>
-        <Literal xml:lang="en">Coordinates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -674,7 +601,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>OSMId</IRI>
-        <Literal>UKC-38423</Literal>
+        <Literal>KGE24-2-23</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="OSMsynonym"/>
@@ -684,47 +611,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>OSMId</IRI>
-        <Literal xml:lang="en">A symbol that establishes the identity of the one bearing it</Literal>
+        <Literal xml:lang="en">A symbol specific to OSM that establishes the identity of the one bearing it</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>OSMId</IRI>
         <Literal xml:lang="en">OSMId</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="ConceptID"/>
-        <IRI>Path</IRI>
-        <Literal>UKC-21029</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="isEtype"/>
-        <IRI>Path</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Path</IRI>
-        <Literal xml:lang="en">A way especially designed for a particular use</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Path</IRI>
-        <Literal xml:lang="en">Path</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="ConceptID"/>
-        <IRI>Position</IRI>
-        <Literal>UKC-45514</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Position</IRI>
-        <Literal xml:lang="en">The particular portion of space occupied by something</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Position</IRI>
-        <Literal xml:lang="en">position</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -814,7 +706,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>Sport</IRI>
-        <Literal>UKC-2593</Literal>
+        <Literal>KGE24-2-22</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
@@ -824,12 +716,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Sport</IRI>
-        <Literal xml:lang="en">An active diversion requiring physical exertion and competition</Literal>
+        <Literal xml:lang="en">A location or path where outdoor sport can be done</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Sport</IRI>
-        <Literal xml:lang="en">Sport</Literal>
+        <Literal xml:lang="en">Sport location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -914,32 +806,32 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>cluster</IRI>
-        <Literal xml:lang="en">cluster</Literal>
+        <Literal xml:lang="en">route category</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
-        <IRI>coordinateId</IRI>
-        <Literal>UKC-38423</Literal>
+        <IRI>coordinates</IRI>
+        <Literal>https://wiki.openstreetmap.org/wiki/Coordinates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>coordinateId</IRI>
-        <Literal xml:lang="en">A symbol that establishes the identity of the one bearing it</Literal>
+        <IRI>coordinates</IRI>
+        <Literal xml:lang="en">A point on our planet can be described by two coordinates: latitude and longitude.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>coordinateId</IRI>
-        <Literal xml:lang="en">coordinateId</Literal>
+        <IRI>coordinates</IRI>
+        <Literal xml:lang="en">coordinates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>country</IRI>
-        <Literal>UKC-45187</Literal>
+        <Literal>KGE24-2-24</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>country</IRI>
-        <Literal xml:lang="en">The territory occupied by a nation</Literal>
+        <Literal xml:lang="en">The territory occupied by a nation where the crag is located</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1037,11 +929,6 @@
         <Literal xml:lang="en">email</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>has_coordinates</IRI>
-        <Literal xml:lang="en">has_coordinates</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>house_number</IRI>
         <Literal>https://wiki.openstreetmap.org/wiki/Key:addr:housenumber</Literal>
@@ -1073,26 +960,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
-        <IRI>latitude</IRI>
-        <Literal>UKC-45423</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="OSMsynonym"/>
-        <IRI>latitude</IRI>
-        <Literal>latitude_GID-301666</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>latitude</IRI>
-        <Literal xml:lang="en">The angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>latitude</IRI>
-        <Literal xml:lang="en">latitude</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="ConceptID"/>
         <IRI>lenght</IRI>
         <Literal>UKC-27787</Literal>
     </AnnotationAssertion>
@@ -1105,26 +972,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>lenght</IRI>
         <Literal xml:lang="en">lengt</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="ConceptID"/>
-        <IRI>longitude</IRI>
-        <Literal>UKC-45429</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="OSMsynonym"/>
-        <IRI>longitude</IRI>
-        <Literal>longitude_GID-301668</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>longitude</IRI>
-        <Literal xml:lang="en">The angular distance between a point on any meridian and the prime meridian at Greenwich</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>longitude</IRI>
-        <Literal xml:lang="en">longitude</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
@@ -1249,12 +1096,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="ConceptID"/>
         <IRI>service</IRI>
-        <Literal>UKC-2880</Literal>
+        <Literal>KGE24-2-25</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>service</IRI>
-        <Literal xml:lang="en">Work done by one person or group that benefits another</Literal>
+        <Literal xml:lang="en">Range of services offered by the hotel to a customer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
