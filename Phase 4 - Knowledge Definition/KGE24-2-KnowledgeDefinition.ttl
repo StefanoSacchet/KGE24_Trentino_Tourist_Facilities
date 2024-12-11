@@ -1,0 +1,443 @@
+@prefix : <http://knowdive.disi.unitn.it/etype#/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://knowdive.disi.unitn.it/etype#/> .
+
+<http://knowdive.disi.unitn.it/etype#> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://knowdive.disi.unitn.it/etype#ConceptID
+:ConceptID rdf:type owl:AnnotationProperty .
+
+
+###  http://knowdive.disi.unitn.it/etype#OSMsynonym
+:OSMsynonym rdf:type owl:AnnotationProperty .
+
+
+###  http://knowdive.disi.unitn.it/etype#isEtype
+:isEtype rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://knowdive.disi.unitn.it/etype#OSMId
+:OSMId rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Cycleway ,
+                   :Hiking_trail ,
+                   :Restaurant ,
+                   :Ski_rental ,
+                   :Ski_trail ,
+                   :View ;
+       rdfs:range xsd:string ;
+       :ConceptID "KGE24-2-23" ;
+       :OSMsynonym "osmId_GID-301672" ;
+       rdfs:comment "A symbol specific to OSM that establishes the identity of the one bearing it"@en ;
+       rdfs:label "OSMId"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#activity_type
+:activity_type rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Sport ;
+               rdfs:range xsd:string ;
+               :ConceptID "KGE-24-2-20" ;
+               rdfs:comment "A subdivision of a particular kind of sport"@en ;
+               rdfs:label "sport type"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#beds
+:beds rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Hotel ;
+      rdfs:range xsd:int ;
+      :ConceptID "https://wiki.openstreetmap.org/wiki/Key:beds" ;
+      rdfs:comment "Beds indicates the number of beds in a hotel or hospital"@en ;
+      rdfs:label "beds"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#building_type
+:building_type rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Building ;
+               rdfs:range xsd:string ;
+               :ConceptID "KGE24-2-19" ;
+               rdfs:comment "A subdivision of a particular kind of building"@en ;
+               rdfs:label "building type"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#climbing_route_Id
+:climbing_route_Id rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Rock_climbing_route ;
+                   rdfs:range xsd:string ;
+                   :ConceptID "KGE24-2-25" ;
+                   rdfs:comment "A symbol specific to Kaggle website that establishes the identity of the one bearing it"@en ;
+                   rdfs:label "climbing route Id"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#cluster
+:cluster rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Rock_climbing_route ;
+         rdfs:range xsd:string ;
+         :ConceptID "KGE24-2-6" ;
+         rdfs:comment "Indicator that describe some characteristics of the rock climbing route"@en ;
+         rdfs:label "route category"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#coordinates
+:coordinates rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Location ;
+             rdfs:range xsd:string ;
+             :ConceptID "https://wiki.openstreetmap.org/wiki/Coordinates" ;
+             rdfs:comment "A point on our planet can be described by two coordinates: latitude and longitude."@en ;
+             rdfs:label "coordinates"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#country
+:country rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Rock_climbing_route ;
+         rdfs:range xsd:string ;
+         :ConceptID "KGE24-2-24" ;
+         rdfs:comment "The territory occupied by a nation where the crag is located"@en ;
+         rdfs:label "country"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#crag
+:crag rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Rock_climbing_route ;
+      rdfs:range xsd:string ;
+      :ConceptID "UKC-46040" ;
+      rdfs:comment "A steep rugged rock or cliff"@en ;
+      rdfs:label "crag"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#degree
+:degree rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Rock_climbing_route ;
+        rdfs:range xsd:string ;
+        :ConceptID "UKC-27611" ;
+        rdfs:comment "A position on a scale of intensity or amount or quality"@en ;
+        rdfs:label "degree"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#difficulty_level
+:difficulty_level rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Cycleway ,
+                              :Hiking_trail ,
+                              :Ski_trail ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "KGE24-2-5"@en ,
+                               "The difficulty level of a certain activity" ;
+                  rdfs:label "difficulty level"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#elevation
+:elevation rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Hotel ,
+                       :View ;
+           rdfs:range xsd:int ;
+           :ConceptID "UKC-27800" ;
+           rdfs:comment "Elevation especially above sea level or above the earth's surface"@en ;
+           rdfs:label "altitude"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#elevation_gain
+:elevation_gain rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Cycleway ,
+                            :Hiking_trail ;
+                rdfs:range xsd:integer ;
+                :ConceptID "KGE24-2-3" ;
+                rdfs:comment "The total vertical distance climbed in a hike or route"@en ;
+                rdfs:label "elevation gain"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#email
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Hotel ;
+       rdfs:range xsd:string ;
+       :ConceptID "https://wiki.openstreetmap.org/wiki/Key:email" ;
+       rdfs:comment "An email address associated with the object."@en ;
+       rdfs:label "email"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#house_number
+:house_number rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Building ;
+              rdfs:range xsd:int ;
+              :ConceptID "https://wiki.openstreetmap.org/wiki/Key:addr:housenumber" ;
+              rdfs:comment "The house number (may contain letters, dashes or other characters)."@en ;
+              rdfs:label "house number"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#identifier
+:identifier rdf:type owl:DatatypeProperty ;
+            rdfs:domain :ComplexType ;
+            rdfs:range xsd:string ;
+            :ConceptID "UKC-38423" ;
+            rdfs:comment "A symbol that establishes the identity of the one bearing it"@en ;
+            rdfs:label "identifier"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#lenght
+:lenght rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Cycleway ,
+                    :Hiking_trail ;
+        rdfs:range xsd:integer ;
+        :ConceptID "UKC-27787" ;
+        rdfs:comment "The linear extent in space from one end to the other; the longest horizontal dimension of something that is fixed in place"@en ;
+        rdfs:label "lengt"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#municipality
+:municipality rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Building ;
+              rdfs:range xsd:string ;
+              :ConceptID "UKC-45537" ;
+              rdfs:comment "An urban district having corporate status and powers of self-government"@en ;
+              rdfs:label "municipality"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Location ;
+      rdfs:range xsd:string ;
+      :ConceptID "UKC-2" ;
+      rdfs:comment "A language unit by which a person or thing is known"@en ;
+      rdfs:label "name"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#phone_number
+:phone_number rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Building ;
+              rdfs:range xsd:string ;
+              :ConceptID "UKC-34007" ;
+              rdfs:comment "The number is used in calling a particular telephone"@en ;
+              rdfs:label "phone number"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#postal_code
+:postal_code rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Building ;
+             rdfs:range xsd:int ;
+             :ConceptID "UKC-33635" ;
+             rdfs:comment "A code of letters and digits added to a postal address to aid in the sorting of mail"@en ;
+             rdfs:label "postal_code"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#price
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Hotel ;
+       rdfs:range xsd:float ;
+       :ConceptID "UKC-62880" ;
+       rdfs:comment "The amount of money needed to purchase something"@en ;
+       rdfs:label "price"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#rating
+:rating rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Rock_climbing_route ;
+        rdfs:range xsd:string ;
+        :ConceptID "UKC-30858" ;
+        rdfs:comment "An appraisal of the value of something"@en ;
+        rdfs:label "rating"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#recommended_for_tall_people
+:recommended_for_tall_people rdf:type owl:DatatypeProperty ;
+                             rdfs:domain :Rock_climbing_route ;
+                             rdfs:range xsd:string ;
+                             :ConceptID "KGE24-2-7" ;
+                             rdfs:comment "Indicator that identifies whether a certain activity or object is recommended, neutral or not recommended for an average tall person"@en ;
+                             rdfs:label "recommended for tall people"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#sector
+:sector rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Rock_climbing_route ;
+        rdfs:range xsd:string ;
+        :ConceptID "KGE24-2-4" ;
+        rdfs:comment "A sub-area within the crag where the route is located, offering a more precise location"@en ;
+        rdfs:label "sector"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#service
+:service rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Hotel ;
+         rdfs:range xsd:string ;
+         :ConceptID "KGE24-2-25" ;
+         rdfs:comment "Range of services offered by the hotel to a customer"@en ;
+         rdfs:label "service"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#service_type
+:service_type rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Hotel ;
+              rdfs:range xsd:string ;
+              :ConceptID "KGE24-2-19" ;
+              rdfs:comment "A subdivision of a particular kinf of hotel service"@en ;
+              rdfs:label "service type"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#ski_resort
+:ski_resort rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Ski_trail ;
+            rdfs:range xsd:string ;
+            :ConceptID "UKC-45656" ;
+            rdfs:comment "A resort with lodging and facilities for skiing"@en ;
+            rdfs:label "ski resort"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#stars
+:stars rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Hotel ;
+       rdfs:range xsd:int ;
+       :ConceptID "https://wiki.openstreetmap.org/wiki/Key:stars" ;
+       rdfs:comment "Is used to describe the classification of a hotel, restaurant, etc."@en ;
+       rdfs:label "stars"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#street
+:street rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Building ;
+        rdfs:range xsd:string ;
+        :ConceptID "https://wiki.openstreetmap.org/wiki/Key:addr:street" ;
+        rdfs:comment "The portion of the address that conventionally indicates a street name."@en ;
+        rdfs:label "street"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#surface
+:surface rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Cycleway ;
+         rdfs:range xsd:string ;
+         :ConceptID "UKC-23753" ;
+         rdfs:comment "The outer boundary of an artifact or a material layer constituting or resembling such a boundary"@en ;
+         rdfs:label "surface"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#website
+:website rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Hotel ;
+         rdfs:range xsd:string ;
+         :ConceptID "https://wiki.openstreetmap.org/wiki/Key:website" ;
+         rdfs:comment "Is used to provide the full URL to the official website for the related feature."@en ;
+         rdfs:label "website"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://knowdive.disi.unitn.it/etype#Building
+:Building rdf:type owl:Class ;
+          rdfs:subClassOf :Location ;
+          :ConceptID "UKC-15330" ;
+          :isEtype "true"^^xsd:boolean ;
+          rdfs:comment "A structure that has a roof and walls and stands more or less permanently in one place"@en ;
+          rdfs:label "Building"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#ComplexType
+:ComplexType rdf:type owl:Class .
+
+
+###  http://knowdive.disi.unitn.it/etype#Cycleway
+:Cycleway rdf:type owl:Class ;
+          rdfs:subClassOf :Sport ;
+          :ConceptID "https://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway" ;
+          :OSMsynonym "cycleway_GID-301523" ;
+          :isEtype "true"^^xsd:boolean ;
+          rdfs:comment "A separate way for the use of cyclists."@en ;
+          rdfs:label "Cycleway"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Hiking_trail
+:Hiking_trail rdf:type owl:Class ;
+              rdfs:subClassOf :Sport ;
+              :ConceptID "KGE24-2-1" ;
+              :OSMsynonym "footway_GID-301524" ;
+              :isEtype "true"^^xsd:boolean ;
+              rdfs:comment "A path or track roughly blazed through wild or hilly country where to go hiking"@en ;
+              rdfs:label "Hiking trail"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Hotel
+:Hotel rdf:type owl:Class ;
+       rdfs:subClassOf :Building ;
+       :ConceptID "UKC-18979" ;
+       :OSMsynonym "hotel_GID-301033" ;
+       :isEtype "true"^^xsd:boolean ;
+       rdfs:comment "A building where travelers can pay for lodging and meals and other services"@en ;
+       rdfs:label "Hotel"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Location
+:Location rdf:type owl:Class ;
+          rdfs:subClassOf :ComplexType ;
+          :ConceptID "UKC-50" ;
+          :OSMsynonym "osmPlace_GID-300871" ;
+          :isEtype "true"^^xsd:boolean ;
+          rdfs:comment "A point or extent in space"@en ;
+          rdfs:label "Location"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:subClassOf :Building ;
+            :ConceptID "UKC-22077" ;
+            :OSMsynonym "restaurant_GID-301071" ;
+            :isEtype "true"^^xsd:boolean ;
+            rdfs:comment "A building where people go to eat"@en ;
+            rdfs:label "Restaurant"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Rock_climbing_route
+:Rock_climbing_route rdf:type owl:Class ;
+                     rdfs:subClassOf :Sport ;
+                     :ConceptID "KGE24-2-2" ;
+                     :isEtype "true"^^xsd:boolean ;
+                     rdfs:comment "A path by which a climber reaches the top of a mountain, a rock face or an ice-covered obstacle."@en ;
+                     rdfs:label "Rock climbing route"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Ski_rental
+:Ski_rental rdf:type owl:Class ;
+            rdfs:subClassOf :Building ;
+            :ConceptID "https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dski_rental" ;
+            :isEtype "true"^^xsd:boolean ;
+            rdfs:comment "A shop that rents skis and related accessories."@en ;
+            rdfs:label "Ski rental"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Ski_trail
+:Ski_trail rdf:type owl:Class ;
+           rdfs:subClassOf :Sport ;
+           :ConceptID "UKC-22959" ;
+           :isEtype "true"^^xsd:boolean ;
+           rdfs:comment "Trail or slope prepared for skiing"@en ;
+           rdfs:label "Ski trail"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#Sport
+:Sport rdf:type owl:Class ;
+       rdfs:subClassOf :Location ;
+       :ConceptID "KGE24-2-22" ;
+       :isEtype "true"^^xsd:boolean ;
+       rdfs:comment "A location or path where outdoor sport can be done"@en ;
+       rdfs:label "Sport location"@en .
+
+
+###  http://knowdive.disi.unitn.it/etype#View
+:View rdf:type owl:Class ;
+      rdfs:subClassOf :Location ;
+      :ConceptID "UKC-31769" ;
+      :OSMsynonym "viewpoint_GID-301461" ;
+      :isEtype "true"^^xsd:boolean ;
+      rdfs:comment "The visual percept of a region"@en ;
+      rdfs:label "View"@en .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
