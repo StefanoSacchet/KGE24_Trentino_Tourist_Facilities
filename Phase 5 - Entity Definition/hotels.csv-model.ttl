@@ -1,0 +1,1387 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ieqk0v9sx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "hotels.csv" ;
+	km-dev:modelPublicationTime "1733912722748"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Phone\"}],[{\"columnName\":\"Postal Code\"}],[{\"columnName\":\"addrHousenumber\"}],[{\"columnName\":\"addrStreet\"}],[{\"columnName\":\"coordinates\"}],[{\"columnName\":\"Services\"}],[{\"columnName\":\"Facility Name\"}],[{\"columnName\":\"Star Rating\"}],[{\"columnName\":\"Price\"}],[{\"columnName\":\"Municipality\"}],[{\"columnName\":\"Number of Beds\"}],[{\"columnName\":\"type\"}],[{\"columnName\":\"Altitude\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"Service Type\"}],[{\"columnName\":\"Website\"}],[{\"columnName\":\"Email Address\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Phone\"}],[{\"columnName\":\"Postal Code\"}],[{\"columnName\":\"addrHousenumber\"}],[{\"columnName\":\"coordinates\"}],[{\"columnName\":\"addrStreet\"}],[{\"columnName\":\"Services\"}],[{\"columnName\":\"Facility Name\"}],[{\"columnName\":\"Star Rating\"}],[{\"columnName\":\"Price\"}],[{\"columnName\":\"Municipality\"}],[{\"columnName\":\"Number of Beds\"}],[{\"columnName\":\"type\"}],[{\"columnName\":\"Altitude\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"Service Type\"}],[{\"columnName\":\"Website\"}],[{\"columnName\":\"Email Address\"}]]" ;
+	km-dev:hasModelLabel "hotels.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"coordinates\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"coordinates\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"[\\\" + getValue(\\\"coordinates\\\") + \\\"]\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/identifier\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/building_type\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Municipality\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/municipality\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Municipality\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Municipality\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Star Rating\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/stars\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Star Rating\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Star Rating\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Facility Name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/name\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Facility Name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Facility Name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"addrStreet\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/street\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrStreet\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrStreet\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"addrHousenumber\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/house_number\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrHousenumber\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrHousenumber\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Postal Code\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/postal_code\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Postal Code\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Postal Code\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Phone\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/phone_number\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Phone\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Phone\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Email Address\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/email\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Email Address\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Email Address\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Website\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/website\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Website\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Website\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Service Type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/service_type\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Service Type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Service Type\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Altitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/elevation\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Altitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Altitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Number of Beds\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/beds\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Number of Beds\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Number of Beds\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Price\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/price\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Price\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Price\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Services\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/service\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Services\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Services\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"coordinates\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Hotel\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/coordinates\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c a rr:TriplesMap .
+
+_:node1ieqk0v9sx1 km-dev:hasTriplesMap km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx2 rr:tableName "hotels.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasLogicalTable _:node1ieqk0v9sx2 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:logicalTable _:node1ieqk0v9sx2 ;
+	rr:subjectMap _:node1ieqk0v9sx3 .
+
+_:node1ieqk0v9sx1 km-dev:hasSubjectMap _:node1ieqk0v9sx3 .
+
+_:node1ieqk0v9sx3 km-dev:isPartOfMapping _:node1ieqk0v9sx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#/Hotel1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#/Hotel> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Hotel1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_81e1ef3e-adc1-44f9-a453-6967650e0374 rr:predicate <http://knowdive.disi.unitn.it/etype#/phone_number> .
+
+_:node1ieqk0v9sx4 rr:column "Phone" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx4 .
+
+km-dev:PredicateObjectMap_81e1ef3e-adc1-44f9-a453-6967650e0374 rr:objectMap _:node1ieqk0v9sx4 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_81e1ef3e-adc1-44f9-a453-6967650e0374 .
+
+km-dev:PredicateObjectMap_81e1ef3e-adc1-44f9-a453-6967650e0374 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_81e1ef3e-adc1-44f9-a453-6967650e0374 .
+
+km-dev:PredicateObjectMap_efc52076-91a6-47ea-968d-d1795afb7333 rr:predicate <http://knowdive.disi.unitn.it/etype#/postal_code> .
+
+_:node1ieqk0v9sx5 rr:column "Postal Code" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx5 .
+
+km-dev:PredicateObjectMap_efc52076-91a6-47ea-968d-d1795afb7333 rr:objectMap _:node1ieqk0v9sx5 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_efc52076-91a6-47ea-968d-d1795afb7333 .
+
+km-dev:PredicateObjectMap_efc52076-91a6-47ea-968d-d1795afb7333 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_efc52076-91a6-47ea-968d-d1795afb7333 .
+
+km-dev:PredicateObjectMap_f00c5bd6-4d98-47cf-b60b-923633ab6b8a rr:predicate <http://knowdive.disi.unitn.it/etype#/house_number> .
+
+_:node1ieqk0v9sx6 rr:column "addrHousenumber" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx6 .
+
+km-dev:PredicateObjectMap_f00c5bd6-4d98-47cf-b60b-923633ab6b8a rr:objectMap _:node1ieqk0v9sx6 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_f00c5bd6-4d98-47cf-b60b-923633ab6b8a .
+
+km-dev:PredicateObjectMap_f00c5bd6-4d98-47cf-b60b-923633ab6b8a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f00c5bd6-4d98-47cf-b60b-923633ab6b8a .
+
+km-dev:PredicateObjectMap_f2c8e950-75b4-46bd-8216-5ddc4da9974a rr:predicate <http://knowdive.disi.unitn.it/etype#/street> .
+
+_:node1ieqk0v9sx7 rr:column "addrStreet" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx7 .
+
+km-dev:PredicateObjectMap_f2c8e950-75b4-46bd-8216-5ddc4da9974a rr:objectMap _:node1ieqk0v9sx7 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_f2c8e950-75b4-46bd-8216-5ddc4da9974a .
+
+km-dev:PredicateObjectMap_f2c8e950-75b4-46bd-8216-5ddc4da9974a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f2c8e950-75b4-46bd-8216-5ddc4da9974a .
+
+km-dev:PredicateObjectMap_b785f394-6d87-4bf8-b3dc-040e7b73944f rr:predicate <http://knowdive.disi.unitn.it/etype#/coordinates> .
+
+_:node1ieqk0v9sx8 rr:constant "[{coordinates}]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx8 .
+
+km-dev:PredicateObjectMap_b785f394-6d87-4bf8-b3dc-040e7b73944f rr:objectMap _:node1ieqk0v9sx8 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_b785f394-6d87-4bf8-b3dc-040e7b73944f .
+
+km-dev:PredicateObjectMap_b785f394-6d87-4bf8-b3dc-040e7b73944f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b785f394-6d87-4bf8-b3dc-040e7b73944f .
+
+km-dev:PredicateObjectMap_b16e08e7-61ce-4089-a34f-239430cec86a rr:predicate <http://knowdive.disi.unitn.it/etype#/service> .
+
+_:node1ieqk0v9sx9 rr:column "Services" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx9 .
+
+km-dev:PredicateObjectMap_b16e08e7-61ce-4089-a34f-239430cec86a rr:objectMap _:node1ieqk0v9sx9 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_b16e08e7-61ce-4089-a34f-239430cec86a .
+
+km-dev:PredicateObjectMap_b16e08e7-61ce-4089-a34f-239430cec86a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b16e08e7-61ce-4089-a34f-239430cec86a .
+
+km-dev:PredicateObjectMap_fdf98a90-1439-4d12-b2b6-b648c71b7e0b rr:predicate <http://knowdive.disi.unitn.it/etype#/name> .
+
+_:node1ieqk0v9sx10 rr:column "Facility Name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx10 .
+
+km-dev:PredicateObjectMap_fdf98a90-1439-4d12-b2b6-b648c71b7e0b rr:objectMap _:node1ieqk0v9sx10 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_fdf98a90-1439-4d12-b2b6-b648c71b7e0b .
+
+km-dev:PredicateObjectMap_fdf98a90-1439-4d12-b2b6-b648c71b7e0b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fdf98a90-1439-4d12-b2b6-b648c71b7e0b .
+
+km-dev:PredicateObjectMap_96f7c241-2c76-40f6-ae76-90fa8e5342fa rr:predicate <http://knowdive.disi.unitn.it/etype#/stars> .
+
+_:node1ieqk0v9sx11 rr:column "Star Rating" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx11 .
+
+km-dev:PredicateObjectMap_96f7c241-2c76-40f6-ae76-90fa8e5342fa rr:objectMap _:node1ieqk0v9sx11 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_96f7c241-2c76-40f6-ae76-90fa8e5342fa .
+
+km-dev:PredicateObjectMap_96f7c241-2c76-40f6-ae76-90fa8e5342fa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_96f7c241-2c76-40f6-ae76-90fa8e5342fa .
+
+km-dev:PredicateObjectMap_fbf11ae8-4bcb-4cc4-941f-edc7be14f106 rr:predicate <http://knowdive.disi.unitn.it/etype#/price> .
+
+_:node1ieqk0v9sx12 rr:column "Price" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx12 .
+
+km-dev:PredicateObjectMap_fbf11ae8-4bcb-4cc4-941f-edc7be14f106 rr:objectMap _:node1ieqk0v9sx12 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_fbf11ae8-4bcb-4cc4-941f-edc7be14f106 .
+
+km-dev:PredicateObjectMap_fbf11ae8-4bcb-4cc4-941f-edc7be14f106 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fbf11ae8-4bcb-4cc4-941f-edc7be14f106 .
+
+km-dev:PredicateObjectMap_1bfd5679-3a9b-4b6b-8efc-ea755de1e497 rr:predicate <http://knowdive.disi.unitn.it/etype#/municipality> .
+
+_:node1ieqk0v9sx13 rr:column "Municipality" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx13 .
+
+km-dev:PredicateObjectMap_1bfd5679-3a9b-4b6b-8efc-ea755de1e497 rr:objectMap _:node1ieqk0v9sx13 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_1bfd5679-3a9b-4b6b-8efc-ea755de1e497 .
+
+km-dev:PredicateObjectMap_1bfd5679-3a9b-4b6b-8efc-ea755de1e497 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1bfd5679-3a9b-4b6b-8efc-ea755de1e497 .
+
+km-dev:PredicateObjectMap_91d33781-7cc3-4296-af3f-aa93777ffa81 rr:predicate <http://knowdive.disi.unitn.it/etype#/beds> .
+
+_:node1ieqk0v9sx14 rr:column "Number of Beds" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx14 .
+
+km-dev:PredicateObjectMap_91d33781-7cc3-4296-af3f-aa93777ffa81 rr:objectMap _:node1ieqk0v9sx14 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_91d33781-7cc3-4296-af3f-aa93777ffa81 .
+
+km-dev:PredicateObjectMap_91d33781-7cc3-4296-af3f-aa93777ffa81 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_91d33781-7cc3-4296-af3f-aa93777ffa81 .
+
+km-dev:PredicateObjectMap_6011b9fb-da92-4c51-9f90-17807fb7a8c1 rr:predicate <http://knowdive.disi.unitn.it/etype#/building_type> .
+
+_:node1ieqk0v9sx15 rr:column "type" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx15 .
+
+km-dev:PredicateObjectMap_6011b9fb-da92-4c51-9f90-17807fb7a8c1 rr:objectMap _:node1ieqk0v9sx15 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_6011b9fb-da92-4c51-9f90-17807fb7a8c1 .
+
+km-dev:PredicateObjectMap_6011b9fb-da92-4c51-9f90-17807fb7a8c1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6011b9fb-da92-4c51-9f90-17807fb7a8c1 .
+
+km-dev:PredicateObjectMap_bbe7100e-7825-468a-bc49-a46e66b65012 rr:predicate <http://knowdive.disi.unitn.it/etype#/elevation> .
+
+_:node1ieqk0v9sx16 rr:column "Altitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx16 .
+
+km-dev:PredicateObjectMap_bbe7100e-7825-468a-bc49-a46e66b65012 rr:objectMap _:node1ieqk0v9sx16 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_bbe7100e-7825-468a-bc49-a46e66b65012 .
+
+km-dev:PredicateObjectMap_bbe7100e-7825-468a-bc49-a46e66b65012 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bbe7100e-7825-468a-bc49-a46e66b65012 .
+
+km-dev:PredicateObjectMap_7bda444a-bf3e-4745-bfd0-614f5ff3ed5d rr:predicate <http://knowdive.disi.unitn.it/etype#/identifier> .
+
+_:node1ieqk0v9sx17 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx17 .
+
+km-dev:PredicateObjectMap_7bda444a-bf3e-4745-bfd0-614f5ff3ed5d rr:objectMap _:node1ieqk0v9sx17 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_7bda444a-bf3e-4745-bfd0-614f5ff3ed5d .
+
+km-dev:PredicateObjectMap_7bda444a-bf3e-4745-bfd0-614f5ff3ed5d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7bda444a-bf3e-4745-bfd0-614f5ff3ed5d .
+
+km-dev:PredicateObjectMap_d520708f-2d59-4abb-9dcc-18fc133b9b9f rr:predicate <http://knowdive.disi.unitn.it/etype#/service_type> .
+
+_:node1ieqk0v9sx18 rr:column "Service Type" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx18 .
+
+km-dev:PredicateObjectMap_d520708f-2d59-4abb-9dcc-18fc133b9b9f rr:objectMap _:node1ieqk0v9sx18 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_d520708f-2d59-4abb-9dcc-18fc133b9b9f .
+
+km-dev:PredicateObjectMap_d520708f-2d59-4abb-9dcc-18fc133b9b9f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d520708f-2d59-4abb-9dcc-18fc133b9b9f .
+
+km-dev:PredicateObjectMap_d21e4846-0a84-40b5-adf3-8f6adaf3996a rr:predicate <http://knowdive.disi.unitn.it/etype#/website> .
+
+_:node1ieqk0v9sx19 rr:column "Website" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx19 .
+
+km-dev:PredicateObjectMap_d21e4846-0a84-40b5-adf3-8f6adaf3996a rr:objectMap _:node1ieqk0v9sx19 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_d21e4846-0a84-40b5-adf3-8f6adaf3996a .
+
+km-dev:PredicateObjectMap_d21e4846-0a84-40b5-adf3-8f6adaf3996a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d21e4846-0a84-40b5-adf3-8f6adaf3996a .
+
+km-dev:PredicateObjectMap_11d392e8-fb34-4269-924e-37d46115bf0a rr:predicate <http://knowdive.disi.unitn.it/etype#/email> .
+
+_:node1ieqk0v9sx20 rr:column "Email Address" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasObjectMap _:node1ieqk0v9sx20 .
+
+km-dev:PredicateObjectMap_11d392e8-fb34-4269-924e-37d46115bf0a rr:objectMap _:node1ieqk0v9sx20 .
+
+km-dev:TriplesMap_ab9c11c7-c713-48bc-9b2a-c77219015b3c rr:predicateObjectMap km-dev:PredicateObjectMap_11d392e8-fb34-4269-924e-37d46115bf0a .
+
+km-dev:PredicateObjectMap_11d392e8-fb34-4269-924e-37d46115bf0a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk0v9sx1 .
+
+_:node1ieqk0v9sx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_11d392e8-fb34-4269-924e-37d46115bf0a .

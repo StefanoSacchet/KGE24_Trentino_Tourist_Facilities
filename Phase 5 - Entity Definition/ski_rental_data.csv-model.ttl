@@ -1,0 +1,855 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ieqk9dsnx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "ski_rental_data.csv" ;
+	km-dev:modelPublicationTime "1733912999831"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"coordinates\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"osmId\"}],[{\"columnName\":\"type\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"addrCity\"}],[{\"columnName\":\"addrPostcode\"}],[{\"columnName\":\"addrStreet\"}],[{\"columnName\":\"addrHousenumber\"}],[{\"columnName\":\"phone\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"coordinates\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"osmId\"}],[{\"columnName\":\"type\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"addrCity\"}],[{\"columnName\":\"addrPostcode\"}],[{\"columnName\":\"addrStreet\"}],[{\"columnName\":\"addrHousenumber\"}],[{\"columnName\":\"phone\"}]]" ;
+	km-dev:hasModelLabel "ski_rental_data.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"coordinates\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"coordinates\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"[\\\" + getValue(\\\"coordinates\\\") + \\\"]\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/identifier\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"osmId\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/OSMId\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"osmId\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"osmId\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/building_type\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/name\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"addrCity\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/municipality\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrCity\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrCity\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"addrPostcode\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/postal_code\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrPostcode\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrPostcode\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"addrStreet\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/street\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrStreet\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrStreet\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"addrHousenumber\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/house_number\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrHousenumber\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"addrHousenumber\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"phone\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/phone_number\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"phone\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"phone\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"coordinates\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/coordinates\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_rental/Ski_rental1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 a rr:TriplesMap .
+
+_:node1ieqk9dsnx1 km-dev:hasTriplesMap km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx2 rr:tableName "ski_rental_data.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasLogicalTable _:node1ieqk9dsnx2 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:logicalTable _:node1ieqk9dsnx2 ;
+	rr:subjectMap _:node1ieqk9dsnx3 .
+
+_:node1ieqk9dsnx1 km-dev:hasSubjectMap _:node1ieqk9dsnx3 .
+
+_:node1ieqk9dsnx3 km-dev:isPartOfMapping _:node1ieqk9dsnx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#/Ski_rental1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#/Ski_rental> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Ski_rental1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_8d17e82a-9c37-4d50-8fad-bda8420baac6 rr:predicate <http://knowdive.disi.unitn.it/etype#/coordinates> .
+
+_:node1ieqk9dsnx4 rr:constant "[{coordinates}]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx4 .
+
+km-dev:PredicateObjectMap_8d17e82a-9c37-4d50-8fad-bda8420baac6 rr:objectMap _:node1ieqk9dsnx4 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_8d17e82a-9c37-4d50-8fad-bda8420baac6 .
+
+km-dev:PredicateObjectMap_8d17e82a-9c37-4d50-8fad-bda8420baac6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8d17e82a-9c37-4d50-8fad-bda8420baac6 .
+
+km-dev:PredicateObjectMap_63e3df5f-f65f-4436-b4d9-78d70e061906 rr:predicate <http://knowdive.disi.unitn.it/etype#/identifier> .
+
+_:node1ieqk9dsnx5 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx5 .
+
+km-dev:PredicateObjectMap_63e3df5f-f65f-4436-b4d9-78d70e061906 rr:objectMap _:node1ieqk9dsnx5 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_63e3df5f-f65f-4436-b4d9-78d70e061906 .
+
+km-dev:PredicateObjectMap_63e3df5f-f65f-4436-b4d9-78d70e061906 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_63e3df5f-f65f-4436-b4d9-78d70e061906 .
+
+km-dev:PredicateObjectMap_f44da27c-fb76-445e-ae92-0d832d0870a9 rr:predicate <http://knowdive.disi.unitn.it/etype#/OSMId> .
+
+_:node1ieqk9dsnx6 rr:column "osmId" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx6 .
+
+km-dev:PredicateObjectMap_f44da27c-fb76-445e-ae92-0d832d0870a9 rr:objectMap _:node1ieqk9dsnx6 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_f44da27c-fb76-445e-ae92-0d832d0870a9 .
+
+km-dev:PredicateObjectMap_f44da27c-fb76-445e-ae92-0d832d0870a9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f44da27c-fb76-445e-ae92-0d832d0870a9 .
+
+km-dev:PredicateObjectMap_fa3d92b9-6fc5-4650-bb14-e371a64046b7 rr:predicate <http://knowdive.disi.unitn.it/etype#/building_type> .
+
+_:node1ieqk9dsnx7 rr:column "type" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx7 .
+
+km-dev:PredicateObjectMap_fa3d92b9-6fc5-4650-bb14-e371a64046b7 rr:objectMap _:node1ieqk9dsnx7 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_fa3d92b9-6fc5-4650-bb14-e371a64046b7 .
+
+km-dev:PredicateObjectMap_fa3d92b9-6fc5-4650-bb14-e371a64046b7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fa3d92b9-6fc5-4650-bb14-e371a64046b7 .
+
+km-dev:PredicateObjectMap_6adf913e-4721-4d2c-aa42-5f11a6c7d521 rr:predicate <http://knowdive.disi.unitn.it/etype#/name> .
+
+_:node1ieqk9dsnx8 rr:column "name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx8 .
+
+km-dev:PredicateObjectMap_6adf913e-4721-4d2c-aa42-5f11a6c7d521 rr:objectMap _:node1ieqk9dsnx8 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_6adf913e-4721-4d2c-aa42-5f11a6c7d521 .
+
+km-dev:PredicateObjectMap_6adf913e-4721-4d2c-aa42-5f11a6c7d521 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6adf913e-4721-4d2c-aa42-5f11a6c7d521 .
+
+km-dev:PredicateObjectMap_6c43b096-3134-4c60-b5e8-6176a9657aad rr:predicate <http://knowdive.disi.unitn.it/etype#/municipality> .
+
+_:node1ieqk9dsnx9 rr:column "addrCity" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx9 .
+
+km-dev:PredicateObjectMap_6c43b096-3134-4c60-b5e8-6176a9657aad rr:objectMap _:node1ieqk9dsnx9 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_6c43b096-3134-4c60-b5e8-6176a9657aad .
+
+km-dev:PredicateObjectMap_6c43b096-3134-4c60-b5e8-6176a9657aad a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6c43b096-3134-4c60-b5e8-6176a9657aad .
+
+km-dev:PredicateObjectMap_ad5c322f-6583-4e96-aa28-f1481bee9e74 rr:predicate <http://knowdive.disi.unitn.it/etype#/postal_code> .
+
+_:node1ieqk9dsnx10 rr:column "addrPostcode" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx10 .
+
+km-dev:PredicateObjectMap_ad5c322f-6583-4e96-aa28-f1481bee9e74 rr:objectMap _:node1ieqk9dsnx10 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_ad5c322f-6583-4e96-aa28-f1481bee9e74 .
+
+km-dev:PredicateObjectMap_ad5c322f-6583-4e96-aa28-f1481bee9e74 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ad5c322f-6583-4e96-aa28-f1481bee9e74 .
+
+km-dev:PredicateObjectMap_da68f05e-55e3-4519-bfa2-b0d67db7c7de rr:predicate <http://knowdive.disi.unitn.it/etype#/street> .
+
+_:node1ieqk9dsnx11 rr:column "addrStreet" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx11 .
+
+km-dev:PredicateObjectMap_da68f05e-55e3-4519-bfa2-b0d67db7c7de rr:objectMap _:node1ieqk9dsnx11 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_da68f05e-55e3-4519-bfa2-b0d67db7c7de .
+
+km-dev:PredicateObjectMap_da68f05e-55e3-4519-bfa2-b0d67db7c7de a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_da68f05e-55e3-4519-bfa2-b0d67db7c7de .
+
+km-dev:PredicateObjectMap_367a8215-cbb3-4a8f-85d9-5b49c21a25c2 rr:predicate <http://knowdive.disi.unitn.it/etype#/house_number> .
+
+_:node1ieqk9dsnx12 rr:column "addrHousenumber" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx12 .
+
+km-dev:PredicateObjectMap_367a8215-cbb3-4a8f-85d9-5b49c21a25c2 rr:objectMap _:node1ieqk9dsnx12 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_367a8215-cbb3-4a8f-85d9-5b49c21a25c2 .
+
+km-dev:PredicateObjectMap_367a8215-cbb3-4a8f-85d9-5b49c21a25c2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_367a8215-cbb3-4a8f-85d9-5b49c21a25c2 .
+
+km-dev:PredicateObjectMap_98581674-c6f3-4eec-811f-b9ffd1d05917 rr:predicate <http://knowdive.disi.unitn.it/etype#/phone_number> .
+
+_:node1ieqk9dsnx13 rr:column "phone" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasObjectMap _:node1ieqk9dsnx13 .
+
+km-dev:PredicateObjectMap_98581674-c6f3-4eec-811f-b9ffd1d05917 rr:objectMap _:node1ieqk9dsnx13 .
+
+km-dev:TriplesMap_810deef7-bb48-4e6a-af96-0faa20f300d7 rr:predicateObjectMap km-dev:PredicateObjectMap_98581674-c6f3-4eec-811f-b9ffd1d05917 .
+
+km-dev:PredicateObjectMap_98581674-c6f3-4eec-811f-b9ffd1d05917 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqk9dsnx1 .
+
+_:node1ieqk9dsnx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_98581674-c6f3-4eec-811f-b9ffd1d05917 .

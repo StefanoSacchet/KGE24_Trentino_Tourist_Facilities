@@ -1,0 +1,575 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ieqj64pvx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "ski_slopes.csv" ;
+	km-dev:modelPublicationTime "1733911843647"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"osmId\"}],[{\"columnName\":\"coordinates\"}],[{\"columnName\":\"difficulty\"}],[{\"columnName\":\"type\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"ski_resort\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"osmId\"}],[{\"columnName\":\"coordinates\"}],[{\"columnName\":\"difficulty\"}],[{\"columnName\":\"type\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"ski_resort\"}]]" ;
+	km-dev:hasModelLabel "ski_slopes.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/identifier\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail/Ski_trail1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"osmId\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/OSMId\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail/Ski_trail1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"osmId\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"osmId\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/activity_type\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail/Ski_trail1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/name\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail/Ski_trail1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"coordinates\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/coordinates\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail/Ski_trail1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"coordinates\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"difficulty\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/difficulty_level\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail/Ski_trail1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"difficulty\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"difficulty\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ski_resort\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#/ski_resort\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#/Ski_trail/Ski_trail1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ski_resort\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ski_resort\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da a rr:TriplesMap .
+
+_:node1ieqj64pvx1 km-dev:hasTriplesMap km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx2 rr:tableName "ski_slopes.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasLogicalTable _:node1ieqj64pvx2 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:logicalTable _:node1ieqj64pvx2 ;
+	rr:subjectMap _:node1ieqj64pvx3 .
+
+_:node1ieqj64pvx1 km-dev:hasSubjectMap _:node1ieqj64pvx3 .
+
+_:node1ieqj64pvx3 km-dev:isPartOfMapping _:node1ieqj64pvx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#/Ski_trail1" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#/Ski_trail> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Ski_trail1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_1a978a26-b775-4adb-a156-25e7f93473b1 rr:predicate <http://knowdive.disi.unitn.it/etype#/identifier> .
+
+_:node1ieqj64pvx4 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasObjectMap _:node1ieqj64pvx4 .
+
+km-dev:PredicateObjectMap_1a978a26-b775-4adb-a156-25e7f93473b1 rr:objectMap _:node1ieqj64pvx4 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:predicateObjectMap km-dev:PredicateObjectMap_1a978a26-b775-4adb-a156-25e7f93473b1 .
+
+km-dev:PredicateObjectMap_1a978a26-b775-4adb-a156-25e7f93473b1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1a978a26-b775-4adb-a156-25e7f93473b1 .
+
+km-dev:PredicateObjectMap_995d8b0a-2cc9-49f5-9607-5e74dd6e0fcc rr:predicate <http://knowdive.disi.unitn.it/etype#/OSMId> .
+
+_:node1ieqj64pvx5 rr:column "osmId" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasObjectMap _:node1ieqj64pvx5 .
+
+km-dev:PredicateObjectMap_995d8b0a-2cc9-49f5-9607-5e74dd6e0fcc rr:objectMap _:node1ieqj64pvx5 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:predicateObjectMap km-dev:PredicateObjectMap_995d8b0a-2cc9-49f5-9607-5e74dd6e0fcc .
+
+km-dev:PredicateObjectMap_995d8b0a-2cc9-49f5-9607-5e74dd6e0fcc a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_995d8b0a-2cc9-49f5-9607-5e74dd6e0fcc .
+
+km-dev:PredicateObjectMap_610fe498-f457-46b1-a171-97916fe45685 rr:predicate <http://knowdive.disi.unitn.it/etype#/coordinates> .
+
+_:node1ieqj64pvx6 rr:column "coordinates" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasObjectMap _:node1ieqj64pvx6 .
+
+km-dev:PredicateObjectMap_610fe498-f457-46b1-a171-97916fe45685 rr:objectMap _:node1ieqj64pvx6 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:predicateObjectMap km-dev:PredicateObjectMap_610fe498-f457-46b1-a171-97916fe45685 .
+
+km-dev:PredicateObjectMap_610fe498-f457-46b1-a171-97916fe45685 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_610fe498-f457-46b1-a171-97916fe45685 .
+
+km-dev:PredicateObjectMap_aa90aa5c-2a06-4fb2-abfc-5f62ba046546 rr:predicate <http://knowdive.disi.unitn.it/etype#/difficulty_level> .
+
+_:node1ieqj64pvx7 rr:column "difficulty" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasObjectMap _:node1ieqj64pvx7 .
+
+km-dev:PredicateObjectMap_aa90aa5c-2a06-4fb2-abfc-5f62ba046546 rr:objectMap _:node1ieqj64pvx7 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:predicateObjectMap km-dev:PredicateObjectMap_aa90aa5c-2a06-4fb2-abfc-5f62ba046546 .
+
+km-dev:PredicateObjectMap_aa90aa5c-2a06-4fb2-abfc-5f62ba046546 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aa90aa5c-2a06-4fb2-abfc-5f62ba046546 .
+
+km-dev:PredicateObjectMap_93f4231b-5b30-4b03-a735-b683356de8e5 rr:predicate <http://knowdive.disi.unitn.it/etype#/activity_type> .
+
+_:node1ieqj64pvx8 rr:column "type" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasObjectMap _:node1ieqj64pvx8 .
+
+km-dev:PredicateObjectMap_93f4231b-5b30-4b03-a735-b683356de8e5 rr:objectMap _:node1ieqj64pvx8 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:predicateObjectMap km-dev:PredicateObjectMap_93f4231b-5b30-4b03-a735-b683356de8e5 .
+
+km-dev:PredicateObjectMap_93f4231b-5b30-4b03-a735-b683356de8e5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_93f4231b-5b30-4b03-a735-b683356de8e5 .
+
+km-dev:PredicateObjectMap_455e98cc-d0b3-4351-a6ac-bf8f5bef9bbb rr:predicate <http://knowdive.disi.unitn.it/etype#/name> .
+
+_:node1ieqj64pvx9 rr:column "name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasObjectMap _:node1ieqj64pvx9 .
+
+km-dev:PredicateObjectMap_455e98cc-d0b3-4351-a6ac-bf8f5bef9bbb rr:objectMap _:node1ieqj64pvx9 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:predicateObjectMap km-dev:PredicateObjectMap_455e98cc-d0b3-4351-a6ac-bf8f5bef9bbb .
+
+km-dev:PredicateObjectMap_455e98cc-d0b3-4351-a6ac-bf8f5bef9bbb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_455e98cc-d0b3-4351-a6ac-bf8f5bef9bbb .
+
+km-dev:PredicateObjectMap_7ef13ecb-4d44-4613-8c0b-eca3e2a55a48 rr:predicate <http://knowdive.disi.unitn.it/etype#/ski_resort> .
+
+_:node1ieqj64pvx10 rr:column "ski_resort" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasObjectMap _:node1ieqj64pvx10 .
+
+km-dev:PredicateObjectMap_7ef13ecb-4d44-4613-8c0b-eca3e2a55a48 rr:objectMap _:node1ieqj64pvx10 .
+
+km-dev:TriplesMap_88fd4d0d-1b1c-4243-b152-eec0247239da rr:predicateObjectMap km-dev:PredicateObjectMap_7ef13ecb-4d44-4613-8c0b-eca3e2a55a48 .
+
+km-dev:PredicateObjectMap_7ef13ecb-4d44-4613-8c0b-eca3e2a55a48 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ieqj64pvx1 .
+
+_:node1ieqj64pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7ef13ecb-4d44-4613-8c0b-eca3e2a55a48 .
