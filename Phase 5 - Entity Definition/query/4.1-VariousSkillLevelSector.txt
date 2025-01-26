@@ -1,0 +1,11 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?sector (MAX(xsd:decimal(?difficulty)) - MIN(xsd:decimal(?difficulty)) AS ?difficultyRange)
+WHERE {
+    # Retrieve all climbing routes with their sector and difficulty degree
+    ?route <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Rock_climbing_route> ;
+    <http://knowdive.disi.unitn.it/etype#/sector> ?sector ;
+    <http://knowdive.disi.unitn.it/etype#/degree> ?difficulty .
+}
+GROUP BY ?sector
+ORDER BY DESC(?difficultyRange)
+LIMIT 5

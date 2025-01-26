@@ -1,0 +1,64 @@
+ 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?subject ?latitude ?longitude
+WHERE {
+  ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> .
+  ?subject <http://knowdive.disi.unitn.it/etype#/coordinates> ?coordString .
+
+  # Remove the outer brackets to isolate the inner "11.7258401, 46.5569714"
+  BIND(REPLACE(?coordString, "^[\\[]+|[\\]]+$", "") AS ?trimmedString)
+
+  # Extract latitude (number before the comma)
+  BIND(xsd:decimal(REPLACE(?trimmedString, ",.*$", "")) AS ?latitude)
+
+  # Extract longitude (number after the comma)
+  BIND(xsd:decimal(REPLACE(?trimmedString, "^.*,", "")) AS ?longitude)
+
+  FILTER(?latitude > 12 && ?latitude < 20)
+  FILTER(?longitude > 46 && ?longitude < 50)
+}
+
+
+
+
+[11.6748659, 46.5765605] Ski_rental
+[11.6646506, 46.5578581] prima posizione di una pista
+
+differenza è
+[+-0.0102153, +-0.0187024]
+
+il range si potrebbe calcolare con [+-0.02, +-0.02]
+
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?trailName ?skiResort ?rentalName
+WHERE {
+    # Find all ski trails with "ortisei" in the ski_resort name (case-insensitive)
+    ?trail <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_trail> ;
+    <http://knowdive.disi.unitn.it/etype#/ski_resort> ?skiResort ;
+    <http://knowdive.disi.unitn.it/etype#/coordinates> ?trailCoordString ;
+    <http://knowdive.disi.unitn.it/etype#/name> ?trailName .
+
+    FILTER(CONTAINS(LCASE(?skiResort), LCASE("ortisei")) || CONTAINS(LCASE(?trailName), LCASE("ortisei")))
+
+    # Remove the outer brackets from the ski trail's coordinates and extract the first longitude and latitude
+    BIND(REPLACE(?trailCoordString, "^[\\[]+|[\\]]+$", "") AS ?trailTrimmedString)
+    BIND(xsd:decimal(REPLACE(?trailTrimmedString, ",.*$", "")) AS ?trailLong)
+    BIND(xsd:decimal(REPLACE(REPLACE(?trailTrimmedString, "^[^,]*,", ""), "].*$", "")) AS ?trailLat)
+
+    # Find all ski rentals
+    ?rental <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> ;
+    <http://knowdive.disi.unitn.it/etype#/coordinates> ?rentalCoordString ;
+    <http://knowdive.disi.unitn.it/etype#/name> ?rentalName .
+
+    # Remove the outer brackets from the ski rental's coordinates and extract the single latitude and longitude
+    BIND(REPLACE(?rentalCoordString, "^[\\[]+|[\\]]+$", "") AS ?rentalTrimmedString)
+    BIND(xsd:decimal(REPLACE(?rentalTrimmedString, ",.*$", "")) AS ?rentalLong)
+    BIND(xsd:decimal(REPLACE(REPLACE(?rentalTrimmedString, "^.*,", ""), "].*$", "")) AS ?rentalLat)
+
+    # Compare coordinates with a tolerance of ±0.02
+    FILTER(ABS(?trailLat - ?rentalLat) <= 0.02)
+    FILTER(ABS(?trailLong - ?rentalLong) <= 0.02)
+}
+ORDER BY ?skiResort

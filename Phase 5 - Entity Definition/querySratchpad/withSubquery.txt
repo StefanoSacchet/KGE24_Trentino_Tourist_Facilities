@@ -1,0 +1,11 @@
+ SELECT *
+WHERE {
+    {
+        SELECT ?s
+        WHERE {
+            ?s <http://knowdive.disi.unitn.it/etype#/name> ?o .
+        }
+        LIMIT 10
+    }
+    ?s ?p "Roen" .
+}

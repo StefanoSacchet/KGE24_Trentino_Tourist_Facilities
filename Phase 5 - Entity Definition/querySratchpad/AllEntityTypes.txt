@@ -1,0 +1,6 @@
+SELECT DISTINCT ?o
+WHERE {
+    ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?o .
+    FILTER STRSTARTS(STR(?o), "http://knowdive.disi.unitn.it/etype#/")
+}
+LIMIT 100

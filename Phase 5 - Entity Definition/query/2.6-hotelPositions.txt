@@ -1,0 +1,14 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?name ?municipality ?postal_code ?street ?house_number
+WHERE {
+    # Match entities of type Hotel
+    ?hotel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Hotel> .
+
+    # Optionally retrieve each attribute
+    OPTIONAL { ?hotel <http://knowdive.disi.unitn.it/etype#/name> ?name . }
+    OPTIONAL { ?hotel <http://knowdive.disi.unitn.it/etype#/municipality> ?municipality . }
+    OPTIONAL { ?hotel <http://knowdive.disi.unitn.it/etype#/postal_code> ?postal_code . }
+    OPTIONAL { ?hotel <http://knowdive.disi.unitn.it/etype#/street> ?street . }
+    OPTIONAL { ?hotel <http://knowdive.disi.unitn.it/etype#/house_number> ?house_number . }
+}
+ORDER BY ?name
