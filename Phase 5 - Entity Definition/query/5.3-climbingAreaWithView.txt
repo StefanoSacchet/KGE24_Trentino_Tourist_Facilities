@@ -1,0 +1,29 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?crag ?sector ?viewName
+WHERE {
+    # Retrieve all Rock_climbing_route entities with crag, sector, and coordinates
+    ?route <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Rock_climbing_route> ;
+           <http://knowdive.disi.unitn.it/etype#/crag> ?crag ;
+           <http://knowdive.disi.unitn.it/etype#/sector> ?sector ;
+           <http://knowdive.disi.unitn.it/etype#/coordinates> ?routeCoordString .
+
+    # Parse the coordinates of the climbing route
+    BIND(REPLACE(?routeCoordString, "^[\\[]+|[\\]]+$", "") AS ?routeTrimmedString)
+    BIND(xsd:decimal(REPLACE(?routeTrimmedString, ",.*$", "")) AS ?routeLat)
+    BIND(xsd:decimal(REPLACE(REPLACE(?routeTrimmedString, "^.*,", ""), "].*$", "")) AS ?routeLong)
+
+    # Retrieve all View entities with name, elevation, and coordinates
+    ?view <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> ;
+          <http://knowdive.disi.unitn.it/etype#/name> ?viewName ;
+          <http://knowdive.disi.unitn.it/etype#/coordinates> ?viewCoordString .
+
+    # Parse the coordinates of the view
+    BIND(REPLACE(?viewCoordString, "^[\\[]+|[\\]]+$", "") AS ?viewTrimmedString)
+    BIND(xsd:decimal(REPLACE(?viewTrimmedString, ",.*$", "")) AS ?viewLong)
+    BIND(xsd:decimal(REPLACE(REPLACE(?viewTrimmedString, "^.*,", ""), "].*$", "")) AS ?viewLat)
+
+    # Compare the coordinates with a tolerance of ±0.008
+    FILTER(ABS(?routeLat - ?viewLat) <= 0.008)
+    FILTER(ABS(?routeLong - ?viewLong) <= 0.008)
+}
+ORDER BY ?crag ?sector ?climbingRouteName ?viewName

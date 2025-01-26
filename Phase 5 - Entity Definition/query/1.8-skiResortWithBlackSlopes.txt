@@ -1,0 +1,10 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?skiResort
+WHERE {
+    # Find all ski trails with difficulty_level = "advanced"
+    ?trail <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_trail> ;
+           <http://knowdive.disi.unitn.it/etype#/difficulty_level> "advanced" ;
+           <http://knowdive.disi.unitn.it/etype#/ski_resort> ?skiResort .
+}
+ORDER BY ?skiResort
+

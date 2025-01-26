@@ -1,0 +1,38 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?trailName ?skiResort ?rentalName
+WHERE {
+
+    # You can try with "principianti" or "2" for example
+    VALUES ?searchTerm { "ortisei" }
+    # How far you want to search for a rent from a slope
+    VALUES ?latTolerance { 0.03 }
+    VALUES ?longTolerance { 0.03 }
+
+    # Find all ski trails with ?searchTerm in the ski_resort name (case-insensitive)
+    ?trail <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_trail> ;
+    <http://knowdive.disi.unitn.it/etype#/coordinates> ?trailCoordString ;
+    <http://knowdive.disi.unitn.it/etype#/name> ?trailName .
+    # Optional because not all ski slopes have a ski resort associated
+    OPTIONAL { ?trail <http://knowdive.disi.unitn.it/etype#/ski_resort> ?skiResort }
+
+    FILTER(CONTAINS(LCASE(?skiResort), LCASE(?searchTerm)) || CONTAINS(LCASE(?trailName), LCASE(?searchTerm)))
+
+    # Remove the outer brackets from the ski trail's coordinates and extract the first longitude and latitude
+    BIND(REPLACE(?trailCoordString, "^[\\[]+|[\\]]+$", "") AS ?trailTrimmedString)
+    BIND(xsd:decimal(REPLACE(?trailTrimmedString, ",.*$", "")) AS ?trailLong)
+    BIND(xsd:decimal(REPLACE(REPLACE(?trailTrimmedString, "^[^,]*,", ""), "].*$", "")) AS ?trailLat)
+
+    # Find all ski rentals
+    ?rental <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> ;
+    <http://knowdive.disi.unitn.it/etype#/coordinates> ?rentalCoordString ;
+    <http://knowdive.disi.unitn.it/etype#/name> ?rentalName .
+
+    # Remove the outer brackets from the ski rental's coordinates and extract the single latitude and longitude
+    BIND(REPLACE(?rentalCoordString, "^[\\[]+|[\\]]+$", "") AS ?rentalTrimmedString)
+    BIND(xsd:decimal(REPLACE(?rentalTrimmedString, ",.*$", "")) AS ?rentalLong)
+    BIND(xsd:decimal(REPLACE(REPLACE(?rentalTrimmedString, "^.*,", ""), "].*$", "")) AS ?rentalLat)
+
+    # Compare coordinates with a tolerance of latTolerance/longTolerance
+    FILTER(ABS(?trailLat - ?rentalLat) <= ?latTolerance)
+    FILTER(ABS(?trailLong - ?rentalLong) <= ?longTolerance)
+}

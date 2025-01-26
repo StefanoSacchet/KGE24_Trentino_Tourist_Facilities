@@ -1,0 +1,16 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?crag
+WHERE {
+
+    # Set the preferred lower bouond degree value (49 = 7a)
+    VALUES ?lowerBoudDegree { 49.0 }
+    # Set the preferred upper bouond degree value
+    VALUES ?upperBoudDegree { 100.0 }
+
+    ?route <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Rock_climbing_route> ;
+    <http://knowdive.disi.unitn.it/etype#/name> ?crag ;
+    <http://knowdive.disi.unitn.it/etype#/degree> ?degree .
+
+    FILTER(xsd:decimal(?degree) >= ?lowerBoudDegree)
+    FILTER(xsd:decimal(?degree) <= ?upperBoudDegree)
+}

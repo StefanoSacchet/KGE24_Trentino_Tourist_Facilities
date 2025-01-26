@@ -1,0 +1,12 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?name ?municipality ?street ?postal_code ?house_number
+WHERE {
+    ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> .
+    ?s <http://knowdive.disi.unitn.it/etype#/name> ?name .
+    ?s <http://knowdive.disi.unitn.it/etype#/municipality> ?municipality .
+    ?s <http://knowdive.disi.unitn.it/etype#/street> ?street .
+    ?s <http://knowdive.disi.unitn.it/etype#/postal_code> ?postal_code .
+    OPTIONAL {?s <http://knowdive.disi.unitn.it/etype#/house_number> ?house_number . }
+}
+

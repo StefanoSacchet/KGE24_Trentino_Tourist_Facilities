@@ -1,0 +1,8 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?cyclewayName
+WHERE {
+    # Match entities of type Cycleway with difficulty level = "easy"
+    ?cycleway <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Cycleway> ;
+    <http://knowdive.disi.unitn.it/etype#/name> ?cyclewayName ;
+    <http://knowdive.disi.unitn.it/etype#/difficulty_level> "easy" .
+}
