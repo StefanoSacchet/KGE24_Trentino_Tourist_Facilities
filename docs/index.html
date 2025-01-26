@@ -1,12 +1,92 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My Project</title>
-</head>
-<body>
-    <h1>Welcome to My Project!</h1>
-    <p>This is my GitHub Pages site.</p>
-</body>
-</html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Cool GitHub Page</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                background: linear-gradient(135deg, #1e293b, #0f172a);
+                color: #e2e8f0;
+            }
+        </style>
+    </head>
+    <body class="font-sans">
+        <header class="bg-gray-900 p-4 shadow-lg">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-cyan-400">My GitHub Page</h1>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#about" class="hover:text-cyan-400">About</a></li>
+                        <li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
+                        <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
+        <main>
+            <section id="hero" class="h-screen flex items-center justify-center text-center">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-4">Welcome to My GitHub Page!</h2>
+                    <p class="text-lg mb-6">I'm a passionate developer creating awesome projects.</p>
+                    <a
+                        href="#projects"
+                        class="bg-cyan-400 text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-cyan-500"
+                        >Explore Projects</a
+                    >
+                </div>
+            </section>
+
+            <section id="about" class="py-20 bg-gray-800">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+                    <p class="text-lg max-w-2xl mx-auto">
+                        I'm a software developer with a passion for building innovative solutions. I love learning new
+                        technologies and collaborating with others to create impactful projects.
+                    </p>
+                </div>
+            </section>
+
+            <section id="projects" class="py-20">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6">Projects</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                            <p>A brief description of your project goes here.</p>
+                            <a href="#" class="text-cyan-400 hover:underline">View on GitHub</a>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                            <p>A brief description of your project goes here.</p>
+                            <a href="#" class="text-cyan-400 hover:underline">View on GitHub</a>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+                            <p>A brief description of your project goes here.</p>
+                            <a href="#" class="text-cyan-400 hover:underline">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="py-20 bg-gray-800">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+                    <p class="text-lg">Feel free to reach out to me via email or connect with me on social media.</p>
+                    <div class="mt-4">
+                        <a href="mailto:your_email@example.com" class="text-cyan-400 hover:underline"
+                            >your_email@example.com</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-gray-900 p-4 text-center">
+            <p>&copy; 2025 My GitHub Page. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
