@@ -19,9 +19,9 @@
                 <nav>
                     <ul class="flex space-x-4">
                         <li><a href="#purpose" class="hover:text-cyan-400">Purpose</a></li>
-                        <li><a href="#knowledge_resources" class="hover:text-cyan-400">Knowledge Resources</a></li>
-                        <li><a href="#data_resources" class="hover:text-cyan-400">Data Resources</a></li>
                         <li><a href="#er" class="hover:text-cyan-400">ER Model</a></li>
+                        <li><a href="#data_resources" class="hover:text-cyan-400">Data Resources</a></li>
+                        <li><a href="#knowledge_resources" class="hover:text-cyan-400">Knowledge Resources</a></li>
                         <li><a href="#etg" class="hover:text-cyan-400">ETG</a></li>
                         <li><a href="#kg" class="hover:text-cyan-400">Knowledge Graph</a></li>
                         <li><a href="#conclusion" class="hover:text-cyan-400">Conclusion</a></li>
@@ -56,22 +56,8 @@
                         the purpose of this project is described as:
                         <br />
                         <br />
-                        "A service which helps the users to know about different tourist facilities in Trentino.”
+                        "A service designed to inform users about various tourist facilities available in Trentino.”
                     </p>
-                </div>
-            </section>
-
-            <section id="knowledge_resources" class="py-20">
-                <div class="container mx-auto text-center">
-                    <h2 class="text-3xl font-bold mb-6">Knowledge Resources</h2>
-                    <p class="text-lg max-w-2xl mx-auto">schema.org</p>
-                </div>
-            </section>
-
-            <section id="data_resources" class="py-20 bg-gray-800">
-                <div class="container mx-auto text-center">
-                    <h2 class="text-3xl font-bold mb-6">Data Resources</h2>
-                    <p class="text-lg max-w-2xl mx-auto">datasets</p>
                 </div>
             </section>
 
@@ -80,15 +66,86 @@
                     <h2 class="text-3xl font-bold mb-6">ER Model</h2>
                     <p class="text-lg max-w-2xl mx-auto">ER image</p>
                     <div class="mt-6">
-                        <img src="example-result.png" alt="Example result" class="mx-auto rounded-lg shadow-lg" />
+                        <img src="images/er.png" alt="Example result" class="mx-auto rounded-lg shadow-lg" />
                     </div>
+                </div>
+            </section>
+
+            <section id="data_resources" class="py-20 bg-gray-800">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6">Data Resources</h2>
+                    <p class="text-lg max-w-2xl mx-auto">
+                        For hotel and ski slope data, resources from
+                        <a href="http://www.datiopen.it" class="text-cyan-400">DatiOpen.it</a> were utilized. Climbing
+                        route data was obtained from
+                        <a
+                            href="https://www.kaggle.com/datasets/jordizar/climb-dataset/data?select=routes_rated.csv"
+                            class="text-cyan-400"
+                            >Kaggle</a
+                        >
+                        , while information on hiking trails, rental shops, restaurants, cycle routes, and viewpoints
+                        was sourced from
+                        <a href="https://www.openstreetmap.org/#map=6/42.09/12.56" class="text-cyan-400"
+                            >OpenStreetMap</a
+                        >
+                        (OSM). The data underwent thorough cleaning and standardization through Python scripts, during
+                        which additional properties such as coordinates and elevations were incorporated. Finally, the
+                        processed data was consolidated into CSV files.
+                    </p>
+                </div>
+            </section>
+
+            <section id="knowledge_resources" class="py-20">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6">Knowledge Resources</h2>
+                    <p class="text-lg max-w-2xl mx-auto">
+                        Given the crucial role of schemas in knowledge and data integration, they were used as the
+                        foundational knowledge resources. To ensure reusability and provide a robust structure for our
+                        model, we gathered the data from
+                        <a href="https://www.openstreetmap.org/#map=6/42.09/12.56" class="text-cyan-400"
+                            >OpenStreetMap</a
+                        >
+                        (OSM) and adhered as closely as possible to its schemas. This approach was taken to enhance
+                        alignment with existing standards and improve future reuse. Specifically, the following
+                        references from OSM were incorporated:
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dski_rental" class="text-cyan-400"
+                                >Ski Rental</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway" class="text-cyan-400"
+                                >Cycle Routes</a
+                            >
+                        </li>
+                    </ul>
+                    <br />
+                    <p class="text-lg max-w-2xl mx-auto">
+                        From <a href="https://schema.org">schema.org</a> the following references were incorporated:
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://schema.org/Hotel" class="text-cyan-400">Hotels</a>
+                        </li>
+                    </ul>
                 </div>
             </section>
 
             <section id="etg" class="py-20 bg-gray-800">
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">ETG</h2>
-                    <p class="text-lg max-w-2xl mx-auto">ETG</p>
+                    <p class="text-lg text-red-500">Check this</p>
+                    <p class="text-lg max-w-2xl mx-auto">
+                        The generation of the Entity Type Graph (ETG) was achieved by combining the teleontology and
+                        intermediate ontology developed during the previous phases using the Protégé development tool.
+                        This process involved modifications such as reorganizing entity types, resulting in a newly
+                        formalized ETG schema. To finalize the ETG, entities were sanitized to ensure the use of
+                        unambiguous identifiers, enhancing the schema's future reusability. The KOS tool was employed
+                        for language alignment, assigning unique Global Identifiers (GIDs) to each entity type in
+                        accordance with the Universal Knowledge Core (UKC) standard.
+                    </p>
                 </div>
             </section>
 
@@ -114,11 +171,12 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
                             <h3 class="text-xl font-semibold mb-2">Report</h3>
-                            <!-- <p>A brief description of your project goes here.</p> -->
+                            <p class="text-lg text-red-500">TODO</p>
                             <a href="#" class="text-cyan-400 hover:underline">View on GitHub</a>
                         </div>
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
                             <h3 class="text-xl font-semibold mb-2">Presentation</h3>
+                            <p class="text-lg text-red-500">TODO</p>
                             <a href="#" class="text-cyan-400 hover:underline">View on GitHub</a>
                         </div>
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
