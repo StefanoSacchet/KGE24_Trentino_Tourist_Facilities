@@ -24,7 +24,6 @@
                         <li><a href="#knowledge_resources" class="hover:text-cyan-400">Knowledge Resources</a></li>
                         <li><a href="#etg" class="hover:text-cyan-400">ETG</a></li>
                         <li><a href="#kg" class="hover:text-cyan-400">Knowledge Graph</a></li>
-                        <li><a href="#conclusion" class="hover:text-cyan-400">Conclusion</a></li>
                         <li><a href="#links" class="hover:text-cyan-400">Links</a></li>
                     </ul>
                 </nav>
@@ -64,7 +63,11 @@
             <section id="er" class="py-20">
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">ER Model</h2>
-                    <p class="text-lg max-w-2xl mx-auto">ER image</p>
+                    <p class="text-lg max-w-2xl mx-auto">
+                        The gathered knowledge and data resources have been utilized to develop the Entity Relationships
+                        model. This diagram summarizes the key aspects to be addressed by the knowledge layer of the
+                        final Knowledge Graph and has guided the subsequent stages of development.
+                    </p>
                     <div class="mt-6">
                         <img src="images/er.png" alt="Example result" class="mx-auto rounded-lg shadow-lg" />
                     </div>
@@ -152,15 +155,12 @@
             <section id="kg" class="py-20">
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Knowledge Graph</h2>
-                    <p class="text-lg max-w-2xl mx-auto">KG</p>
-                </div>
-            </section>
-
-            <section id="conclusion" class="py-20 bg-gray-800">
-                <div class="container mx-auto text-center">
-                    <h2 class="text-3xl font-bold mb-6">Conclusion</h2>
+                    <p class="text-lg text-red-500">Fix numbers</p>
                     <p class="text-lg max-w-2xl mx-auto">
-                        Key findings, challenges, and future directions of the project.
+                        The final stage involves the creation of the EG from the ETG and the refined data provided by
+                        Karmalinker. The resulting Knowledge Graph consists of 6 entity types, 21 data properties, and 5
+                        object properties: has_calendar, has_lines, has_schedule, has_stops, and has_trips. This final
+                        KG has been used to answer the Competency Queries through SPARQL queries.
                     </p>
                 </div>
             </section>
