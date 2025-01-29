@@ -19,10 +19,12 @@
                 <nav>
                     <ul class="flex space-x-4">
                         <li><a href="#purpose" class="hover:text-cyan-400">Purpose</a></li>
+                        <li><a href="#doi" class="hover:text-cyan-400">DoI</a></li>
+                        <li><a href="#cqs" class="hover:text-cyan-400">CQs</a></li>
                         <li><a href="#er" class="hover:text-cyan-400">ER Model</a></li>
                         <li><a href="#data_resources" class="hover:text-cyan-400">Data Resources</a></li>
                         <li><a href="#knowledge_resources" class="hover:text-cyan-400">Knowledge Resources</a></li>
-                        <li><a href="#etg" class="hover:text-cyan-400">ETG</a></li>
+                        <li><a href="#teleontology" class="hover:text-cyan-400">Teleontology</a></li>
                         <li><a href="#kg" class="hover:text-cyan-400">Knowledge Graph</a></li>
                         <li><a href="#links" class="hover:text-cyan-400">Links</a></li>
                     </ul>
@@ -38,7 +40,7 @@
                     <a
                         href="https://github.com/StefanoSacchet/KGE24_Trentino_Tourist_Facilities"
                         class="bg-cyan-400 text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-cyan-500"
-                        >View Project</a
+                        >View Project on Github</a
                     >
                 </div>
             </section>
@@ -51,12 +53,35 @@
                         convenient access about key tourism facilities in the region, such as hotels, restaurants,
                         museums, natural parks, and other attractions. By integrating various knowledge and data
                         resources, this KG will serve as a foundational tool for applications and services focused on
-                        delivering comprehensive and user-friendly information about the Trentino region. In a nutshell,
-                        the purpose of this project is described as:
-                        <br />
-                        <br />
-                        "A service designed to inform users about various tourist facilities available in Trentino.”
+                        delivering comprehensive and user-friendly information about the Trentino region.
                     </p>
+                </div>
+            </section>
+
+            <section id="doi" class="py-20">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6">Domain of Interest (DoI)</h2>
+                    <p class="text-lg max-w-2xl mx-auto mt-4">
+                        The Domain of Interest for this project is the Trentino region in the year 2024, with a
+                        particular focus on outdoor activities. The geographical scope of the project spans the entire
+                        region.
+                    </p>
+                </div>
+            </section>
+
+            <section id="cqs" class="py-20 bg-gray-800">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6">Personas, Scenarios, and Competency questions</h2>
+                    <p class="text-lg max-w-2xl mx-auto mt-4">
+                        Expanding on the project's initial purpose, this section defines its scope more precisely
+                        through the use of scenarios and personas. These user-focused representations demonstrate how
+                        different individuals might interact with the knowledge graph to achieve their objectives. By
+                        outlining various scenarios, we provide a concrete illustration of the knowledge graph's
+                        practical applications and its relevance to user needs. All tables for the personas, scenarios
+                        and compitency questions can be found in the
+                        <a href="" class="text-cyan-400">report</a>.
+                    </p>
+                    <p class="text-lg text-red-500">Add link</p>
                 </div>
             </section>
 
@@ -136,29 +161,28 @@
                 </div>
             </section>
 
-            <section id="etg" class="py-20 bg-gray-800">
+            <section id="teleontology" class="py-20 bg-gray-800">
                 <div class="container mx-auto text-center">
-                    <h2 class="text-3xl font-bold mb-6">ETG</h2>
-                    <p class="text-lg text-red-500">Check this</p>
+                    <h2 class="text-3xl font-bold mb-6">Teleontology</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        The generation of the Entity Type Graph (ETG) was achieved by combining the teleontology and
-                        intermediate ontology developed during the previous phases using the Protégé development tool.
-                        This process involved modifications such as reorganizing entity types, resulting in a newly
-                        formalized ETG schema. To finalize the ETG, entities were sanitized to ensure the use of
-                        unambiguous identifiers, enhancing the schema's future reusability.
+                        In the teleontology phase, we combined the teleontology and intermediate ontology developed
+                        during the previous phases using the Protégé development tool.
                     </p>
+                    <div class="mt-6">
+                        <img src="images/" alt="" class="mx-auto rounded-lg shadow-lg" />
+                    </div>
                 </div>
             </section>
 
             <section id="kg" class="py-20">
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Knowledge Graph</h2>
-                    <p class="text-lg text-red-500">Fix numbers</p>
                     <p class="text-lg max-w-2xl mx-auto">
                         The final stage involves the creation of the EG from the ETG and the refined data provided by
-                        Karmalinker. The resulting Knowledge Graph consists of 6 entity types, 21 data properties, and 5
-                        object properties: has_calendar, has_lines, has_schedule, has_stops, and has_trips. This final
-                        KG has been used to answer the Competency Queries through SPARQL queries.
+                        Karmalinker. The resulting Knowledge Graph consists of 12 entity types, namely: Location,
+                        Building, Hotel, Restau- rant, Ski Rental, Sport Location, Cycle Way, Hiking Trail, Rock
+                        Climbing Route, Ski Trail, and View. 32 data properties, and 0 object properties. This final KG
+                        has been used to answer the Competency Questions through SPARQL queries.
                     </p>
                 </div>
             </section>
