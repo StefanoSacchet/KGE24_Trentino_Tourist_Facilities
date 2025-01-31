@@ -1,0 +1,1614 @@
+<http://localhost:8080/source/view0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view0> <http://knowdive.disi.unitn.it/etype#/elevation> "2116" .
+<http://localhost:8080/source/view0> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/26863952" .
+<http://localhost:8080/source/view0> <http://knowdive.disi.unitn.it/etype#/name> "Roen" .
+<http://localhost:8080/source/view0> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.192267, 46.3604269]]]" .
+
+<http://localhost:8080/source/view1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view1> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5245085, 46.4844223]]]" .
+<http://localhost:8080/source/view1> <http://knowdive.disi.unitn.it/etype#/name> "Völseggspitze" .
+<http://localhost:8080/source/view1> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/61100874" .
+
+<http://localhost:8080/source/view2> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/253773423" .
+<http://localhost:8080/source/view2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view2> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+<http://localhost:8080/source/view2> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7990137, 46.2887716]]]" .
+
+<http://localhost:8080/source/view3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view3> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/279714434" .
+<http://localhost:8080/source/view3> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.2329199, 46.639826]]]" .
+<http://localhost:8080/source/view3> <http://knowdive.disi.unitn.it/etype#/name> "Drei Zinnen Blick" .
+
+<http://localhost:8080/source/view4> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/279836254" .
+<http://localhost:8080/source/view4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view4> <http://knowdive.disi.unitn.it/etype#/name> "Piza de Gherdenacia" .
+<http://localhost:8080/source/view4> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.8482211, 46.5945886]]]" .
+<http://localhost:8080/source/view4> <http://knowdive.disi.unitn.it/etype#/elevation> "2673" .
+
+<http://localhost:8080/source/view5> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/287973902" .
+<http://localhost:8080/source/view5> <http://knowdive.disi.unitn.it/etype#/name> "Croce" .
+<http://localhost:8080/source/view5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view5> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.960103, 46.380859]]]" .
+
+<http://localhost:8080/source/view6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view6> <http://knowdive.disi.unitn.it/etype#/elevation> "1075" .
+<http://localhost:8080/source/view6> <http://knowdive.disi.unitn.it/etype#/name> "Dosso di Miola" .
+<http://localhost:8080/source/view6> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/289247845" .
+<http://localhost:8080/source/view6> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2507084, 46.1304976]]]" .
+
+<http://localhost:8080/source/view7> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0494507, 46.6936174]]]" .
+<http://localhost:8080/source/view7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view7> <http://knowdive.disi.unitn.it/etype#/name> "Partschinser Wasserfall - Cascata di Parcines" .
+<http://localhost:8080/source/view7> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/289257042" .
+
+<http://localhost:8080/source/view8> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.138012, 45.9045876]]]" .
+<http://localhost:8080/source/view8> <http://knowdive.disi.unitn.it/etype#/name> "Doss del Stock" .
+<http://localhost:8080/source/view8> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/289827472" .
+<http://localhost:8080/source/view8> <http://knowdive.disi.unitn.it/etype#/elevation> "895" .
+<http://localhost:8080/source/view8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view9> <http://knowdive.disi.unitn.it/etype#/name> "Rotwand - Rocce Rosse" .
+<http://localhost:8080/source/view9> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/289877809" .
+<http://localhost:8080/source/view9> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3308574, 46.3757799]]]" .
+<http://localhost:8080/source/view9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view10> <http://knowdive.disi.unitn.it/etype#/elevation> "2258" .
+<http://localhost:8080/source/view10> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0242082, 46.6819857]]]" .
+<http://localhost:8080/source/view10> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/290780687" .
+<http://localhost:8080/source/view10> <http://knowdive.disi.unitn.it/etype#/name> "Orenknott" .
+
+<http://localhost:8080/source/view11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view11> <http://knowdive.disi.unitn.it/etype#/name> "Campill - Campiglio" .
+<http://localhost:8080/source/view11> <http://knowdive.disi.unitn.it/etype#/elevation> "2190" .
+<http://localhost:8080/source/view11> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/292512762" .
+<http://localhost:8080/source/view11> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.8252006, 46.752977]]]" .
+
+<http://localhost:8080/source/view12> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/301339487" .
+<http://localhost:8080/source/view12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view12> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8305227, 45.8566196]]]" .
+<http://localhost:8080/source/view12> <http://knowdive.disi.unitn.it/etype#/name> "Regina Mundi" .
+
+<http://localhost:8080/source/view13> <http://knowdive.disi.unitn.it/etype#/elevation> "2442" .
+<http://localhost:8080/source/view13> <http://knowdive.disi.unitn.it/etype#/name> "Pizzo Gallino" .
+<http://localhost:8080/source/view13> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/307253108" .
+<http://localhost:8080/source/view13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view13> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9624745, 46.1776827]]]" .
+
+<http://localhost:8080/source/view14> <http://knowdive.disi.unitn.it/etype#/name> "Le Ciaval" .
+<http://localhost:8080/source/view14> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/307297671" .
+<http://localhost:8080/source/view14> <http://knowdive.disi.unitn.it/etype#/elevation> "2907" .
+<http://localhost:8080/source/view14> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.951485, 46.6144819]]]" .
+<http://localhost:8080/source/view14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view15> <http://knowdive.disi.unitn.it/etype#/name> "Piza dales Nü" .
+<http://localhost:8080/source/view15> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9810725, 46.6303454]]]" .
+<http://localhost:8080/source/view15> <http://knowdive.disi.unitn.it/etype#/elevation> "2968" .
+<http://localhost:8080/source/view15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view15> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/307302677" .
+
+<http://localhost:8080/source/view16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view16> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1027333, 46.600452]]]" .
+<http://localhost:8080/source/view16> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/313211043" .
+<http://localhost:8080/source/view16> <http://knowdive.disi.unitn.it/etype#/name> "Alpreider Bichl" .
+
+<http://localhost:8080/source/view17> <http://knowdive.disi.unitn.it/etype#/name> "Petz - Monte Pez" .
+<http://localhost:8080/source/view17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view17> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/313719257" .
+<http://localhost:8080/source/view17> <http://knowdive.disi.unitn.it/etype#/elevation> "2568" .
+<http://localhost:8080/source/view17> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5748922, 46.5118256]]]" .
+
+<http://localhost:8080/source/view18> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/319273987" .
+<http://localhost:8080/source/view18> <http://knowdive.disi.unitn.it/etype#/name> "Erdpyramiden im Finsterbachgraben - Piramidi di terra nella gola del rio Fosco" .
+<http://localhost:8080/source/view18> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.469319, 46.5522246]]]" .
+<http://localhost:8080/source/view18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view19> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/322717853" .
+<http://localhost:8080/source/view19> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere Campo Carlo Magno" .
+<http://localhost:8080/source/view19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view19> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8404578, 46.2432086]]]" .
+
+<http://localhost:8080/source/view20> <http://knowdive.disi.unitn.it/etype#/name> "Panorama di Piuccilla" .
+<http://localhost:8080/source/view20> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7362497, 46.2186721]]]" .
+<http://localhost:8080/source/view20> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/323254049" .
+<http://localhost:8080/source/view20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view21> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8222138, 46.2107785]]]" .
+<http://localhost:8080/source/view21> <http://knowdive.disi.unitn.it/etype#/name> "Piazzale Panoramico" .
+<http://localhost:8080/source/view21> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/323274613" .
+<http://localhost:8080/source/view21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view22> <http://knowdive.disi.unitn.it/etype#/name> "Guardadocio" .
+<http://localhost:8080/source/view22> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/324599686" .
+<http://localhost:8080/source/view22> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9724825, 45.856985]]]" .
+<http://localhost:8080/source/view22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view23> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/355691057" .
+<http://localhost:8080/source/view23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view23> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3441576, 46.4242427]]]" .
+<http://localhost:8080/source/view23> <http://knowdive.disi.unitn.it/etype#/name> "Gamperknot" .
+
+<http://localhost:8080/source/view24> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2401955, 46.3779118]]]" .
+<http://localhost:8080/source/view24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view24> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/381128598" .
+<http://localhost:8080/source/view24> <http://knowdive.disi.unitn.it/etype#/name> "Aussichtspunkt Altenburg - Belvedere di Castelvecchio" .
+
+<http://localhost:8080/source/view25> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1840592, 46.073892]]]" .
+<http://localhost:8080/source/view25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view25> <http://knowdive.disi.unitn.it/etype#/name> "Cima Celva" .
+<http://localhost:8080/source/view25> <http://knowdive.disi.unitn.it/etype#/elevation> "998" .
+<http://localhost:8080/source/view25> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/391038683" .
+
+<http://localhost:8080/source/view26> <http://knowdive.disi.unitn.it/etype#/name> "Knottnkino" .
+<http://localhost:8080/source/view26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view26> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/392394120" .
+<http://localhost:8080/source/view26> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2143559, 46.6200792]]]" .
+
+<http://localhost:8080/source/view27> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/395225066" .
+<http://localhost:8080/source/view27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view27> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7320231, 45.9038934]]]" .
+<http://localhost:8080/source/view27> <http://knowdive.disi.unitn.it/etype#/name> "Vista Val Concei" .
+
+<http://localhost:8080/source/view28> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9796453, 46.6504385]]]" .
+<http://localhost:8080/source/view28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view28> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/401889203" .
+<http://localhost:8080/source/view28> <http://knowdive.disi.unitn.it/etype#/name> "Wallburg" .
+
+<http://localhost:8080/source/view29> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/410692180" .
+<http://localhost:8080/source/view29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view29> <http://knowdive.disi.unitn.it/etype#/name> "Osservatorio" .
+<http://localhost:8080/source/view29> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8918392, 45.8121369]]]" .
+
+<http://localhost:8080/source/view30> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/412784151" .
+<http://localhost:8080/source/view30> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1521964, 46.1786584]]]" .
+<http://localhost:8080/source/view30> <http://knowdive.disi.unitn.it/etype#/elevation> "953" .
+<http://localhost:8080/source/view30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view31> <http://knowdive.disi.unitn.it/etype#/name> "Engelrast" .
+<http://localhost:8080/source/view31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view31> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/414736896" .
+<http://localhost:8080/source/view31> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6189868, 46.5520049]]]" .
+
+<http://localhost:8080/source/view32> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/416944419" .
+<http://localhost:8080/source/view32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view32> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8391458, 45.8775955]]]" .
+<http://localhost:8080/source/view32> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere degli innamorati" .
+
+<http://localhost:8080/source/view33> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/417264188" .
+<http://localhost:8080/source/view33> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3841869, 46.5253358]]]" .
+<http://localhost:8080/source/view33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view33> <http://knowdive.disi.unitn.it/etype#/name> "Merltennen" .
+
+<http://localhost:8080/source/view34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view34> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/419846011" .
+<http://localhost:8080/source/view34> <http://knowdive.disi.unitn.it/etype#/name> "Dolomitenblick" .
+<http://localhost:8080/source/view34> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8765898, 46.6436817]]]" .
+
+<http://localhost:8080/source/view35> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/424403361" .
+<http://localhost:8080/source/view35> <http://knowdive.disi.unitn.it/etype#/name> "Runder Tisch - Tavola Rotonda" .
+<http://localhost:8080/source/view35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view35> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4552299, 46.5935446]]]" .
+
+<http://localhost:8080/source/view36> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7328195, 46.7118905]]]" .
+<http://localhost:8080/source/view36> <http://knowdive.disi.unitn.it/etype#/elevation> "2220" .
+<http://localhost:8080/source/view36> <http://knowdive.disi.unitn.it/etype#/name> "Plosescharte - Forcella Plose" .
+<http://localhost:8080/source/view36> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/439548700" .
+<http://localhost:8080/source/view36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view37> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/439646569" .
+<http://localhost:8080/source/view37> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere - \"Croz de l'Anza Rossa\"" .
+<http://localhost:8080/source/view37> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.244456, 45.9926226]]]" .
+<http://localhost:8080/source/view37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view38> <http://knowdive.disi.unitn.it/etype#/name> "Hexenbänke" .
+<http://localhost:8080/source/view38> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6140103, 46.5640738]]]" .
+<http://localhost:8080/source/view38> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/440150211" .
+<http://localhost:8080/source/view38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view39> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7271699, 46.7752661]]]" .
+<http://localhost:8080/source/view39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view39> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/440776489" .
+<http://localhost:8080/source/view39> <http://knowdive.disi.unitn.it/etype#/name> "Zumis" .
+
+<http://localhost:8080/source/view40> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/447888706" .
+<http://localhost:8080/source/view40> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2445687, 46.4704072]]]" .
+<http://localhost:8080/source/view40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view40> <http://knowdive.disi.unitn.it/etype#/name> "Kreuzstein - Sasso della Croce" .
+
+<http://localhost:8080/source/view41> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/454239257" .
+<http://localhost:8080/source/view41> <http://knowdive.disi.unitn.it/etype#/elevation> "2031" .
+<http://localhost:8080/source/view41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view41> <http://knowdive.disi.unitn.it/etype#/name> "Schwarzer Kopf - Testa Nera" .
+<http://localhost:8080/source/view41> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2020524, 46.3502246]]]" .
+
+<http://localhost:8080/source/view42> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1496375, 46.0452498]]]" .
+<http://localhost:8080/source/view42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view42> <http://knowdive.disi.unitn.it/etype#/name> "Terrazza Panoramica della Grotta" .
+<http://localhost:8080/source/view42> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/457107420" .
+
+<http://localhost:8080/source/view43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view43> <http://knowdive.disi.unitn.it/etype#/name> "Rotwand - Parete Rossa" .
+<http://localhost:8080/source/view43> <http://knowdive.disi.unitn.it/etype#/elevation> "1534" .
+<http://localhost:8080/source/view43> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/457689389" .
+<http://localhost:8080/source/view43> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.375742, 46.4537521]]]" .
+
+<http://localhost:8080/source/view44> <http://knowdive.disi.unitn.it/etype#/name> "Batteria Mitragliatrici / Maschinengewehr Batterie" .
+<http://localhost:8080/source/view44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view44> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/469206830" .
+<http://localhost:8080/source/view44> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1853867, 46.0510233]]]" .
+
+<http://localhost:8080/source/view45> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/492588325" .
+<http://localhost:8080/source/view45> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5352218, 46.5478883]]]" .
+<http://localhost:8080/source/view45> <http://knowdive.disi.unitn.it/etype#/name> "Königswarte - Veduta del Re" .
+<http://localhost:8080/source/view45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view46> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2724171, 46.1063797]]]" .
+<http://localhost:8080/source/view46> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/494344568" .
+<http://localhost:8080/source/view46> <http://knowdive.disi.unitn.it/etype#/elevation> "1582" .
+
+<http://localhost:8080/source/view47> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/495195842" .
+<http://localhost:8080/source/view47> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2900401, 45.9762506]]]" .
+<http://localhost:8080/source/view47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view47> <http://knowdive.disi.unitn.it/etype#/elevation> "1039" .
+
+<http://localhost:8080/source/view48> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1864426, 46.6589252]]]" .
+<http://localhost:8080/source/view48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view48> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/497713908" .
+<http://localhost:8080/source/view48> <http://knowdive.disi.unitn.it/etype#/name> "Matteo Thun'scher Gucker" .
+
+<http://localhost:8080/source/view49> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1871728, 46.6610915]]]" .
+<http://localhost:8080/source/view49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view49> <http://knowdive.disi.unitn.it/etype#/name> "Skywalk Trauttmansdorff" .
+<http://localhost:8080/source/view49> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/497713918" .
+
+<http://localhost:8080/source/view50> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1025212, 46.0651427]]]" .
+<http://localhost:8080/source/view50> <http://knowdive.disi.unitn.it/etype#/name> "Busa dei Orsi" .
+<http://localhost:8080/source/view50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view50> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/559245410" .
+
+<http://localhost:8080/source/view51> <http://knowdive.disi.unitn.it/etype#/name> "Croz Scambion" .
+<http://localhost:8080/source/view51> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/571829182" .
+<http://localhost:8080/source/view51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view51> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.217594, 46.1757296]]]" .
+
+<http://localhost:8080/source/view52> <http://knowdive.disi.unitn.it/etype#/name> "Wilder-Mann-Bühel - Col dell'uomo" .
+<http://localhost:8080/source/view52> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2997866, 46.4423181]]]" .
+<http://localhost:8080/source/view52> <http://knowdive.disi.unitn.it/etype#/elevation> "643" .
+<http://localhost:8080/source/view52> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/623181578" .
+<http://localhost:8080/source/view52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view53> <http://knowdive.disi.unitn.it/etype#/name> "Poppekanzel - Pulpito di Cima Pope" .
+<http://localhost:8080/source/view53> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6007805, 46.3916166]]]" .
+<http://localhost:8080/source/view53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view53> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/630959248" .
+
+<http://localhost:8080/source/view54> <http://knowdive.disi.unitn.it/etype#/name> "Hundskofel" .
+<http://localhost:8080/source/view54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view54> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2176924, 46.4162913]]]" .
+<http://localhost:8080/source/view54> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/639117360" .
+
+<http://localhost:8080/source/view55> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+<http://localhost:8080/source/view55> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/670872776" .
+<http://localhost:8080/source/view55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view55> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0220116, 45.9413635]]]" .
+
+<http://localhost:8080/source/view56> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/717435655" .
+<http://localhost:8080/source/view56> <http://knowdive.disi.unitn.it/etype#/name> "Kraitsegg" .
+<http://localhost:8080/source/view56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view56> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.95721, 46.6479491]]]" .
+
+<http://localhost:8080/source/view57> <http://knowdive.disi.unitn.it/etype#/name> "Obelisco" .
+<http://localhost:8080/source/view57> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0849375, 45.7783217]]]" .
+<http://localhost:8080/source/view57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view57> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/727634656" .
+
+<http://localhost:8080/source/view58> <http://knowdive.disi.unitn.it/etype#/name> "Erdpyramiden - Piramidi di sabbia" .
+<http://localhost:8080/source/view58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view58> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/736875069" .
+<http://localhost:8080/source/view58> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.145203, 46.6980102]]]" .
+
+<http://localhost:8080/source/view59> <http://knowdive.disi.unitn.it/etype#/name> "Erdpyramiden - Piramidi di sabbia" .
+<http://localhost:8080/source/view59> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1453271, 46.6975529]]]" .
+<http://localhost:8080/source/view59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view59> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/736875137" .
+
+<http://localhost:8080/source/view60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view60> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/761573229" .
+<http://localhost:8080/source/view60> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.5276455, 46.8380354]]]" .
+<http://localhost:8080/source/view60> <http://knowdive.disi.unitn.it/etype#/name> "Plamortboden - Altopiano Plan dei Morti" .
+
+<http://localhost:8080/source/view61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view61> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2073329, 46.5209235]]]" .
+<http://localhost:8080/source/view61> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/765752691" .
+<http://localhost:8080/source/view61> <http://knowdive.disi.unitn.it/etype#/name> "Burgstalleck - Castelliere" .
+<http://localhost:8080/source/view61> <http://knowdive.disi.unitn.it/etype#/elevation> "1019" .
+
+<http://localhost:8080/source/view62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view62> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8873615, 45.8064678]]]" .
+<http://localhost:8080/source/view62> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/765788348" .
+<http://localhost:8080/source/view62> <http://knowdive.disi.unitn.it/etype#/elevation> "1990" .
+<http://localhost:8080/source/view62> <http://knowdive.disi.unitn.it/etype#/name> "Busa Brodeghera" .
+
+<http://localhost:8080/source/view63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view63> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/802196772" .
+<http://localhost:8080/source/view63> <http://knowdive.disi.unitn.it/etype#/name> "Palon" .
+<http://localhost:8080/source/view63> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0587172, 46.0269684]]]" .
+
+<http://localhost:8080/source/view64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view64> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.0407134, 46.94167]]]" .
+<http://localhost:8080/source/view64> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/811642920" .
+<http://localhost:8080/source/view64> <http://knowdive.disi.unitn.it/etype#/name> "Lobiser Schupfen" .
+
+<http://localhost:8080/source/view65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view65> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/811716672" .
+<http://localhost:8080/source/view65> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9115849, 46.9084547]]]" .
+<http://localhost:8080/source/view65> <http://knowdive.disi.unitn.it/etype#/name> "Pietersteiner Alm - Malga della Pietra" .
+
+<http://localhost:8080/source/view66> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.0004363, 46.9357132]]]" .
+<http://localhost:8080/source/view66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view66> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/811749538" .
+<http://localhost:8080/source/view66> <http://knowdive.disi.unitn.it/etype#/elevation> "2010" .
+<http://localhost:8080/source/view66> <http://knowdive.disi.unitn.it/etype#/name> "Schlafhäuser" .
+
+<http://localhost:8080/source/view67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view67> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9164815, 46.0778345]]]" .
+<http://localhost:8080/source/view67> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere Bondai" .
+<http://localhost:8080/source/view67> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/835950917" .
+
+<http://localhost:8080/source/view68> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/835951002" .
+<http://localhost:8080/source/view68> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.914722, 46.0771047]]]" .
+<http://localhost:8080/source/view68> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere Dolomiti" .
+<http://localhost:8080/source/view68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view69> <http://knowdive.disi.unitn.it/etype#/name> "Greiter Ried" .
+<http://localhost:8080/source/view69> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1353364, 46.6210066]]]" .
+<http://localhost:8080/source/view69> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/858601959" .
+<http://localhost:8080/source/view69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view70> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/878327433" .
+<http://localhost:8080/source/view70> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.5575466, 46.5815861]]]" .
+<http://localhost:8080/source/view70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view70> <http://knowdive.disi.unitn.it/etype#/name> "Ortlerblick" .
+
+<http://localhost:8080/source/view71> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8675701, 45.7588876]]]" .
+<http://localhost:8080/source/view71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view71> <http://knowdive.disi.unitn.it/etype#/name> "Ave Cruz" .
+<http://localhost:8080/source/view71> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/880383557" .
+
+<http://localhost:8080/source/view72> <http://knowdive.disi.unitn.it/etype#/elevation> "1893" .
+<http://localhost:8080/source/view72> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9192958, 46.688573]]]" .
+<http://localhost:8080/source/view72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view72> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/883730001" .
+<http://localhost:8080/source/view72> <http://knowdive.disi.unitn.it/etype#/name> "Piz de Corn" .
+
+<http://localhost:8080/source/view73> <http://knowdive.disi.unitn.it/etype#/name> "Polsa" .
+<http://localhost:8080/source/view73> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1942215, 45.9724111]]]" .
+<http://localhost:8080/source/view73> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/910787221" .
+<http://localhost:8080/source/view73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view74> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/928020933" .
+<http://localhost:8080/source/view74> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2336523, 46.1481744]]]" .
+<http://localhost:8080/source/view74> <http://knowdive.disi.unitn.it/etype#/name> "Bellavista" .
+<http://localhost:8080/source/view74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view75> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8326, 45.8767962]]]" .
+<http://localhost:8080/source/view75> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/979735566" .
+<http://localhost:8080/source/view75> <http://knowdive.disi.unitn.it/etype#/elevation> "600" .
+<http://localhost:8080/source/view75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view75> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere della Grola" .
+
+<http://localhost:8080/source/view76> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/990937542" .
+<http://localhost:8080/source/view76> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1570185, 46.1764049]]]" .
+<http://localhost:8080/source/view76> <http://knowdive.disi.unitn.it/etype#/elevation> "1006" .
+<http://localhost:8080/source/view76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view77> <http://knowdive.disi.unitn.it/etype#/name> "Sparaverom" .
+<http://localhost:8080/source/view77> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1033515294" .
+<http://localhost:8080/source/view77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view77> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0454089, 45.9483633]]]" .
+
+<http://localhost:8080/source/view78> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1080533781" .
+<http://localhost:8080/source/view78> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0635084, 45.8780478]]]" .
+<http://localhost:8080/source/view78> <http://knowdive.disi.unitn.it/etype#/name> "San Colombano" .
+<http://localhost:8080/source/view78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view79> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1083625992" .
+<http://localhost:8080/source/view79> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9702885, 46.6602134]]]" .
+<http://localhost:8080/source/view79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view79> <http://knowdive.disi.unitn.it/etype#/name> "Piz de Pares" .
+<http://localhost:8080/source/view79> <http://knowdive.disi.unitn.it/etype#/elevation> "2394" .
+
+<http://localhost:8080/source/view80> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1126427228" .
+<http://localhost:8080/source/view80> <http://knowdive.disi.unitn.it/etype#/elevation> "2476" .
+<http://localhost:8080/source/view80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view80> <http://knowdive.disi.unitn.it/etype#/name> "Santner Kanzele" .
+<http://localhost:8080/source/view80> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5729067, 46.5212416]]]" .
+
+<http://localhost:8080/source/view81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view81> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4405821, 46.943434]]]" .
+<http://localhost:8080/source/view81> <http://knowdive.disi.unitn.it/etype#/name> "Ibsenplatz" .
+<http://localhost:8080/source/view81> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1192946543" .
+
+<http://localhost:8080/source/view82> <http://knowdive.disi.unitn.it/etype#/name> "Vista sulla vallagarina da Malga Tof" .
+<http://localhost:8080/source/view82> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0494183, 45.8442789]]]" .
+<http://localhost:8080/source/view82> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1226652361" .
+<http://localhost:8080/source/view82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view83> <http://knowdive.disi.unitn.it/etype#/name> "Pulpito - Kanzel" .
+<http://localhost:8080/source/view83> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1260053991" .
+<http://localhost:8080/source/view83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view83> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2940336, 46.3065255]]]" .
+
+<http://localhost:8080/source/view84> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1269279550" .
+<http://localhost:8080/source/view84> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9264924, 45.9259977]]]" .
+<http://localhost:8080/source/view84> <http://knowdive.disi.unitn.it/etype#/name> "Passo Due Sassi" .
+<http://localhost:8080/source/view84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view85> <http://knowdive.disi.unitn.it/etype#/name> "Biotopo Taio" .
+<http://localhost:8080/source/view85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view85> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0828607, 45.9230372]]]" .
+<http://localhost:8080/source/view85> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1293772289" .
+
+<http://localhost:8080/source/view86> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0798615, 45.9250281]]]" .
+<http://localhost:8080/source/view86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view86> <http://knowdive.disi.unitn.it/etype#/name> "Biotopo Taio - Torretta di Avvistamento" .
+<http://localhost:8080/source/view86> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1293772608" .
+
+<http://localhost:8080/source/view87> <http://knowdive.disi.unitn.it/etype#/name> "Dos dei Brusadi" .
+<http://localhost:8080/source/view87> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1866545, 46.1259025]]]" .
+<http://localhost:8080/source/view87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view87> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1307288287" .
+
+<http://localhost:8080/source/view88> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.1083062, 46.8738075]]]" .
+<http://localhost:8080/source/view88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view88> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1322249560" .
+<http://localhost:8080/source/view88> <http://knowdive.disi.unitn.it/etype#/name> "Wasserfallblick - Vista sulla cascata" .
+
+<http://localhost:8080/source/view89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view89> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1339556040" .
+<http://localhost:8080/source/view89> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5945238, 46.3967027]]]" .
+<http://localhost:8080/source/view89> <http://knowdive.disi.unitn.it/etype#/name> "Mountain Cinema Latemar" .
+
+<http://localhost:8080/source/view90> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1378963836" .
+<http://localhost:8080/source/view90> <http://knowdive.disi.unitn.it/etype#/name> "Erdpyramiden" .
+<http://localhost:8080/source/view90> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.0184989, 46.8050216]]]" .
+<http://localhost:8080/source/view90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view91> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1387863239" .
+<http://localhost:8080/source/view91> <http://knowdive.disi.unitn.it/etype#/elevation> "2233" .
+<http://localhost:8080/source/view91> <http://knowdive.disi.unitn.it/etype#/name> "Der Nolp" .
+<http://localhost:8080/source/view91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view91> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1237058, 46.7119473]]]" .
+
+<http://localhost:8080/source/view92> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1416621614" .
+<http://localhost:8080/source/view92> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8875452, 45.810634]]]" .
+<http://localhost:8080/source/view92> <http://knowdive.disi.unitn.it/etype#/name> "Vista sul Lago di Garda" .
+<http://localhost:8080/source/view92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view93> <http://knowdive.disi.unitn.it/etype#/name> "Burgblick" .
+<http://localhost:8080/source/view93> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1417877267" .
+<http://localhost:8080/source/view93> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1511015, 46.6913369]]]" .
+
+<http://localhost:8080/source/view94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view94> <http://knowdive.disi.unitn.it/etype#/name> "Kleiner Laugen - Piccolo Luco" .
+<http://localhost:8080/source/view94> <http://knowdive.disi.unitn.it/etype#/elevation> "2297" .
+<http://localhost:8080/source/view94> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1419150562" .
+<http://localhost:8080/source/view94> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.096023, 46.537652]]]" .
+
+<http://localhost:8080/source/view95> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1420017952" .
+<http://localhost:8080/source/view95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view95> <http://knowdive.disi.unitn.it/etype#/name> "Platzohl" .
+<http://localhost:8080/source/view95> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7761586, 46.6415791]]]" .
+
+<http://localhost:8080/source/view96> <http://knowdive.disi.unitn.it/etype#/name> "Doss del Pin" .
+<http://localhost:8080/source/view96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view96> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1442587922" .
+<http://localhost:8080/source/view96> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1266202, 45.9077977]]]" .
+
+<http://localhost:8080/source/view97> <http://knowdive.disi.unitn.it/etype#/name> "Erdpyramiden im Rivelaungraben - Piramidi di terra nella gola del Rio Rivellone" .
+<http://localhost:8080/source/view97> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1463926681" .
+<http://localhost:8080/source/view97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view97> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4068612, 46.5222096]]]" .
+
+<http://localhost:8080/source/view98> <http://knowdive.disi.unitn.it/etype#/name> "Erdpyramiden im Rivelaungraben - Piramidi di terra nella gola del Rio Rivellone" .
+<http://localhost:8080/source/view98> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4079127, 46.5225087]]]" .
+<http://localhost:8080/source/view98> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1463926688" .
+<http://localhost:8080/source/view98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view99> <http://knowdive.disi.unitn.it/etype#/elevation> "1144" .
+<http://localhost:8080/source/view99> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1476469826" .
+<http://localhost:8080/source/view99> <http://knowdive.disi.unitn.it/etype#/name> "Dos Colonna" .
+<http://localhost:8080/source/view99> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.07766, 45.9511651]]]" .
+<http://localhost:8080/source/view99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view100> <http://knowdive.disi.unitn.it/etype#/name> "Merespiz" .
+<http://localhost:8080/source/view100> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0680817, 45.8878297]]]" .
+<http://localhost:8080/source/view100> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1479411597" .
+<http://localhost:8080/source/view100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view101> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1480114521" .
+<http://localhost:8080/source/view101> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.6105949, 46.5205033]]]" .
+<http://localhost:8080/source/view101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view101> <http://knowdive.disi.unitn.it/etype#/name> "Talblick" .
+
+<http://localhost:8080/source/view102> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1531722553" .
+<http://localhost:8080/source/view102> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0688507, 45.7994248]]]" .
+<http://localhost:8080/source/view102> <http://knowdive.disi.unitn.it/etype#/name> "Osservatorio" .
+<http://localhost:8080/source/view102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view103> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.8029481, 46.1837619]]]" .
+<http://localhost:8080/source/view103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view103> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1563100632" .
+<http://localhost:8080/source/view103> <http://knowdive.disi.unitn.it/etype#/elevation> "1792" .
+<http://localhost:8080/source/view103> <http://knowdive.disi.unitn.it/etype#/name> "Bedolé" .
+
+<http://localhost:8080/source/view104> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2410614, 46.2467339]]]" .
+<http://localhost:8080/source/view104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view104> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1604657136" .
+<http://localhost:8080/source/view104> <http://knowdive.disi.unitn.it/etype#/name> "linden" .
+
+<http://localhost:8080/source/view105> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1614051209" .
+<http://localhost:8080/source/view105> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2491781, 46.2487652]]]" .
+<http://localhost:8080/source/view105> <http://knowdive.disi.unitn.it/etype#/name> "holly" .
+<http://localhost:8080/source/view105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view106> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1637811026" .
+<http://localhost:8080/source/view106> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.8665153, 46.4728555]]]" .
+<http://localhost:8080/source/view106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view106> <http://knowdive.disi.unitn.it/etype#/name> "Forcella Porta Vescovo" .
+
+<http://localhost:8080/source/view107> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0849207, 46.1000273]]]" .
+<http://localhost:8080/source/view107> <http://knowdive.disi.unitn.it/etype#/elevation> "802" .
+<http://localhost:8080/source/view107> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1689074203" .
+<http://localhost:8080/source/view107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view107> <http://knowdive.disi.unitn.it/etype#/name> "Osservatorio del Pontesel" .
+
+<http://localhost:8080/source/view108> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1775862125" .
+<http://localhost:8080/source/view108> <http://knowdive.disi.unitn.it/etype#/name> "Dos Pagano" .
+<http://localhost:8080/source/view108> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0647289, 45.9587995]]]" .
+<http://localhost:8080/source/view108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view108> <http://knowdive.disi.unitn.it/etype#/elevation> "1350" .
+
+<http://localhost:8080/source/view109> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1776958475" .
+<http://localhost:8080/source/view109> <http://knowdive.disi.unitn.it/etype#/name> "Lavinaspitz - Monte Lira" .
+<http://localhost:8080/source/view109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view109> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2116828, 46.3882643]]]" .
+
+<http://localhost:8080/source/view110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view110> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1785694213" .
+<http://localhost:8080/source/view110> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2621459, 46.2578897]]]" .
+<http://localhost:8080/source/view110> <http://knowdive.disi.unitn.it/etype#/name> "redwood" .
+
+<http://localhost:8080/source/view111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view111> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2821175, 46.2768877]]]" .
+<http://localhost:8080/source/view111> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1785698310" .
+<http://localhost:8080/source/view111> <http://knowdive.disi.unitn.it/etype#/name> "linden - tiglio" .
+
+<http://localhost:8080/source/view112> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2803215, 45.9655703]]]" .
+<http://localhost:8080/source/view112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view112> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere Belem" .
+<http://localhost:8080/source/view112> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1809387251" .
+
+<http://localhost:8080/source/view113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view113> <http://knowdive.disi.unitn.it/etype#/name> "Cavra de Lizon" .
+<http://localhost:8080/source/view113> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8937678, 45.9566]]]" .
+<http://localhost:8080/source/view113> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1841866732" .
+
+<http://localhost:8080/source/view114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view114> <http://knowdive.disi.unitn.it/etype#/name> "Cavra del Vincenzo" .
+<http://localhost:8080/source/view114> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9122829, 45.9720349]]]" .
+<http://localhost:8080/source/view114> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1841866735" .
+
+<http://localhost:8080/source/view115> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9042424, 45.9668616]]]" .
+<http://localhost:8080/source/view115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view115> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1841866740" .
+<http://localhost:8080/source/view115> <http://knowdive.disi.unitn.it/etype#/name> "Cavra dele Gere Longhe" .
+
+<http://localhost:8080/source/view116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view116> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1875057277" .
+<http://localhost:8080/source/view116> <http://knowdive.disi.unitn.it/etype#/name> "Cengio Rosso" .
+<http://localhost:8080/source/view116> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1107512, 45.9194339]]]" .
+
+<http://localhost:8080/source/view117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view117> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1906523081" .
+<http://localhost:8080/source/view117> <http://knowdive.disi.unitn.it/etype#/name> "Rosszähne - Denti di Cavallo" .
+<http://localhost:8080/source/view117> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2834661, 46.3694897]]]" .
+
+<http://localhost:8080/source/view118> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1946136966" .
+<http://localhost:8080/source/view118> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7105379, 46.5789605]]]" .
+<http://localhost:8080/source/view118> <http://knowdive.disi.unitn.it/etype#/elevation> "2149" .
+<http://localhost:8080/source/view118> <http://knowdive.disi.unitn.it/etype#/name> "Crujëta" .
+<http://localhost:8080/source/view118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view119> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/1989319572" .
+<http://localhost:8080/source/view119> <http://knowdive.disi.unitn.it/etype#/name> "Osservatorio" .
+<http://localhost:8080/source/view119> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0979894, 45.692871]]]" .
+<http://localhost:8080/source/view119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view120> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2014327464" .
+<http://localhost:8080/source/view120> <http://knowdive.disi.unitn.it/etype#/name> "Gruner Wänd'" .
+<http://localhost:8080/source/view120> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.262631, 46.5325517]]]" .
+<http://localhost:8080/source/view120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view121> <http://knowdive.disi.unitn.it/etype#/elevation> "3140" .
+<http://localhost:8080/source/view121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view121> <http://knowdive.disi.unitn.it/etype#/name> "Crep Checio - Hohe Gaisl - Croda Rossa d'Ampezzo" .
+<http://localhost:8080/source/view121> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2025350016" .
+<http://localhost:8080/source/view121> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.1446665, 46.6340637]]]" .
+
+<http://localhost:8080/source/view122> <http://knowdive.disi.unitn.it/etype#/name> "Cascate Nardis" .
+<http://localhost:8080/source/view122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view122> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7153395, 46.1692645]]]" .
+<http://localhost:8080/source/view122> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2063479652" .
+
+<http://localhost:8080/source/view123> <http://knowdive.disi.unitn.it/etype#/name> "Annaberger Böden - Piani del Monte Sant'Anna" .
+<http://localhost:8080/source/view123> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2219723108" .
+<http://localhost:8080/source/view123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view123> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8580105, 46.6260593]]]" .
+
+<http://localhost:8080/source/view124> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2288335637" .
+<http://localhost:8080/source/view124> <http://knowdive.disi.unitn.it/etype#/name> "Broatraschgl" .
+<http://localhost:8080/source/view124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view124> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.819651, 46.5975494]]]" .
+
+<http://localhost:8080/source/view125> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8863335, 45.9204693]]]" .
+<http://localhost:8080/source/view125> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2309515474" .
+<http://localhost:8080/source/view125> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere della costa" .
+<http://localhost:8080/source/view125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view126> <http://knowdive.disi.unitn.it/etype#/name> "Eckarter Kanzel - Pulpito di Eckart" .
+<http://localhost:8080/source/view126> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1211264, 46.6458035]]]" .
+<http://localhost:8080/source/view126> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2355011609" .
+<http://localhost:8080/source/view126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view127> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2407320911" .
+<http://localhost:8080/source/view127> <http://knowdive.disi.unitn.it/etype#/name> "La Palina" .
+<http://localhost:8080/source/view127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view127> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7706148, 46.4516427]]]" .
+
+<http://localhost:8080/source/view128> <http://knowdive.disi.unitn.it/etype#/elevation> "1830" .
+<http://localhost:8080/source/view128> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2414222839" .
+<http://localhost:8080/source/view128> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6034417, 46.4206982]]]" .
+<http://localhost:8080/source/view128> <http://knowdive.disi.unitn.it/etype#/name> "Kaiserstein" .
+<http://localhost:8080/source/view128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view129> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.8050809, 46.7470936]]]" .
+<http://localhost:8080/source/view129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view129> <http://knowdive.disi.unitn.it/etype#/name> "Talblick" .
+<http://localhost:8080/source/view129> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2423036236" .
+
+<http://localhost:8080/source/view130> <http://knowdive.disi.unitn.it/etype#/name> "Klein Gitsch" .
+<http://localhost:8080/source/view130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view130> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2450211762" .
+<http://localhost:8080/source/view130> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.667116, 46.8456833]]]" .
+
+<http://localhost:8080/source/view131> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.1317871, 46.7519295]]]" .
+<http://localhost:8080/source/view131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view131> <http://knowdive.disi.unitn.it/etype#/name> "Aussichtswarte Bellavista" .
+<http://localhost:8080/source/view131> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2454295056" .
+
+<http://localhost:8080/source/view132> <http://knowdive.disi.unitn.it/etype#/name> "Cros dent en sass" .
+<http://localhost:8080/source/view132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view132> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0165507, 46.2955976]]]" .
+<http://localhost:8080/source/view132> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2461423254" .
+
+<http://localhost:8080/source/view133> <http://knowdive.disi.unitn.it/etype#/name> "La Crucola" .
+<http://localhost:8080/source/view133> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2461428551" .
+<http://localhost:8080/source/view133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view133> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.015734, 46.2941833]]]" .
+
+<http://localhost:8080/source/view134> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2492060331" .
+<http://localhost:8080/source/view134> <http://knowdive.disi.unitn.it/etype#/name> "Granat" .
+<http://localhost:8080/source/view134> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1692605, 46.8324942]]]" .
+<http://localhost:8080/source/view134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view135> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7632168, 46.550527]]]" .
+<http://localhost:8080/source/view135> <http://knowdive.disi.unitn.it/etype#/name> "Suachbichl" .
+<http://localhost:8080/source/view135> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2496307691" .
+<http://localhost:8080/source/view135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view135> <http://knowdive.disi.unitn.it/etype#/elevation> "2010" .
+
+<http://localhost:8080/source/view136> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2499242125" .
+<http://localhost:8080/source/view136> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4389724, 46.5274899]]]" .
+<http://localhost:8080/source/view136> <http://knowdive.disi.unitn.it/etype#/name> "Wallnereck - Monte Valnera" .
+<http://localhost:8080/source/view136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view137> <http://knowdive.disi.unitn.it/etype#/name> "View over Lana" .
+<http://localhost:8080/source/view137> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2516237920" .
+<http://localhost:8080/source/view137> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2047295, 46.6424649]]]" .
+
+<http://localhost:8080/source/view138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view138> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2516237921" .
+<http://localhost:8080/source/view138> <http://knowdive.disi.unitn.it/etype#/name> "View over Meran" .
+<http://localhost:8080/source/view138> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2064359, 46.6453066]]]" .
+
+<http://localhost:8080/source/view139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view139> <http://knowdive.disi.unitn.it/etype#/name> "Dolomitoskop" .
+<http://localhost:8080/source/view139> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4593688, 46.6007708]]]" .
+<http://localhost:8080/source/view139> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2541981312" .
+
+<http://localhost:8080/source/view140> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2584246883" .
+<http://localhost:8080/source/view140> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4584123, 46.483683]]]" .
+<http://localhost:8080/source/view140> <http://knowdive.disi.unitn.it/etype#/name> "Psosser Bühl" .
+<http://localhost:8080/source/view140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view141> <http://knowdive.disi.unitn.it/etype#/name> "Aussichtspunkt Spitzköfele - Punto d'osservazione Spitzköfele" .
+<http://localhost:8080/source/view141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view141> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2584253302" .
+<http://localhost:8080/source/view141> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.449678, 46.479376]]]" .
+
+<http://localhost:8080/source/view142> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4624237, 46.4592649]]]" .
+<http://localhost:8080/source/view142> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2584254090" .
+<http://localhost:8080/source/view142> <http://knowdive.disi.unitn.it/etype#/name> "Tschigg - Maso Ciga" .
+<http://localhost:8080/source/view142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view143> <http://knowdive.disi.unitn.it/etype#/name> "SkyWalk Monte di Mezzocorona" .
+<http://localhost:8080/source/view143> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2636910011" .
+<http://localhost:8080/source/view143> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1208787, 46.2234459]]]" .
+
+<http://localhost:8080/source/view144> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2745704163" .
+<http://localhost:8080/source/view144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view144> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0138787, 46.1191074]]]" .
+<http://localhost:8080/source/view144> <http://knowdive.disi.unitn.it/etype#/elevation> "2034" .
+<http://localhost:8080/source/view144> <http://knowdive.disi.unitn.it/etype#/name> "Canfedin" .
+
+<http://localhost:8080/source/view145> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2757338804" .
+<http://localhost:8080/source/view145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view145> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+<http://localhost:8080/source/view145> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.077431, 46.174521]]]" .
+
+<http://localhost:8080/source/view146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view146> <http://knowdive.disi.unitn.it/etype#/name> "Malga Klaus / Klausalm" .
+<http://localhost:8080/source/view146> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3773862, 46.4566325]]]" .
+<http://localhost:8080/source/view146> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/2952829629" .
+<http://localhost:8080/source/view146> <http://knowdive.disi.unitn.it/etype#/elevation> "1528" .
+
+<http://localhost:8080/source/view147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view147> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7696956, 46.3168121]]]" .
+<http://localhost:8080/source/view147> <http://knowdive.disi.unitn.it/etype#/name> "Pradi" .
+<http://localhost:8080/source/view147> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3002332027" .
+
+<http://localhost:8080/source/view148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view148> <http://knowdive.disi.unitn.it/etype#/name> "Trauttmansdorffer Thronsessel - Trono di Castel Trauttmansdorff" .
+<http://localhost:8080/source/view148> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1016157, 46.6821847]]]" .
+<http://localhost:8080/source/view148> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3009845485" .
+
+<http://localhost:8080/source/view149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view149> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2679437, 46.5496548]]]" .
+<http://localhost:8080/source/view149> <http://knowdive.disi.unitn.it/etype#/name> "Tschaufer Wänd' - Pareti Colle del Giovo" .
+<http://localhost:8080/source/view149> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3052422384" .
+
+<http://localhost:8080/source/view150> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3065746473" .
+<http://localhost:8080/source/view150> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1671088, 46.5533864]]]" .
+<http://localhost:8080/source/view150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view150> <http://knowdive.disi.unitn.it/etype#/name> "Tschengg" .
+
+<http://localhost:8080/source/view151> <http://knowdive.disi.unitn.it/etype#/name> "Gsteier Blick" .
+<http://localhost:8080/source/view151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view151> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3077166433" .
+<http://localhost:8080/source/view151> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.231477, 46.678278]]]" .
+
+<http://localhost:8080/source/view152> <http://knowdive.disi.unitn.it/etype#/elevation> "1470" .
+<http://localhost:8080/source/view152> <http://knowdive.disi.unitn.it/etype#/name> "Crozi dala Tana" .
+<http://localhost:8080/source/view152> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2716658, 46.2291819]]]" .
+<http://localhost:8080/source/view152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view152> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3138754614" .
+
+<http://localhost:8080/source/view153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view153> <http://knowdive.disi.unitn.it/etype#/elevation> "1340" .
+<http://localhost:8080/source/view153> <http://knowdive.disi.unitn.it/etype#/name> "Croz del Pinestré" .
+<http://localhost:8080/source/view153> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2775613, 46.226535]]]" .
+<http://localhost:8080/source/view153> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3138754626" .
+
+<http://localhost:8080/source/view154> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3148018931" .
+<http://localhost:8080/source/view154> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere / Al Castello" .
+<http://localhost:8080/source/view154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view154> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.877354, 45.8701238]]]" .
+
+<http://localhost:8080/source/view155> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1330114, 45.9445073]]]" .
+<http://localhost:8080/source/view155> <http://knowdive.disi.unitn.it/etype#/name> "Val di Gola" .
+<http://localhost:8080/source/view155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view155> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3212723670" .
+
+<http://localhost:8080/source/view156> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3309879161" .
+<http://localhost:8080/source/view156> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2493756, 46.0578761]]]" .
+<http://localhost:8080/source/view156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view156> <http://knowdive.disi.unitn.it/etype#/name> "Cròz de l'Oz Cuel" .
+
+<http://localhost:8080/source/view157> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3340621209" .
+<http://localhost:8080/source/view157> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3064591, 46.1757896]]]" .
+<http://localhost:8080/source/view157> <http://knowdive.disi.unitn.it/etype#/elevation> "1503" .
+<http://localhost:8080/source/view157> <http://knowdive.disi.unitn.it/etype#/name> "Cros del Cuć" .
+<http://localhost:8080/source/view157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view158> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4341986, 46.3548378]]]" .
+<http://localhost:8080/source/view158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view158> <http://knowdive.disi.unitn.it/etype#/name> "Panorama Bletterbach" .
+<http://localhost:8080/source/view158> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3379343394" .
+
+<http://localhost:8080/source/view159> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4016103, 46.373203]]]" .
+<http://localhost:8080/source/view159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view159> <http://knowdive.disi.unitn.it/etype#/name> "Panorama - Dolomites UNESCO World Heritage Bletterbach" .
+<http://localhost:8080/source/view159> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3379349249" .
+
+<http://localhost:8080/source/view160> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3389128897" .
+<http://localhost:8080/source/view160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view160> <http://knowdive.disi.unitn.it/etype#/name> "389m" .
+<http://localhost:8080/source/view160> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9215755, 45.868776]]]" .
+
+<http://localhost:8080/source/view161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view161> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.97983, 45.8670387]]]" .
+<http://localhost:8080/source/view161> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3397230940" .
+<http://localhost:8080/source/view161> <http://knowdive.disi.unitn.it/etype#/name> "Trincee Fae" .
+
+<http://localhost:8080/source/view162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view162> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3397230941" .
+<http://localhost:8080/source/view162> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9812003, 45.8686112]]]" .
+<http://localhost:8080/source/view162> <http://knowdive.disi.unitn.it/etype#/name> "Trincee Fae" .
+
+<http://localhost:8080/source/view163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view163> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9286124, 45.8632592]]]" .
+<http://localhost:8080/source/view163> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3427306777" .
+<http://localhost:8080/source/view163> <http://knowdive.disi.unitn.it/etype#/name> "Nagrolle-Loppio" .
+
+<http://localhost:8080/source/view164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view164> <http://knowdive.disi.unitn.it/etype#/name> "Versante AltoGarda" .
+<http://localhost:8080/source/view164> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3435457860" .
+<http://localhost:8080/source/view164> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.928775, 45.8829244]]]" .
+
+<http://localhost:8080/source/view165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view165> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3444796790" .
+<http://localhost:8080/source/view165> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4004557, 46.5186064]]]" .
+<http://localhost:8080/source/view165> <http://knowdive.disi.unitn.it/etype#/name> "Erdpyramiden im Rivelaungraben - Piramidi di terra nella gola del Rio Rivellone" .
+
+<http://localhost:8080/source/view166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view166> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3471212771" .
+<http://localhost:8080/source/view166> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3636385, 46.4245845]]]" .
+<http://localhost:8080/source/view166> <http://knowdive.disi.unitn.it/etype#/name> "Enzbirch" .
+
+<http://localhost:8080/source/view167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view167> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3473846051" .
+<http://localhost:8080/source/view167> <http://knowdive.disi.unitn.it/etype#/name> "Pianeze" .
+<http://localhost:8080/source/view167> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9581182, 45.8665027]]]" .
+
+<http://localhost:8080/source/view168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view168> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico sulla Valsugana" .
+<http://localhost:8080/source/view168> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5108692, 46.0919227]]]" .
+<http://localhost:8080/source/view168> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3501126636" .
+
+<http://localhost:8080/source/view169> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3506886461" .
+<http://localhost:8080/source/view169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view169> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+<http://localhost:8080/source/view169> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1554951, 46.6822934]]]" .
+
+<http://localhost:8080/source/view170> <http://knowdive.disi.unitn.it/etype#/name> "Garda-Vallagarina" .
+<http://localhost:8080/source/view170> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9295071, 45.885707]]]" .
+<http://localhost:8080/source/view170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view170> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3512668495" .
+
+<http://localhost:8080/source/view171> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2562443, 46.9292211]]]" .
+<http://localhost:8080/source/view171> <http://knowdive.disi.unitn.it/etype#/name> "Horn" .
+<http://localhost:8080/source/view171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view171> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3561459577" .
+
+<http://localhost:8080/source/view172> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7937546, 46.2753408]]]" .
+<http://localhost:8080/source/view172> <http://knowdive.disi.unitn.it/etype#/elevation> "2520" .
+<http://localhost:8080/source/view172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view172> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3649012261" .
+<http://localhost:8080/source/view172> <http://knowdive.disi.unitn.it/etype#/name> "Croce della Pace" .
+
+<http://localhost:8080/source/view173> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6728963, 46.5657452]]]" .
+<http://localhost:8080/source/view173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view173> <http://knowdive.disi.unitn.it/etype#/name> "La Cansla" .
+<http://localhost:8080/source/view173> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3654701666" .
+
+<http://localhost:8080/source/view174> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1663106, 46.8269673]]]" .
+<http://localhost:8080/source/view174> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3666082326" .
+<http://localhost:8080/source/view174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view174> <http://knowdive.disi.unitn.it/etype#/name> "Stieber Wasserfall - Cascata Stieber" .
+
+<http://localhost:8080/source/view175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view175> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3666102672" .
+<http://localhost:8080/source/view175> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1810629, 46.8260638]]]" .
+<http://localhost:8080/source/view175> <http://knowdive.disi.unitn.it/etype#/name> "Passerschlucht - Gola del Passirio" .
+
+<http://localhost:8080/source/view176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view176> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3666108483" .
+<http://localhost:8080/source/view176> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1781393, 46.8261143]]]" .
+<http://localhost:8080/source/view176> <http://knowdive.disi.unitn.it/etype#/name> "Passerschlucht - Gola del Passirio" .
+
+<http://localhost:8080/source/view177> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1922552, 46.8237284]]]" .
+<http://localhost:8080/source/view177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view177> <http://knowdive.disi.unitn.it/etype#/name> "Stuller Wasserfall - Cascate di Stulles" .
+<http://localhost:8080/source/view177> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3666122186" .
+
+<http://localhost:8080/source/view178> <http://knowdive.disi.unitn.it/etype#/name> "Sai Uëdli" .
+<http://localhost:8080/source/view178> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.76482, 46.5547946]]]" .
+<http://localhost:8080/source/view178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view178> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3699573023" .
+
+<http://localhost:8080/source/view179> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3700242934" .
+<http://localhost:8080/source/view179> <http://knowdive.disi.unitn.it/etype#/elevation> "3026" .
+<http://localhost:8080/source/view179> <http://knowdive.disi.unitn.it/etype#/name> "Piza dales Diesc" .
+<http://localhost:8080/source/view179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view179> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9608891, 46.6223325]]]" .
+
+<http://localhost:8080/source/view180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view180> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3799977720" .
+<http://localhost:8080/source/view180> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1025693, 46.6371792]]]" .
+<http://localhost:8080/source/view180> <http://knowdive.disi.unitn.it/etype#/name> "Schöne Aussicht" .
+
+<http://localhost:8080/source/view181> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2703834, 46.0506386]]]" .
+<http://localhost:8080/source/view181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view181> <http://knowdive.disi.unitn.it/etype#/name> "belvedere" .
+<http://localhost:8080/source/view181> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3814575997" .
+
+<http://localhost:8080/source/view182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view182> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3829979463" .
+<http://localhost:8080/source/view182> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.8170964, 46.7605477]]]" .
+<http://localhost:8080/source/view182> <http://knowdive.disi.unitn.it/etype#/name> "Ellener Kreuz" .
+
+<http://localhost:8080/source/view183> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0900658, 45.986967]]]" .
+<http://localhost:8080/source/view183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view183> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3890817307" .
+<http://localhost:8080/source/view183> <http://knowdive.disi.unitn.it/etype#/name> "la bancheta" .
+
+<http://localhost:8080/source/view184> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0878038, 45.9869923]]]" .
+<http://localhost:8080/source/view184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view184> <http://knowdive.disi.unitn.it/etype#/name> "vista su cascata" .
+<http://localhost:8080/source/view184> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3890819594" .
+
+<http://localhost:8080/source/view185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view185> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.549529, 46.0557464]]]" .
+<http://localhost:8080/source/view185> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3901176783" .
+<http://localhost:8080/source/view185> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+
+<http://localhost:8080/source/view186> <http://knowdive.disi.unitn.it/etype#/name> "Stilfserjoch - Passo Stelvio" .
+<http://localhost:8080/source/view186> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3949857860" .
+<http://localhost:8080/source/view186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view186> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.4540246, 46.5289267]]]" .
+
+<http://localhost:8080/source/view187> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.0921553, 46.6959686]]]" .
+<http://localhost:8080/source/view187> <http://knowdive.disi.unitn.it/etype#/name> "Großer Apostel - Grande Apostolo" .
+<http://localhost:8080/source/view187> <http://knowdive.disi.unitn.it/etype#/elevation> "1947" .
+<http://localhost:8080/source/view187> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3950389732" .
+<http://localhost:8080/source/view187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view188> <http://knowdive.disi.unitn.it/etype#/elevation> "867" .
+<http://localhost:8080/source/view188> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3978711783" .
+<http://localhost:8080/source/view188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view188> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4634861, 46.0678436]]]" .
+
+<http://localhost:8080/source/view189> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4619307, 46.0649992]]]" .
+<http://localhost:8080/source/view189> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/3979540056" .
+<http://localhost:8080/source/view189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view189> <http://knowdive.disi.unitn.it/etype#/elevation> "867" .
+
+<http://localhost:8080/source/view190> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4040753180" .
+<http://localhost:8080/source/view190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view190> <http://knowdive.disi.unitn.it/etype#/name> "Zoparina" .
+<http://localhost:8080/source/view190> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3873502, 46.0127452]]]" .
+
+<http://localhost:8080/source/view191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view191> <http://knowdive.disi.unitn.it/etype#/name> "Meran - Merano" .
+<http://localhost:8080/source/view191> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4095699611" .
+<http://localhost:8080/source/view191> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1233559, 46.6600304]]]" .
+
+<http://localhost:8080/source/view192> <http://knowdive.disi.unitn.it/etype#/name> "Hörtenbergkreuz - Croce del Monte Tondo" .
+<http://localhost:8080/source/view192> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4130428210" .
+<http://localhost:8080/source/view192> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3716634, 46.5116283]]]" .
+<http://localhost:8080/source/view192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view193> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4185771334" .
+<http://localhost:8080/source/view193> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.0530824, 46.8345556]]]" .
+<http://localhost:8080/source/view193> <http://knowdive.disi.unitn.it/etype#/elevation> "2483" .
+<http://localhost:8080/source/view193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view193> <http://knowdive.disi.unitn.it/etype#/name> "Rammelstein - Montone" .
+
+<http://localhost:8080/source/view194> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1335073, 46.0714135]]]" .
+<http://localhost:8080/source/view194> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere di Villa Sant'Ignazio" .
+<http://localhost:8080/source/view194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view194> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4246462921" .
+
+<http://localhost:8080/source/view195> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4305154837" .
+<http://localhost:8080/source/view195> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.475757, 46.473445]]]" .
+<http://localhost:8080/source/view195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view195> <http://knowdive.disi.unitn.it/etype#/name> "Furner Oach" .
+
+<http://localhost:8080/source/view196> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9638532, 45.8401229]]]" .
+<http://localhost:8080/source/view196> <http://knowdive.disi.unitn.it/etype#/name> "Osservatorio" .
+<http://localhost:8080/source/view196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view196> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4319495559" .
+
+<http://localhost:8080/source/view197> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere Alto" .
+<http://localhost:8080/source/view197> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4326701138" .
+<http://localhost:8080/source/view197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view197> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2348059, 46.0884836]]]" .
+
+<http://localhost:8080/source/view198> <http://knowdive.disi.unitn.it/etype#/name> "Geislerkino" .
+<http://localhost:8080/source/view198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view198> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.749064, 46.6213476]]]" .
+<http://localhost:8080/source/view198> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4337171991" .
+
+<http://localhost:8080/source/view199> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.1782331, 46.8026159]]]" .
+<http://localhost:8080/source/view199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view199> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4403430959" .
+<http://localhost:8080/source/view199> <http://knowdive.disi.unitn.it/etype#/name> "Dolomitenblick" .
+
+<http://localhost:8080/source/view200> <http://knowdive.disi.unitn.it/etype#/name> "Sunnenwentegge" .
+<http://localhost:8080/source/view200> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4403440430" .
+<http://localhost:8080/source/view200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view200> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.2368474, 46.811652]]]" .
+
+<http://localhost:8080/source/view201> <http://knowdive.disi.unitn.it/etype#/name> "La lasta" .
+<http://localhost:8080/source/view201> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4421788841" .
+<http://localhost:8080/source/view201> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2411445, 46.0805868]]]" .
+<http://localhost:8080/source/view201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view202> <http://knowdive.disi.unitn.it/etype#/name> "Aussichtskanzel - Pulpito prospettico" .
+<http://localhost:8080/source/view202> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4443977065" .
+<http://localhost:8080/source/view202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view202> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.6819937, 46.4816804]]]" .
+
+<http://localhost:8080/source/view203> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.6857651, 46.4838788]]]" .
+<http://localhost:8080/source/view203> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4443977066" .
+<http://localhost:8080/source/view203> <http://knowdive.disi.unitn.it/etype#/name> "Kelle in der Klamm" .
+<http://localhost:8080/source/view203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view204> <http://knowdive.disi.unitn.it/etype#/name> "Panoramasichel - Falce Panoramica" .
+<http://localhost:8080/source/view204> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4443977067" .
+<http://localhost:8080/source/view204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view204> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.6841134, 46.4826444]]]" .
+
+<http://localhost:8080/source/view205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view205> <http://knowdive.disi.unitn.it/etype#/name> "Monte Calvo" .
+<http://localhost:8080/source/view205> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2607222, 46.1002372]]]" .
+<http://localhost:8080/source/view205> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4564657370" .
+
+<http://localhost:8080/source/view206> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4630508, 46.2927689]]]" .
+<http://localhost:8080/source/view206> <http://knowdive.disi.unitn.it/etype#/name> "Pagoda" .
+<http://localhost:8080/source/view206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view206> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4582441703" .
+
+<http://localhost:8080/source/view207> <http://knowdive.disi.unitn.it/etype#/name> "Lucianella" .
+<http://localhost:8080/source/view207> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4594155558" .
+<http://localhost:8080/source/view207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view207> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4692132, 46.2913676]]]" .
+
+<http://localhost:8080/source/view208> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2624476, 46.10989]]]" .
+<http://localhost:8080/source/view208> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico Croz Tont" .
+<http://localhost:8080/source/view208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view208> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4625687575" .
+
+<http://localhost:8080/source/view209> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4683228821" .
+<http://localhost:8080/source/view209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view209> <http://knowdive.disi.unitn.it/etype#/name> "Corna Piana" .
+<http://localhost:8080/source/view209> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9758433, 45.7606574]]]" .
+
+<http://localhost:8080/source/view210> <http://knowdive.disi.unitn.it/etype#/elevation> "2200" .
+<http://localhost:8080/source/view210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view210> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5864254, 46.1868681]]]" .
+<http://localhost:8080/source/view210> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4693994316" .
+<http://localhost:8080/source/view210> <http://knowdive.disi.unitn.it/etype#/name> "Aia de Canon" .
+
+<http://localhost:8080/source/view211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view211> <http://knowdive.disi.unitn.it/etype#/name> "Cros dei Mocheni" .
+<http://localhost:8080/source/view211> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4705601357" .
+<http://localhost:8080/source/view211> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.287478, 46.1251331]]]" .
+<http://localhost:8080/source/view211> <http://knowdive.disi.unitn.it/etype#/elevation> "1780" .
+
+<http://localhost:8080/source/view212> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+<http://localhost:8080/source/view212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view212> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0832757, 46.1803591]]]" .
+<http://localhost:8080/source/view212> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4726382589" .
+
+<http://localhost:8080/source/view213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view213> <http://knowdive.disi.unitn.it/etype#/name> "piazzola elicottero" .
+<http://localhost:8080/source/view213> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.132255, 45.9349351]]]" .
+<http://localhost:8080/source/view213> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4765042465" .
+
+<http://localhost:8080/source/view214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view214> <http://knowdive.disi.unitn.it/etype#/elevation> "1940" .
+<http://localhost:8080/source/view214> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4781665802" .
+<http://localhost:8080/source/view214> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9331997, 46.6747363]]]" .
+<http://localhost:8080/source/view214> <http://knowdive.disi.unitn.it/etype#/name> "Gran Pizat" .
+
+<http://localhost:8080/source/view215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view215> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2113737, 46.8246295]]]" .
+<http://localhost:8080/source/view215> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4870216074" .
+<http://localhost:8080/source/view215> <http://knowdive.disi.unitn.it/etype#/name> "Blick St. Leonhard" .
+
+<http://localhost:8080/source/view216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view216> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2347599, 46.0872066]]]" .
+<http://localhost:8080/source/view216> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4880108138" .
+<http://localhost:8080/source/view216> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere Basso" .
+
+<http://localhost:8080/source/view217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view217> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4900402136" .
+<http://localhost:8080/source/view217> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2516466, 45.9589783]]]" .
+<http://localhost:8080/source/view217> <http://knowdive.disi.unitn.it/etype#/name> "Punto Panoramico Cangart" .
+
+<http://localhost:8080/source/view218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view218> <http://knowdive.disi.unitn.it/etype#/name> "La Predolcia (981 m)" .
+<http://localhost:8080/source/view218> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4938219707" .
+<http://localhost:8080/source/view218> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2635057, 46.0842912]]]" .
+
+<http://localhost:8080/source/view219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view219> <http://knowdive.disi.unitn.it/etype#/name> "Madonnina" .
+<http://localhost:8080/source/view219> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4969126522" .
+<http://localhost:8080/source/view219> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9295398, 45.7641777]]]" .
+
+<http://localhost:8080/source/view220> <http://knowdive.disi.unitn.it/etype#/name> "Croce di Lorina" .
+<http://localhost:8080/source/view220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view220> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/4987809199" .
+<http://localhost:8080/source/view220> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.6307974, 45.8318021]]]" .
+
+<http://localhost:8080/source/view221> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.5753425, 46.0630624]]]" .
+<http://localhost:8080/source/view221> <http://knowdive.disi.unitn.it/etype#/name> "Bocchetta dei Cacciatori" .
+<http://localhost:8080/source/view221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view221> <http://knowdive.disi.unitn.it/etype#/elevation> "2897" .
+<http://localhost:8080/source/view221> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5008307213" .
+
+<http://localhost:8080/source/view222> <http://knowdive.disi.unitn.it/etype#/name> "Giuel" .
+<http://localhost:8080/source/view222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view222> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0829491, 46.2116879]]]" .
+<http://localhost:8080/source/view222> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5009394691" .
+
+<http://localhost:8080/source/view223> <http://knowdive.disi.unitn.it/etype#/name> "Aussichtspunkt Obervintl - Punto panoramico Vandoies di Sopra" .
+<http://localhost:8080/source/view223> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5027116605" .
+<http://localhost:8080/source/view223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view223> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7648244, 46.8137332]]]" .
+
+<http://localhost:8080/source/view224> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6602323, 46.8772275]]]" .
+<http://localhost:8080/source/view224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view224> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5027123292" .
+<http://localhost:8080/source/view224> <http://knowdive.disi.unitn.it/etype#/name> "Seefeld See - Lago Grande" .
+
+<http://localhost:8080/source/view225> <http://knowdive.disi.unitn.it/etype#/name> "Meransen" .
+<http://localhost:8080/source/view225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view225> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5027249151" .
+<http://localhost:8080/source/view225> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6625111, 46.8410383]]]" .
+
+<http://localhost:8080/source/view226> <http://knowdive.disi.unitn.it/etype#/name> "Salt de la volp" .
+<http://localhost:8080/source/view226> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5034947022" .
+<http://localhost:8080/source/view226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view226> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1850624, 45.9255624]]]" .
+
+<http://localhost:8080/source/view227> <http://knowdive.disi.unitn.it/etype#/name> "Busa dei Orsi" .
+<http://localhost:8080/source/view227> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1024013, 46.064986]]]" .
+<http://localhost:8080/source/view227> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5060180851" .
+<http://localhost:8080/source/view227> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view228> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1023135, 46.0648902]]]" .
+<http://localhost:8080/source/view228> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5060180852" .
+<http://localhost:8080/source/view228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view228> <http://knowdive.disi.unitn.it/etype#/name> "Busa dei Orsi" .
+
+<http://localhost:8080/source/view229> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5107974434" .
+<http://localhost:8080/source/view229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view229> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0506543, 46.6938829]]]" .
+<http://localhost:8080/source/view229> <http://knowdive.disi.unitn.it/etype#/name> "Wasserfall - Cascata" .
+
+<http://localhost:8080/source/view230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view230> <http://knowdive.disi.unitn.it/etype#/name> "Colle Tondo" .
+<http://localhost:8080/source/view230> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0791913, 45.8064888]]]" .
+<http://localhost:8080/source/view230> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5132785775" .
+
+<http://localhost:8080/source/view231> <http://knowdive.disi.unitn.it/etype#/name> "Blick auf Partschins - Vista di Parcines" .
+<http://localhost:8080/source/view231> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5166832571" .
+<http://localhost:8080/source/view231> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0728005, 46.6892577]]]" .
+<http://localhost:8080/source/view231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view232> <http://knowdive.disi.unitn.it/etype#/name> "Croz del corf" .
+<http://localhost:8080/source/view232> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5304966508" .
+<http://localhost:8080/source/view232> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2469769, 46.0868984]]]" .
+
+<http://localhost:8080/source/view233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view233> <http://knowdive.disi.unitn.it/etype#/name> "Panorama Lago Toblino" .
+<http://localhost:8080/source/view233> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5320129623" .
+<http://localhost:8080/source/view233> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9718751, 46.0575541]]]" .
+
+<http://localhost:8080/source/view234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view234> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5353051774" .
+<http://localhost:8080/source/view234> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3118528, 46.1819843]]]" .
+<http://localhost:8080/source/view234> <http://knowdive.disi.unitn.it/etype#/elevation> "1570" .
+
+<http://localhost:8080/source/view235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view235> <http://knowdive.disi.unitn.it/etype#/elevation> "525" .
+<http://localhost:8080/source/view235> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5374635083" .
+<http://localhost:8080/source/view235> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.882637, 46.0458687]]]" .
+
+<http://localhost:8080/source/view236> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5690865742" .
+<http://localhost:8080/source/view236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view236> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6202019, 46.7532384]]]" .
+<http://localhost:8080/source/view236> <http://knowdive.disi.unitn.it/etype#/name> "Spilucker Platte - Piana di Spelonca" .
+
+<http://localhost:8080/source/view237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view237> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9241455, 46.1081317]]]" .
+<http://localhost:8080/source/view237> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5809942361" .
+<http://localhost:8080/source/view237> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere (Val de Sora)" .
+
+<http://localhost:8080/source/view238> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2209066, 46.0933464]]]" .
+<http://localhost:8080/source/view238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view238> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5827708429" .
+<http://localhost:8080/source/view238> <http://knowdive.disi.unitn.it/etype#/name> "Croz de la Crosara" .
+
+<http://localhost:8080/source/view239> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5827928550" .
+<http://localhost:8080/source/view239> <http://knowdive.disi.unitn.it/etype#/name> "Rupe del Renner" .
+<http://localhost:8080/source/view239> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2220846, 46.087499]]]" .
+<http://localhost:8080/source/view239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view240> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1362072, 45.9146035]]]" .
+<http://localhost:8080/source/view240> <http://knowdive.disi.unitn.it/etype#/name> "Doss de la Noz" .
+<http://localhost:8080/source/view240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view240> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5836460604" .
+
+<http://localhost:8080/source/view241> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5837621792" .
+<http://localhost:8080/source/view241> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.1958245, 46.8816911]]]" .
+<http://localhost:8080/source/view241> <http://knowdive.disi.unitn.it/etype#/elevation> "2277" .
+<http://localhost:8080/source/view241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view242> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6979163, 46.5775082]]]" .
+<http://localhost:8080/source/view242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view242> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5955517198" .
+<http://localhost:8080/source/view242> <http://knowdive.disi.unitn.it/etype#/elevation> "1823" .
+<http://localhost:8080/source/view242> <http://knowdive.disi.unitn.it/etype#/name> "Balest" .
+
+<http://localhost:8080/source/view243> <http://knowdive.disi.unitn.it/etype#/name> "Ritztal" .
+<http://localhost:8080/source/view243> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5158144, 46.4812788]]]" .
+<http://localhost:8080/source/view243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view243> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5974230630" .
+
+<http://localhost:8080/source/view244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view244> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7219325, 46.6367559]]]" .
+<http://localhost:8080/source/view244> <http://knowdive.disi.unitn.it/etype#/name> "Fotopoint Ranui" .
+<http://localhost:8080/source/view244> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/5999916585" .
+
+<http://localhost:8080/source/view245> <http://knowdive.disi.unitn.it/etype#/name> "I Brusai" .
+<http://localhost:8080/source/view245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view245> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6172526923" .
+<http://localhost:8080/source/view245> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9927438, 45.7929838]]]" .
+
+<http://localhost:8080/source/view246> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6227723898" .
+<http://localhost:8080/source/view246> <http://knowdive.disi.unitn.it/etype#/name> "Doss delle Caore" .
+<http://localhost:8080/source/view246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view246> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1046502, 45.9276021]]]" .
+
+<http://localhost:8080/source/view247> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6227725059" .
+<http://localhost:8080/source/view247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view247> <http://knowdive.disi.unitn.it/etype#/name> "Doss delle Caore" .
+<http://localhost:8080/source/view247> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1046502, 45.9276021]]]" .
+
+<http://localhost:8080/source/view248> <http://knowdive.disi.unitn.it/etype#/name> "Dos de Sguiz" .
+<http://localhost:8080/source/view248> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6285620604" .
+<http://localhost:8080/source/view248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view248> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0989825, 45.8760979]]]" .
+
+<http://localhost:8080/source/view249> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.267657, 45.9772572]]]" .
+<http://localhost:8080/source/view249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view249> <http://knowdive.disi.unitn.it/etype#/name> "Doss Tondo" .
+<http://localhost:8080/source/view249> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6549853263" .
+
+<http://localhost:8080/source/view250> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico del Casom" .
+<http://localhost:8080/source/view250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view250> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1335659, 45.9204292]]]" .
+<http://localhost:8080/source/view250> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6634632826" .
+
+<http://localhost:8080/source/view251> <http://knowdive.disi.unitn.it/etype#/name> "Ferdinands-Höhe" .
+<http://localhost:8080/source/view251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view251> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2121717, 46.4188859]]]" .
+<http://localhost:8080/source/view251> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6643766585" .
+
+<http://localhost:8080/source/view252> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+<http://localhost:8080/source/view252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view252> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6765729137" .
+<http://localhost:8080/source/view252> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0099041, 45.8853141]]]" .
+
+<http://localhost:8080/source/view253> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7475766, 46.5905179]]]" .
+<http://localhost:8080/source/view253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view253> <http://knowdive.disi.unitn.it/etype#/name> "Dolomites UNESCO Welterbeterrasse Mastlé - Dolomites UNESCO Balcone panoramico Mastlé" .
+<http://localhost:8080/source/view253> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6830811503" .
+
+<http://localhost:8080/source/view254> <http://knowdive.disi.unitn.it/etype#/name> "Titschen Warte" .
+<http://localhost:8080/source/view254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view254> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7133638010" .
+<http://localhost:8080/source/view254> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3818862, 46.4677932]]]" .
+
+<http://localhost:8080/source/view255> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0892082, 45.7947573]]]" .
+<http://localhost:8080/source/view255> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7568056333" .
+<http://localhost:8080/source/view255> <http://knowdive.disi.unitn.it/etype#/name> "Spizerle" .
+<http://localhost:8080/source/view255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view256> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6904038, 46.7749385]]]" .
+<http://localhost:8080/source/view256> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7643902734" .
+<http://localhost:8080/source/view256> <http://knowdive.disi.unitn.it/etype#/name> "Rienzschlucht - Gola Rienza" .
+<http://localhost:8080/source/view256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view257> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere Andreola" .
+<http://localhost:8080/source/view257> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7744637206" .
+<http://localhost:8080/source/view257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view257> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6557098, 46.3084872]]]" .
+
+<http://localhost:8080/source/view258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view258> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7746309608" .
+<http://localhost:8080/source/view258> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4526207, 46.2772304]]]" .
+<http://localhost:8080/source/view258> <http://knowdive.disi.unitn.it/etype#/name> "Ponte" .
+
+<http://localhost:8080/source/view259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view259> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.0944586, 46.936173]]]" .
+<http://localhost:8080/source/view259> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7796955362" .
+<http://localhost:8080/source/view259> <http://knowdive.disi.unitn.it/etype#/name> "Tristenbach Wasserfall - cascata Rio Covoni" .
+
+<http://localhost:8080/source/view260> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7642975, 46.2920447]]]" .
+<http://localhost:8080/source/view260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view260> <http://knowdive.disi.unitn.it/etype#/name> "Finestra sul lago" .
+<http://localhost:8080/source/view260> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7813719492" .
+
+<http://localhost:8080/source/view261> <http://knowdive.disi.unitn.it/etype#/name> "Teleferica" .
+<http://localhost:8080/source/view261> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7839401944" .
+<http://localhost:8080/source/view261> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0736877, 45.8292252]]]" .
+<http://localhost:8080/source/view261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view262> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.693778, 46.8570545]]]" .
+<http://localhost:8080/source/view262> <http://knowdive.disi.unitn.it/etype#/name> "Aussichtsplattform Dreiländerblick" .
+<http://localhost:8080/source/view262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view262> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7843487803" .
+
+<http://localhost:8080/source/view263> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7872815988" .
+<http://localhost:8080/source/view263> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico" .
+<http://localhost:8080/source/view263> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7299472, 46.2911293]]]" .
+<http://localhost:8080/source/view263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view264> <http://knowdive.disi.unitn.it/etype#/name> "Dos de le Masere" .
+<http://localhost:8080/source/view264> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8075681135" .
+<http://localhost:8080/source/view264> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9320788, 46.0580553]]]" .
+
+<http://localhost:8080/source/view265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view265> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8124527720" .
+<http://localhost:8080/source/view265> <http://knowdive.disi.unitn.it/etype#/name> "Osservatorio faunistico Priori" .
+<http://localhost:8080/source/view265> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0073928, 46.1891318]]]" .
+
+<http://localhost:8080/source/view266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view266> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere" .
+<http://localhost:8080/source/view266> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0015825, 46.3700459]]]" .
+<http://localhost:8080/source/view266> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8149169714" .
+
+<http://localhost:8080/source/view267> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8306107120" .
+<http://localhost:8080/source/view267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view267> <http://knowdive.disi.unitn.it/etype#/name> "Atzwanger Aussicht" .
+<http://localhost:8080/source/view267> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4793896, 46.5345685]]]" .
+
+<http://localhost:8080/source/view268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view268> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2518081, 46.1305118]]]" .
+<http://localhost:8080/source/view268> <http://knowdive.disi.unitn.it/etype#/elevation> "1057" .
+<http://localhost:8080/source/view268> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8572567682" .
+
+<http://localhost:8080/source/view269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view269> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0660809, 46.1579952]]]" .
+<http://localhost:8080/source/view269> <http://knowdive.disi.unitn.it/etype#/elevation> "410" .
+<http://localhost:8080/source/view269> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8641598769" .
+<http://localhost:8080/source/view269> <http://knowdive.disi.unitn.it/etype#/name> "Molinel" .
+
+<http://localhost:8080/source/view270> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.490668, 46.8767989]]]" .
+<http://localhost:8080/source/view270> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8814621398" .
+<http://localhost:8080/source/view270> <http://knowdive.disi.unitn.it/etype#/name> "Kral-Zäundl" .
+<http://localhost:8080/source/view270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view271> <http://knowdive.disi.unitn.it/etype#/name> "Vista sul lago Verde" .
+<http://localhost:8080/source/view271> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.0876942, 46.7324818]]]" .
+<http://localhost:8080/source/view271> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8917207910" .
+<http://localhost:8080/source/view271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view272> <http://knowdive.disi.unitn.it/etype#/name> "Aussicht auf den Kalterer See - Vista sul Lago di Caldaro" .
+<http://localhost:8080/source/view272> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8956881409" .
+<http://localhost:8080/source/view272> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2419888, 46.381725]]]" .
+<http://localhost:8080/source/view272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view273> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9046348042" .
+<http://localhost:8080/source/view273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view273> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2625866, 46.1130973]]]" .
+<http://localhost:8080/source/view273> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico Crozati" .
+
+<http://localhost:8080/source/view274> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9047607084" .
+<http://localhost:8080/source/view274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view274> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico La Valeta" .
+<http://localhost:8080/source/view274> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2591775, 46.1127615]]]" .
+
+<http://localhost:8080/source/view275> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2615701, 46.1032293]]]" .
+<http://localhost:8080/source/view275> <http://knowdive.disi.unitn.it/etype#/name> "Maregiat" .
+<http://localhost:8080/source/view275> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9048192429" .
+<http://localhost:8080/source/view275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view276> <http://knowdive.disi.unitn.it/etype#/name> "Rastplatz HaochWool Klettersteig" .
+<http://localhost:8080/source/view276> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9769815, 46.6536056]]]" .
+<http://localhost:8080/source/view276> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9190039096" .
+<http://localhost:8080/source/view276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view277> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9225460121" .
+<http://localhost:8080/source/view277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view277> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.1901116, 46.8822941]]]" .
+<http://localhost:8080/source/view277> <http://knowdive.disi.unitn.it/etype#/name> "2-Seen-Blick" .
+
+<http://localhost:8080/source/view278> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9225463139" .
+<http://localhost:8080/source/view278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view278> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.91783, 45.9412487]]]" .
+<http://localhost:8080/source/view278> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico" .
+
+<http://localhost:8080/source/view279> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9272769980" .
+<http://localhost:8080/source/view279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view279> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6181828, 46.75873]]]" .
+<http://localhost:8080/source/view279> <http://knowdive.disi.unitn.it/etype#/name> "Panoramakino" .
+
+<http://localhost:8080/source/view280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view280> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9482436334" .
+<http://localhost:8080/source/view280> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7211096, 46.0339229]]]" .
+<http://localhost:8080/source/view280> <http://knowdive.disi.unitn.it/etype#/name> "Miravalle" .
+
+<http://localhost:8080/source/view281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view281> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9543423892" .
+<http://localhost:8080/source/view281> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.5071578, 46.6808401]]]" .
+<http://localhost:8080/source/view281> <http://knowdive.disi.unitn.it/etype#/name> "Gamp - Monte Campo" .
+
+<http://localhost:8080/source/view282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view282> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.566912, 46.6419782]]]" .
+<http://localhost:8080/source/view282> <http://knowdive.disi.unitn.it/etype#/name> "Rastplatz Säbener Promenade - Punto panoramico di Sabiona" .
+<http://localhost:8080/source/view282> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9656632861" .
+
+<http://localhost:8080/source/view283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view283> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.7697931, 45.8749595]]]" .
+<http://localhost:8080/source/view283> <http://knowdive.disi.unitn.it/etype#/name> "Panchina gigante" .
+<http://localhost:8080/source/view283> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9667945400" .
+
+<http://localhost:8080/source/view284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view284> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9864105047" .
+<http://localhost:8080/source/view284> <http://knowdive.disi.unitn.it/etype#/name> "Osservatorio" .
+<http://localhost:8080/source/view284> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3288748, 46.0847428]]]" .
+
+<http://localhost:8080/source/view285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view285> <http://knowdive.disi.unitn.it/etype#/elevation> "2450" .
+<http://localhost:8080/source/view285> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.6794632, 46.4922533]]]" .
+<http://localhost:8080/source/view285> <http://knowdive.disi.unitn.it/etype#/name> "Auf dem Gelenk" .
+<http://localhost:8080/source/view285> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9879417660" .
+
+<http://localhost:8080/source/view286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view286> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9271535, 46.1040164]]]" .
+<http://localhost:8080/source/view286> <http://knowdive.disi.unitn.it/etype#/name> "Crepa de Kinada" .
+<http://localhost:8080/source/view286> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9891537117" .
+
+<http://localhost:8080/source/view287> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view287> <http://knowdive.disi.unitn.it/etype#/name> "Località Spiazzi" .
+<http://localhost:8080/source/view287> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9893100550" .
+<http://localhost:8080/source/view287> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1340763, 45.9121976]]]" .
+
+<http://localhost:8080/source/view288> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view288> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10055986193" .
+<http://localhost:8080/source/view288> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3127258, 46.3459582]]]" .
+<http://localhost:8080/source/view288> <http://knowdive.disi.unitn.it/etype#/name> "Schützenherz" .
+
+<http://localhost:8080/source/view289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view289> <http://knowdive.disi.unitn.it/etype#/elevation> "1984" .
+<http://localhost:8080/source/view289> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10187199023" .
+<http://localhost:8080/source/view289> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2809074, 46.6684065]]]" .
+<http://localhost:8080/source/view289> <http://knowdive.disi.unitn.it/etype#/name> "Kreuzjöchl - Passo della Croce" .
+
+<http://localhost:8080/source/view290> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10248525767" .
+<http://localhost:8080/source/view290> <http://knowdive.disi.unitn.it/etype#/name> "Sinicher Kopf" .
+<http://localhost:8080/source/view290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view290> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1849713, 46.634711]]]" .
+
+<http://localhost:8080/source/view291> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10537952725" .
+<http://localhost:8080/source/view291> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9587629, 45.9141354]]]" .
+<http://localhost:8080/source/view291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view291> <http://knowdive.disi.unitn.it/etype#/name> "Vallagarina - Garda" .
+
+<http://localhost:8080/source/view292> <http://knowdive.disi.unitn.it/etype#/name> "Punto Panoramico San Romedio" .
+<http://localhost:8080/source/view292> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10597157052" .
+<http://localhost:8080/source/view292> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1116222, 46.3627409]]]" .
+<http://localhost:8080/source/view292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view293> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10688273589" .
+<http://localhost:8080/source/view293> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9572134, 46.9940399]]]" .
+<http://localhost:8080/source/view293> <http://knowdive.disi.unitn.it/etype#/name> "Frankenbach-Wasserfall" .
+<http://localhost:8080/source/view293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view294> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.126896, 46.0714592]]]" .
+<http://localhost:8080/source/view294> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10901243148" .
+<http://localhost:8080/source/view294> <http://knowdive.disi.unitn.it/etype#/name> "Loggia Veneziana" .
+<http://localhost:8080/source/view294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view295> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10916232458" .
+<http://localhost:8080/source/view295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view295> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2533195, 45.9649034]]]" .
+<http://localhost:8080/source/view295> <http://knowdive.disi.unitn.it/etype#/name> "Panorama sul Lago di Caldonazzo" .
+
+<http://localhost:8080/source/view296> <http://knowdive.disi.unitn.it/etype#/name> "Panorama Passo della Borcola" .
+<http://localhost:8080/source/view296> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2062544, 45.8278803]]]" .
+<http://localhost:8080/source/view296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view296> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10916232470" .
+
+<http://localhost:8080/source/view297> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/10944156889" .
+<http://localhost:8080/source/view297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view297> <http://knowdive.disi.unitn.it/etype#/name> "Spiz de Fosernega" .
+<http://localhost:8080/source/view297> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.687006, 46.2114446]]]" .
+
+<http://localhost:8080/source/view298> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11044002130" .
+<http://localhost:8080/source/view298> <http://knowdive.disi.unitn.it/etype#/name> "Belvedere dell'Alpe di Siusi" .
+<http://localhost:8080/source/view298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view298> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6563564, 46.5525867]]]" .
+
+<http://localhost:8080/source/view299> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1715352, 46.1324457]]]" .
+<http://localhost:8080/source/view299> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11078401517" .
+<http://localhost:8080/source/view299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view299> <http://knowdive.disi.unitn.it/etype#/elevation> "920" .
+
+<http://localhost:8080/source/view300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view300> <http://knowdive.disi.unitn.it/etype#/name> "Photopoint Santa Maddalena" .
+<http://localhost:8080/source/view300> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11099121806" .
+<http://localhost:8080/source/view300> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7162814, 46.6475125]]]" .
+
+<http://localhost:8080/source/view301> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11117038860" .
+<http://localhost:8080/source/view301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view301> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.4815375, 46.9118294]]]" .
+<http://localhost:8080/source/view301> <http://knowdive.disi.unitn.it/etype#/name> "Hohe Warte" .
+
+<http://localhost:8080/source/view302> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11138357309" .
+<http://localhost:8080/source/view302> <http://knowdive.disi.unitn.it/etype#/name> "campo secco" .
+<http://localhost:8080/source/view302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view302> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.802753, 46.3920517]]]" .
+
+<http://localhost:8080/source/view303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view303> <http://knowdive.disi.unitn.it/etype#/name> "Versante Garda - Gresta" .
+<http://localhost:8080/source/view303> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9000893, 45.86447]]]" .
+<http://localhost:8080/source/view303> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11205456824" .
+
+<http://localhost:8080/source/view304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view304> <http://knowdive.disi.unitn.it/etype#/name> "Punto panoramico Zambel" .
+<http://localhost:8080/source/view304> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1208794, 46.1464856]]]" .
+<http://localhost:8080/source/view304> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11300071266" .
+
+<http://localhost:8080/source/view305> <http://knowdive.disi.unitn.it/etype#/name> "Versante Grestano" .
+<http://localhost:8080/source/view305> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.9100254, 45.8578253]]]" .
+<http://localhost:8080/source/view305> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11457474192" .
+<http://localhost:8080/source/view305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view306> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.9328, 46.8366159]]]" .
+<http://localhost:8080/source/view306> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/11816638585" .
+<http://localhost:8080/source/view306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view306> <http://knowdive.disi.unitn.it/etype#/name> "Kassasteig" .
+
+<http://localhost:8080/source/view307> <http://knowdive.disi.unitn.it/etype#/name> "Hochwand" .
+<http://localhost:8080/source/view307> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/12006068573" .
+<http://localhost:8080/source/view307> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3439939, 46.3331819]]]" .
+<http://localhost:8080/source/view307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view308> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/12020053609" .
+<http://localhost:8080/source/view308> <http://knowdive.disi.unitn.it/etype#/name> "Panoramaweg Völlan" .
+<http://localhost:8080/source/view308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view308> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.1334577, 46.590806]]]" .
+
+<http://localhost:8080/source/view309> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.2480961, 46.8700733]]]" .
+<http://localhost:8080/source/view309> <http://knowdive.disi.unitn.it/etype#/name> "Aussichtsplattform \"Pfeifer Huisile Schlucht\"" .
+<http://localhost:8080/source/view309> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/12046129302" .
+<http://localhost:8080/source/view309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+
+<http://localhost:8080/source/view310> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/12074040535" .
+<http://localhost:8080/source/view310> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[10.8906743, 45.8126289]]]" .
+<http://localhost:8080/source/view310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view310> <http://knowdive.disi.unitn.it/etype#/name> "Alto Garda - Vallagarina" .
+
+<http://localhost:8080/source/view311> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/12091634369" .
+<http://localhost:8080/source/view311> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.3092721, 46.6381821]]]" .
+<http://localhost:8080/source/view311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view311> <http://knowdive.disi.unitn.it/etype#/name> "Grotta delle Tre Cime" .
+
+<http://localhost:8080/source/view312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/View> .
+<http://localhost:8080/source/view312> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/12174865263" .
+<http://localhost:8080/source/view312> <http://knowdive.disi.unitn.it/etype#/name> "Drei Zinnen Blick" .
+<http://localhost:8080/source/view312> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[12.2319274, 46.6404124]]]" .
+

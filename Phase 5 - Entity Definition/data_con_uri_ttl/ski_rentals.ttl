@@ -1,0 +1,53 @@
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/postal_code> "39047" .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7258401, 46.5569714]]]" .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/building_type> "ski_rental" .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/6466815112" .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/municipality> "Santa Cristina Valgardena" .
+<http://localhost:8080/source/ski_rental0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/phone_number> "+39 0471 792045" .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/house_number> "60" .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/street> "Via Dursan" .
+<http://localhost:8080/source/ski_rental0> <http://knowdive.disi.unitn.it/etype#/name> "Ski School S. Cristina" .
+
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/municipality> "Ortisei" .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/postal_code> "39046" .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/name> "Ski School & Rental Ortisei" .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/phone_number> "+39 0471 786242" .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/house_number> "2" .
+<http://localhost:8080/source/ski_rental1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7047951560" .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.6748659, 46.5765605]]]" .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/street> "Str. Val d'Anna" .
+<http://localhost:8080/source/ski_rental1> <http://knowdive.disi.unitn.it/etype#/building_type> "ski_rental" .
+
+<http://localhost:8080/source/ski_rental2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/street> "Str. Plan da Tieja" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/postal_code> "39048" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/municipality> "Selva di Val Gardena" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/7704856850" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.7284331, 46.5583359]]]" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/building_type> "ski_rental" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/house_number> "6" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/phone_number> "+39 0471 792279" .
+<http://localhost:8080/source/ski_rental2> <http://knowdive.disi.unitn.it/etype#/name> "Maciaconi" .
+
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/8794311016" .
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/postal_code> "39049" .
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/name> "Outdoor Center Rosskopf" .
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/street> "Loc. Montecavallo" .
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/phone_number> "+39 0472 265521" .
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.3973771, 46.9126212]]]" .
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/municipality> "Vipiteno" .
+<http://localhost:8080/source/ski_rental3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> .
+<http://localhost:8080/source/ski_rental3> <http://knowdive.disi.unitn.it/etype#/building_type> "ski_rental" .
+
+<http://localhost:8080/source/ski_rental4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#/Ski_rental> .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/street> "Palmschoß" .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/coordinates> "[[[11.737507, 46.6776077]]]" .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/phone_number> "+39 0472 850077" .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/OSMId> "node/9196392368" .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/municipality> "Bressanone" .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/name> "Sportservice Erwin Stricker" .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/building_type> "ski_rental" .
+<http://localhost:8080/source/ski_rental4> <http://knowdive.disi.unitn.it/etype#/postal_code> "39042" .
+
