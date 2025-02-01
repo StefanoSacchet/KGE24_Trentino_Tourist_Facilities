@@ -65,10 +65,10 @@
                         The Domain of Interest for this project is the Trentino region in the year 2024, with a
                         particular focus on outdoor activities.The geographical scope of the project spans the entire
                         region, encompassing its natural landscapes and alpine terrains, providing tourists with a rich
-                        selection of outdoor activities. Key features of domain include
-                        <strong>Mountain Adventure</strong>: Activities include climbing, via ferrata, skiing, and
+                        selection of outdoor activities. Key features of domain include:
+                        <strong> - Mountain Adventure</strong>: Activities include climbing, via ferrata, skiing, and
                         trekking, offering experiences for all skill levels across Trentino alpine landscapes.
-                        <strong>Sustainable Tourism and Ecotourism</strong>: Eco-friendly options like wildlife
+                        <strong> - Sustainable Tourism and Ecotourism</strong>: Eco-friendly options like wildlife
                         observation, botan- ical walks, and guided tours focused on local flora and fauna designed to
                         minimize envi- ronmental impact.
                     </p>
@@ -79,12 +79,12 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Personas, Scenarios, and Competency questions</h2>
                     <p class="text-lg max-w-2xl mx-auto mt-4">
-                        Expanding on the project's initial purpose, this section defines its scope more precisely
-                        through the use of scenarios and personas. These user-focused representations demonstrate how
+                        Expanding on the project's initial purpose, we define its scope more precisely
+                        through with the use of scenarios and personas. These user-focused representations demonstrate how
                         different individuals might interact with the knowledge graph to achieve their objectives. By
                         outlining various scenarios, we provide a concrete illustration of the knowledge graph's
                         practical applications and its relevance to user needs. All tables for the personas, scenarios
-                        and compitency questions can be found in the
+                        and Competency Questions can be found in the
                         <a
                             href="https://github.com/StefanoSacchet/KGE24_Trentino_Tourist_Facilities/blob/main/Documentation/KGE24_Trentino_Tourist_Facilities.pdf"
                             class="text-cyan-400"
@@ -98,8 +98,10 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">ER Model</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        The gathered knowledge and data resources have been utilized to develop the Entity Relationships
-                        model. This diagram summarizes the key aspects to be addressed by the knowledge layer of the
+                        Thanks to the Competency Questions, we can identify the terms and concepts which will be used 
+                        to define the entity types and the relative properties, to be considered in the final KG.
+                        These concepts help to formalize the purpose in an ER model.
+                        This diagram summarizes the key aspects to be addressed by the knowledge layer of the
                         final Knowledge Graph and has guided the subsequent stages of development.
                     </p>
                     <div class="mt-6">
@@ -112,22 +114,22 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Data Resources</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        For hotel and ski slope data, resources from
-                        <a href="http://www.datiopen.it" class="text-cyan-400">DatiOpen.it</a> were utilized. Climbing
-                        route data was obtained from
+                        For Hotel and Ski slope, resources from
+                        <a href="http://www.datiopen.it" class="text-cyan-400">DatiOpen.it</a> were used to gain data.
+                        Climbing Route data was obtained from
                         <a
                             href="https://www.kaggle.com/datasets/jordizar/climb-dataset/data?select=routes_rated.csv"
                             class="text-cyan-400"
                             >Kaggle</a
                         >
-                        , while information on hiking trails, rental shops, restaurants, cycle routes, and viewpoints
-                        was sourced from
+                        , while information on Hiking Trails, Rental Shops, Restaurants, Cycle Routes, and Viewpoints
+                        was sourced directly from
                         <a href="https://www.openstreetmap.org/#map=6/42.09/12.56" class="text-cyan-400"
                             >OpenStreetMap</a
                         >
                         (OSM). The data underwent thorough cleaning and standardization through Python scripts, during
-                        which additional properties such as coordinates and elevations were incorporated. Finally, the
-                        processed data was consolidated into CSV files.
+                        which additional properties such as coordinates and elevation were incorporated. Finally, the
+                        processed data was consolidated into CSV files you can find on <a href="" class="text-cyan-400">gitHub</a>
                     </p>
                 </div>
             </section>
@@ -174,15 +176,19 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Teleontology</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        In the teleontology phase, we combined the teleontology and intermediate ontology developed
-                        during the previous phases using the Protégé development tool.
+                        In the Knowledge Definition phase, we combined the gathered information resources useful to
+                        our KGE project, the formalized purpose, and the open knowledge catalog, using the Protégé 
+                        development tool. The output is the final teleontology, used for the construction of the KG.
+                        To ensure reusability and provide a robust structure for our model, we relied as much as 
+                        possible to the schema of Open Street Map, given the fact that we have the majority of 
+                        eTypes with data coming from it.
                     </p>
                     <div class="mt-6">
-                        <h3 class="text-lg">Etypes</h3>
+                        <h3 class="text-lg"><strong>eTypes</strong></h3>
                         <img src="images/entities.png" alt="entities" class="mx-auto rounded-lg shadow-lg" />
                     </div>
                     <div class="mt-6">
-                        <h3 class="text-lg">Data Properties</h3>
+                        <h3 class="text-lg"><strong>Data Properties</strong></h3>
                         <img
                             src="images/data_properties.png"
                             alt="data properties"
@@ -196,11 +202,13 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Knowledge Graph</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        The final stage involves the creation of the EG from the ETG and the refined data provided by
-                        Karmalinker. The resulting Knowledge Graph consists of 12 entity types, namely: Location,
-                        Building, Hotel, Restau- rant, Ski Rental, Sport Location, Cycle Way, Hiking Trail, Rock
-                        Climbing Route, Ski Trail, and View. 32 data properties, and 0 object properties. This final KG
-                        has been used to answer the Competency Questions through SPARQL queries.
+                        The final stage involves the creation of the KG from the data resources cleaned and aligned, 
+                        plus the Teleontology(ETG). Thanks to Karma Data Integration tool, the resulting Knowledge 
+                        Graph consists of 11 entity types, namely: Location, Building, Hotel, Restaurant, Ski Rental, 
+                        View, Sport Location, Cycleway, Hiking Trail, Rock Climbing Route, and Ski Trail, 32 data 
+                        properties, and 0 object properties. This final KG has been used to answer the Competency 
+                        Questions through SPARQL queries. You can find the implemented queries on 
+                        <a href="" class="text-cyan-400">gitHub</a>.
                     </p>
                 </div>
             </section>
