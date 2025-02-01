@@ -79,12 +79,12 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Personas, Scenarios, and Competency questions</h2>
                     <p class="text-lg max-w-2xl mx-auto mt-4">
-                        Expanding on the project's initial purpose, we define its scope more precisely
-                        through with the use of scenarios and personas. These user-focused representations demonstrate how
-                        different individuals might interact with the knowledge graph to achieve their objectives. By
-                        outlining various scenarios, we provide a concrete illustration of the knowledge graph's
-                        practical applications and its relevance to user needs. All tables for the personas, scenarios
-                        and Competency Questions can be found in the
+                        Expanding on the project's initial purpose, we define its scope more precisely through with the
+                        use of scenarios and personas. These user-focused representations demonstrate how different
+                        individuals might interact with the knowledge graph to achieve their objectives. By outlining
+                        various scenarios, we provide a concrete illustration of the knowledge graph's practical
+                        applications and its relevance to user needs. All tables for the personas, scenarios and
+                        Competency Questions can be found in the
                         <a
                             href="https://github.com/StefanoSacchet/KGE24_Trentino_Tourist_Facilities/blob/main/Documentation/KGE24_Trentino_Tourist_Facilities.pdf"
                             class="text-cyan-400"
@@ -98,11 +98,11 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">ER Model</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        Thanks to the Competency Questions, we can identify the terms and concepts which will be used 
-                        to define the entity types and the relative properties, to be considered in the final KG.
-                        These concepts help to formalize the purpose in an ER model.
-                        This diagram summarizes the key aspects to be addressed by the knowledge layer of the
-                        final Knowledge Graph and has guided the subsequent stages of development.
+                        Thanks to the Competency Questions, we can identify the terms and concepts which will be used to
+                        define the entity types and the relative properties, to be considered in the final KG. These
+                        concepts help to formalize the purpose in an ER model. This diagram summarizes the key aspects
+                        to be addressed by the knowledge layer of the final Knowledge Graph and has guided the
+                        subsequent stages of development.
                     </p>
                     <div class="mt-6">
                         <img src="images/er.png" alt="Example result" class="mx-auto rounded-lg shadow-lg" />
@@ -129,7 +129,8 @@
                         >
                         (OSM). The data underwent thorough cleaning and standardization through Python scripts, during
                         which additional properties such as coordinates and elevation were incorporated. Finally, the
-                        processed data was consolidated into CSV files you can find on <a href="" class="text-cyan-400">gitHub</a>
+                        processed data was consolidated into CSV files you can find on
+                        <a href="" class="text-cyan-400">gitHub</a>
                     </p>
                 </div>
             </section>
@@ -176,12 +177,12 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Teleontology</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        In the Knowledge Definition phase, we combined the gathered information resources useful to
-                        our KGE project, the formalized purpose, and the open knowledge catalog, using the Protégé 
-                        development tool. The output is the final teleontology, used for the construction of the KG.
-                        To ensure reusability and provide a robust structure for our model, we relied as much as 
-                        possible to the schema of Open Street Map, given the fact that we have the majority of 
-                        eTypes with data coming from it.
+                        In the Knowledge Definition phase, we combined the gathered information resources useful to our
+                        KGE project, the formalized purpose, and the open knowledge catalog, using the Protégé
+                        development tool. The output is the final teleontology, used for the construction of the KG. To
+                        ensure reusability and provide a robust structure for our model, we relied as much as possible
+                        to the schema of Open Street Map, given the fact that we have the majority of eTypes with data
+                        coming from it.
                     </p>
                     <div class="mt-6">
                         <h3 class="text-lg"><strong>eTypes</strong></h3>
@@ -202,12 +203,12 @@
                 <div class="container mx-auto text-center">
                     <h2 class="text-3xl font-bold mb-6">Knowledge Graph</h2>
                     <p class="text-lg max-w-2xl mx-auto">
-                        The final stage involves the creation of the KG from the data resources cleaned and aligned, 
-                        plus the Teleontology(ETG). Thanks to Karma Data Integration tool, the resulting Knowledge 
-                        Graph consists of 11 entity types, namely: Location, Building, Hotel, Restaurant, Ski Rental, 
-                        View, Sport Location, Cycleway, Hiking Trail, Rock Climbing Route, and Ski Trail, 32 data 
-                        properties, and 0 object properties. This final KG has been used to answer the Competency 
-                        Questions through SPARQL queries. You can find the implemented queries on 
+                        The final stage involves the creation of the KG from the data resources cleaned and aligned,
+                        plus the Teleontology(ETG). Thanks to Karma Data Integration tool, the resulting Knowledge Graph
+                        consists of 11 entity types, namely: Location, Building, Hotel, Restaurant, Ski Rental, View,
+                        Sport Location, Cycleway, Hiking Trail, Rock Climbing Route, and Ski Trail, 32 data properties,
+                        and 0 object properties. This final KG has been used to answer the Competency Questions through
+                        SPARQL queries. You can find the implemented queries on
                         <a href="" class="text-cyan-400">gitHub</a>.
                     </p>
                 </div>
